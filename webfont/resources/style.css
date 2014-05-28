@@ -1,0 +1,100 @@
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1; /* IE 6/7 */
+}
+
+/* general */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+ h1 {
+   margin: 60px 0 40px;
+   font: 300 26px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+   text-align: center;
+   color: #454545;
+ }
+
+/* icons */
+
+ul {
+  width: 100%;
+  padding: 0 25px;
+  list-style: none;
+}
+
+li {
+  float: left;
+  width: 12.5%;
+  height: 52px;
+  margin-bottom: 64px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 820px) {
+  li {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 819px) and (min-width: 569px) {
+  li {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  li {
+    width: 50%;
+  }
+}
+
+[class*="icon-"] {
+  padding: 14px;
+  font-size: 24px;
+  color: #454545;
+}
+
+span:not([class*="icon-"]) {
+  display: block;
+  font: 400 13px/1.5 "Helvetica Neue", sans-serif;
+  color: #a4a4a4;
+}
+
+/* footer */
+
+footer p {
+  font: 400 13px/1.8 "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: #aaa;
+  margin: 20px 0 60px;
+}
+
+footer a {
+  color: #2173d9;
+  text-decoration: none;
+}
+
+footer a:hover {
+  border-bottom: 1px dotted #2173d9;
+}
