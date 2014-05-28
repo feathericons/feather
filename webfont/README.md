@@ -6,14 +6,14 @@ Getting Started with Feather Webfont
 2. Include `feather.css` in the `<head>` of your HTML document
 
     ```
-    &lt;link rel="stylsheet" href="path/to/feather.css"&gt;
+    <link rel="stylsheet" href="path/to/feather.css">
     ```
-    
+
 3. Insert the icon's class name into any HTML element or insert a `data-icon` attribute with the icon's HTML entity into any HTML element
 
     ```
-    &lt;span class="icon-eye"&gt;&lt;/span&gt;
-    &lt;span data-icon="&amp;#xe000"&gt;&lt;/span&gt;
+    <span class="icon-eye"></span>
+    <span data-icon="&#xe000"></span>
     ```
 
 Support
