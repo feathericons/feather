@@ -1,22 +1,22 @@
 [Feather](http://colebemis.com/feather)
 =====
 
-###Feather is a growing collection of beautifully simple icons by [@colebemis](http://twitter.com/colebemis).
+### Feather is a growing collection of beautifully simple icons.
 
 Each icon was carefully designed with usability and consistency in mind. The set is packaged in PSD, CSH, SVG and Webfont format.
 
 Changelog
 -----
 
-**v1.0** - 11/27/2013
-
-*   initial release
-
 **v1.1** - 4/27/2014
 
 *   added CSH, SVG and Webfont formats
 *   added 30 new icons
 *   changed all PSD icon layers to vector shapes
+
+**v1.0** - 11/27/2013
+
+*   initial release
 
 License
 -----
