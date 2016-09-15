@@ -1,6 +1,8 @@
 [Feather](http://colebemis.com/feather)
 =====
 
+> **Psst!** I'm currently working on a major update to Feather. Stay up to date by following me on Twitter [@colebemis](https://twitter.com/colebemis). 
+
 ### Feather is a growing collection of beautifully simple icons.
 
 Each icon was carefully designed with usability and consistency in mind. The set is packaged in PSD, CSH, SVG and Webfont format.
