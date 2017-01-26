@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Feather</title>
+  <meta charset="UTF-8">
+  <title>Feather</title>
 </head>
 <body>
-    <a href="svg/air-play.svg">Download air-play</a>
+
+  <div class="svg-container"></div>
+
+  <script>
+    const iconName = 'square';
+
+    fetch(`./icons/${iconName}.svg`)
+      .then(response => response.text())
+      .then(svgText => {
+        const svgDocument = new DOMParser().parseFromString(svgText, 'image/svg+xml');
+        const svgIcon = svgDocument.querySelector('svg').cloneNode(true);
+        const svgContainer = document.querySelector('.svg-container');
+
+        svgContainer.appendChild(svgIcon);
+      });
+  </script>
 </body>
 </html>
