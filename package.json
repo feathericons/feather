@@ -1,0 +1,7 @@
+{
+  "name": "feather",
+  "version": "0.0.0",
+  "devDependencies": {
+    "webpack": "^2.2.0"
+  }
+}
