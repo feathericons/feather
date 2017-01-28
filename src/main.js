@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import App from './App';
 
 const data = {
   icons: [
@@ -56,5 +57,7 @@ const data = {
 
 new Vue({
   el: '#app',
-  data: data
+  data: data,
+  components: {App},
+  template: '<app/>'
 });
