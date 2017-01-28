@@ -70,13 +70,8 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-const data = {
-  icons: [
-    'square',
-    'circle',
-    'rectangle-vertical',
-    'rectangle-horizontal'
-  ]
+var data = {
+  icons: ['square', 'circle', 'rectangle-vertical', 'rectangle-horizontal']
 };
 
 Vue.component('icon', {
@@ -91,26 +86,25 @@ Vue.component('icon', {
     }
   },
   template: '#icon-template',
-  mounted() {
-    fetch(`./icons/${this.name}.svg`)
-      .then(response => {
-        if (response.ok) {
-          return response.text();
-        }
-        throw new Error(`Cannot find ${this.name}.svg`);
-      })
-      .then(svgText => {
-        const svgDocument = new DOMParser().parseFromString(svgText, 'image/svg+xml');
-        const svgIcon = svgDocument.querySelector('svg').cloneNode(true);
+  mounted: function mounted() {
+    var _this = this;
 
-        svgIcon.setAttribute('width', this.size);
-        svgIcon.setAttribute('height', this.size);
+    fetch('./icons/' + this.name + '.svg').then(function (response) {
+      if (response.ok) {
+        return response.text();
+      }
+      throw new Error('Cannot find ' + _this.name + '.svg');
+    }).then(function (svgText) {
+      var svgDocument = new DOMParser().parseFromString(svgText, 'image/svg+xml');
+      var svgIcon = svgDocument.querySelector('svg').cloneNode(true);
 
-        this.$el.appendChild(svgIcon);
-      })
-      .catch(error => {
-        console.error(error);
-      });
+      svgIcon.setAttribute('width', _this.size);
+      svgIcon.setAttribute('height', _this.size);
+
+      _this.$el.appendChild(svgIcon);
+    }).catch(function (error) {
+      console.error(error);
+    });
   }
 });
 
@@ -122,7 +116,7 @@ Vue.component('icon-container', {
     }
   },
   template: '#icon-container-template'
-})
+});
 
 new Vue({
   el: '#app',
