@@ -18,26 +18,24 @@
       stroke: currentColor;
     }
   </style>
-
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
 </head>
 <body>
 
   <div id="app">
-    <icon-container v-for="icon in icons" :name="icon"></icon-container>
+    <!-- <icon-container v-for="icon in icons" :name="icon"></icon-container> -->
   </div>
 
-  <script type="text/x-template" id="icon-template">
+  <!-- <script type="text/x-template" id="icon-template">
     <div class="icon"></div>
   </script>
 
   <script type="text/x-template" id="icon-container-template">
     <div class="icon-container">
-      <a :href="`./icons/${name}.svg`" download>
+      <a :href="`icons/${name}.svg`" download>
         <icon :name="name" size="48"></icon>
       </a>
     </div>
-  </script>
+  </script> -->
 
   <script src="bundle.js"></script>
 </body>
