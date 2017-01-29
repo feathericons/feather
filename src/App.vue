@@ -3,7 +3,11 @@
 </template>
 
 <script>
+  import {mapState} from 'vuex';
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: {Icon},
+    computed: mapState(['icons'])
   }
 </script>

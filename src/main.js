@@ -1,14 +1,28 @@
 import Vue from 'vue';
+import Vuex from 'vuex';
 import App from './App';
 
-const data = {
-  icons: [
-    'square',
-    'circle',
-    'rectangle-vertical',
-    'rectangle-horizontal'
-  ]
-};
+const icons = [
+  'square',
+  'circle',
+  'rectangle-vertical',
+  'rectangle-horizontal'
+];
+
+Vue.use(Vuex);
+
+const store = new Vuex.Store({
+  state: {
+    icons
+  }
+});
+
+new Vue({
+  el: '#app',
+  store,
+  components: {App},
+  template: '<app/>'
+});
 
 // Vue.component('icon', {
 //   props: {
@@ -55,9 +69,5 @@ const data = {
 //   template: '#icon-container-template'
 // })
 
-new Vue({
-  el: '#app',
-  data: data,
-  components: {App},
-  template: '<app/>'
-});
+
+

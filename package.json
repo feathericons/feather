@@ -12,6 +12,7 @@
     "vue": "^2.1.10",
     "vue-loader": "^10.1.2",
     "vue-template-compiler": "^2.1.10",
+    "vuex": "^2.1.1",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^1.16.2"
   }
