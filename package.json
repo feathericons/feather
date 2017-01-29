@@ -9,6 +9,8 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.22.0",
     "css-loader": "^0.26.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
     "vue": "^2.1.10",
     "vue-loader": "^10.1.2",
     "vue-template-compiler": "^2.1.10",
