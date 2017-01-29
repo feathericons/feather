@@ -1,16 +1,16 @@
 <template>
   <div>
-    <icon-container v-for="icon in icons" :name="icon"></icon-container>
+    <icon-grid :icons="icons"></icon-grid>
   </div>
 </template>
 
 <script>
   import {mapState} from 'vuex';
-  import IconContainer from './IconContainer';
+  import IconGrid from './IconGrid';
 
   export default {
     name: 'App',
-    components: {IconContainer},
+    components: {IconGrid},
     computed: mapState(['icons'])
   }
 </script>
