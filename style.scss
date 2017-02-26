@@ -33,6 +33,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 4rem 0;
 }
 
 .container {
@@ -59,7 +60,6 @@ a {
 /* Header */
 
 .header {
-  padding: 4rem 0;
   border-bottom: 1px solid black;
   text-align: center;
 
@@ -114,10 +114,17 @@ a {
 
 /* Icons */
 
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .feather-icon {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
+  margin: 1rem;
   stroke-width: 2px;
 
   > svg {
@@ -131,7 +138,7 @@ a {
 /* Request */
 
 .request {
-  padding: 4rem 0;
+  background-color: lightgray;
 }
 
 .request-container {
