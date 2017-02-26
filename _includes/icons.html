@@ -1,0 +1,6 @@
+<section>
+  {% for icon in site.data.icons %}
+    {% capture icon_path %}icons/{{ icon }}.svg{% endcapture %}
+    {% include_relative {{ icon_path }} %}
+  {% endfor %}
+</section>
