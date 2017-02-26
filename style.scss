@@ -133,3 +133,22 @@ a {
   }
 }
 
+/* Request */
+
+.request {
+  padding: 4rem 0;
+}
+
+.request-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.request-heading {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+}
+
