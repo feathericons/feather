@@ -118,3 +118,18 @@ a {
     }
   }
 }
+
+.feather-icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke-width: 2px;
+
+  > svg {
+    width: 100%;
+    height: 100%;
+    stroke: currentColor;
+    stroke-width: inherit;
+  }
+}
+
