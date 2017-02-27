@@ -1,6 +1,17 @@
 ---
 ---
+
+/* Variables */
+
+$color-primary: #000;
+$color-text-primary: rgba($color-primary, 0.9);
+$color-text-secondary: rgba($color-primary, 0.5);
+$color-border: rgba($color-primary, 0.1);
 $color-accent: #0090FF;
+$color-accent-secondary: rgba($color-accent, 0.5);
+
+$transition-duration: 200ms;
+$border-radius: 0.375rem;
 
 /* Mixins */
 
@@ -30,7 +41,7 @@ body {
   margin: 0;
   font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: rgba(black, 0.9);
+  color: $color-text-primary;
 }
 
 a {
@@ -46,33 +57,32 @@ a {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 64rem;
 }
 
 .button {
   display: inline-block;
   padding: 1rem 1.5rem;
-  border-radius: 0.375rem;
-  transition: background-color 150ms, box-shadow 150ms;
+  border-radius: $border-radius;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: opacity $transition-duration;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 .button-primary {
   color: white;
   background-color: $color-accent;
-
-  &:hover {
-    background-color: mix(black, $color-accent, 10%);
-  }
 }
 
 .button-secondary {
   color: $color-accent;
-  box-shadow: inset 0 0 0 1px rgba($color-accent, 0.25);
-
-  &:hover {
-  box-shadow: inset 0 0 0 1px rgba($color-accent, 0.5);
-  }
+  box-shadow: inset 0 0 0 1px $color-accent-secondary;
 }
 
 /* Header */
@@ -104,7 +114,7 @@ a {
 
 .description {
   margin: 0;
-  color: rgba(black, 0.5);
+  color: $color-text-secondary;
 }
 
 .header-button-group {
@@ -176,24 +186,19 @@ a {
 /* Footer */
 
 .footer {
-  background-color: #212121;
-  color: white;
   padding: 1rem 0;
+  border-top: 1px solid $color-border;
 
-  @include for-tablet-portrait-up {
+  @include for-tablet-landscape-up {
     padding: 4rem 0;
   }
 }
 
 .footer a {
-  @include for-tablet-landscape-up {
-    padding: 0 0 0.25rem;
-    border-bottom: 1px solid transparent;
-    transition: border-color 150ms;
+  transition: color $transition-duration;
 
-    &:hover {
-      border-color: rgba(white, 0.5);
-    }
+  &:hover {
+    color: $color-accent;
   }
 }
 
@@ -206,19 +211,20 @@ a {
   display: flex;
   flex-direction: column;
 
-   @include for-tablet-landscape-up {
-     flex-direction: row-reverse;
-     justify-content: space-between;
-     margin-bottom: 0.75rem;
-   }
+  @include for-tablet-landscape-up {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
 }
 
 .footer-links {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-direction: column;
+  color: $color-text-secondary;
 
   @include for-tablet-landscape-up {
     flex-direction: row;
@@ -226,7 +232,10 @@ a {
 }
 
 .footer-link {
-  border-bottom: 1px solid rgba(white, 0.15);
+  border-bottom: 1px solid $color-border;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
   @include for-tablet-landscape-up {
     border-bottom: none;
@@ -239,7 +248,7 @@ a {
     padding: 1rem 0;
 
     @include for-tablet-landscape-up {
-      padding: 0.25rem 0;
+      padding: 0;
     }
   }
 }
@@ -257,7 +266,7 @@ a {
   margin: 0 0 1rem;
   font-size: 0.875rem;
   text-align: center;
-  color: rgba(white, 0.5);
+  color: $color-text-secondary;
 
   @include for-tablet-landscape-up {
     align-self: flex-start;
