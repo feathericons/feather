@@ -8,7 +8,8 @@ $color-text-primary: rgba($color-primary, 0.9);
 $color-text-secondary: rgba($color-primary, 0.5);
 $color-border: rgba($color-primary, 0.1);
 $color-accent: #0090FF;
-$color-accent-secondary: rgba($color-accent, 0.5);
+$color-accent-lighter: rgba($color-accent, 0.5);
+$color-accent-darker: #0086EC;
 
 $transition-duration: 200ms;
 $border-radius: 0.375rem;
@@ -68,21 +69,29 @@ a {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: opacity $transition-duration;
-
-  &:hover {
-    opacity: 0.7;
-  }
+  transition:
+    color $transition-duration,
+    background-color $transition-duration,
+    box-shadow $transition-duration;
 }
 
 .button-primary {
   color: white;
   background-color: $color-accent;
+
+  &:hover {
+    background-color: $color-accent-darker;
+  }
 }
 
 .button-secondary {
   color: $color-accent;
-  box-shadow: inset 0 0 0 1px $color-accent-secondary;
+  box-shadow: inset 0 0 0 1px $color-accent-lighter;
+
+  &:hover {
+    color: $color-accent-darker;
+    box-shadow: inset 0 0 0 1px $color-accent;
+  }
 }
 
 /* Header */
