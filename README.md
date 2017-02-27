@@ -1,11 +1,9 @@
-Feather
+[Feather](https://colebemis.github.io/feather)
 ===
 
-### Simply beautiful open source icons by [@colebemis](https://twitter.com/colebemis)
+### Simply beautiful open source icons
 
-Each icon is designed on a 24x24 grid with an emphasis on consistency and legibility.
-
-[See the icons](https://colebemis.github.io/feather)
+Each icon is designed on a 24x24 grid with an emphasis on consistency and simplicity.
 
 License
 ---
