@@ -1,7 +1,7 @@
 <section class="section icons">
   <div class="container icons-container">
     {% for icon in site.data.icons %}
-      {% capture icon_path %}icons/{{ icon }}.svg{% endcapture %}
+      {% capture icon_path %}svg/{{ icon }}.svg{% endcapture %}
       <div class="feather-icon">
         {% include_relative {{ icon_path }} %}
       </div>
