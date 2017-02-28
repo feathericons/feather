@@ -1,0 +1,10 @@
+{
+  "name": "feather",
+  "version": "1.1.0",
+  "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colebemis/feather.git"
+  },
+  "license": "MIT"
+}
