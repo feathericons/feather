@@ -1,3 +1,4 @@
+data_dir: .
 exclude:
   - README.md
   - ISSUE_TEMPLATE.md
