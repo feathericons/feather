@@ -1,3 +1,4 @@
 exclude:
   - README.md
   - ISSUE_TEMPLATE.md
+  - LICENSE
