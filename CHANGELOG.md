@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `phone`
   - `scissors`
   - `square`
+  - `thumbs-down`
   - `thumbs-up`
 
 ### Changed
