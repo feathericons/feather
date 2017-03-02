@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `feather`
   - `scissors`
   - `eye-off`
+  - `camera-off`
 
 ### Changed
 - Redesign project website
