@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add # new icons:
   - `feather`
   - `scissors`
+  - `eye-off`
 
 ### Changed
 - Redesign project website
