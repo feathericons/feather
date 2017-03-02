@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Add # new icons:
   - `feather`
-  - `...`
+  - `scissors`
 
 ### Changed
 - Redesign project website
