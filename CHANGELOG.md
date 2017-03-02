@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
 - Change # icons:
   - `mail`
-  - `...`
+  - `folder`
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
