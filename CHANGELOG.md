@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `home`
   - `map-pin`
   - `phone`
+  - `phone-off`
   - `scissors`
   - `square`
   - `thumbs-down`
