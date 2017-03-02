@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `camera-off`
   - `eye-off`
   - `feather`
+  - `hash`
   - `map-pin`
   - `scissors`
 
