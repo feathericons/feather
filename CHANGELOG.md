@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add # new icons:
   - `at-sign`
   - `camera-off`
+  - `circle`
   - `eye-off`
   - `feather`
   - `hash`
@@ -17,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `map-pin`
   - `phone`
   - `scissors`
+  - `square`
 
 ### Changed
 - Redesign project website
@@ -27,7 +29,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `camera`
   - `folder`
   - `mail`
+  - `lock`
   - `search`
+  - `unlock`
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
