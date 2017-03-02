@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - Add # new icons:
+  - `at-sign`
   - `camera-off`
   - `eye-off`
   - `feather`
