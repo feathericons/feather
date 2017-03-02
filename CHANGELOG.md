@@ -8,19 +8,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - Add # new icons:
-  - `feather`
-  - `scissors`
-  - `eye-off`
   - `camera-off`
+  - `eye-off`
+  - `feather`
+  - `map-pin`
+  - `scissors`
 
 ### Changed
 - Redesign project website
 - Use SVG `stroke` instead of `fill`. Read more about the benifits of SVG `stroke`:
   - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
 - Change # icons:
-  - `mail`
-  - `folder`
   - `camera`
+  - `folder`
+  - `mail`
   - `search`
 
 ### Removed
