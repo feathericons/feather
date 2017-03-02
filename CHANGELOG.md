@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `hash`
   - `home`
   - `map-pin`
+  - `phone`
   - `scissors`
 
 ### Changed
