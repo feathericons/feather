@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `mail`
   - `folder`
   - `camera`
+  - `search`
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
