@@ -38,6 +38,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bell`
   - `bookmark`
   - `camera`
+  - `cloud`
   - `folder`
   - `mail`
   - `lock`
