@@ -2,8 +2,13 @@
   <div class="container icons-container">
     {% for icon in site.data['icons-manifest'] %}
       {% capture icon_path %}icons/{{ icon }}.svg{% endcapture %}
-      <div class="feather-icon">
+      <div class="feather-icon" tabindex="0">
         {% include_relative {{ icon_path }} %}
+        <div class="tooltip">
+          <p class="tooltip-icon-name">{{ icon }}</p>
+          <!-- TODO: remove tabindex="-1" -->
+          <a class="tooltip-download" href="{{ icon_path }}" download tabindex="-1">Download</a>
+        </div>
       </div>
     {% endfor %}
   </div>
