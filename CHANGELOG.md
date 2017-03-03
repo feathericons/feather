@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bell-off`
   - `camera-off`
   - `circle`
+  - `cloud-off`
   - `eye-off`
   - `feather`
   - `hash`
