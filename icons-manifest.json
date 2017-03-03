@@ -23,6 +23,7 @@
   "phone-outgoing",
   "phone-incoming",
   "phone-missed",
+  "phone-forwarded",
   "square",
   "circle"
 ]

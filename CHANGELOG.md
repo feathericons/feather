@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `map-pin`
   - `phone`
   - `phone-call`
+  - `phone-forwarded`
   - `phone-incoming`
   - `phone-missed`
   - `phone-off`
