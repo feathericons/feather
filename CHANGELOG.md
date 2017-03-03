@@ -15,10 +15,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `feather`
   - `hash`
   - `home`
-  - `incoming-call`
   - `map-pin`
   - `phone`
   - `phone-call`
+  - `phone-incoming`
   - `phone-off`
   - `phone-outgoing`
   - `scissors`
