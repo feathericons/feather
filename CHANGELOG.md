@@ -17,10 +17,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `home`
   - `incoming-call`
   - `map-pin`
-  - `outgoing-call`
   - `phone`
   - `phone-call`
   - `phone-off`
+  - `phone-outgoing`
   - `scissors`
   - `square`
   - `thumbs-down`
