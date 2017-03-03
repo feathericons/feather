@@ -41,6 +41,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `search`
   - `unlock`
   - `zoom-in`
+  - `zoom-out`
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
