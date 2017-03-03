@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add # new icons:
   - `at-sign`
   - `bell-off`
+  - `bluetooth`
   - `camera-off`
   - `circle`
   - `cloud-off`
