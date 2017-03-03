@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `phone`
   - `phone-call`
   - `phone-incoming`
+  - `phone-missed`
   - `phone-off`
   - `phone-outgoing`
   - `scissors`
