@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `square`
   - `thumbs-down`
   - `thumbs-up`
+  - `video-off`
 
 ### Changed
 - Redesign project website
