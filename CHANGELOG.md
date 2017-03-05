@@ -38,6 +38,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Use SVG `stroke` instead of `fill`. Read more about the benifits of SVG `stroke`:
   - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
 - Change # icons:
+  - `anchor`
   - `bell`
   - `bookmark`
   - `camera`
