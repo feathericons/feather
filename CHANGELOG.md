@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `cloud-off`
   - `eye-off`
   - `feather`
+  - `filter`
   - `hash`
   - `home`
   - `map-pin`
