@@ -57,6 +57,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `star`
   - `unlock`
   - `video`
+  - `x`
   - `zoom-in`
   - `zoom-out`
 
