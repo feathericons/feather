@@ -45,6 +45,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bell`
   - `bookmark`
   - `camera`
+  - `check`
   - `cloud`
   - `folder`
   - `heart`
