@@ -50,6 +50,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `heart`
   - `lock`
   - `mail`
+  - `minus`
   - `plus`
   - `search`
   - `star`
