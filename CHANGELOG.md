@@ -48,8 +48,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `cloud`
   - `folder`
   - `heart`
-  - `mail`
   - `lock`
+  - `mail`
+  - `plus`
   - `search`
   - `star`
   - `unlock`
