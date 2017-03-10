@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `camera`
   - `check`
   - `cloud`
+  - `file`
   - `folder`
   - `heart`
   - `lock`
