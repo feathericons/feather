@@ -31,6 +31,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `phone-outgoing`
   - `scissors`
   - `square`
+  - `sunrise`
+  - `sunset`
   - `thumbs-down`
   - `thumbs-up`
   - `video-off`
