@@ -53,6 +53,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `file`
   - `folder`
   - `heart`
+  - `inbox`
   - `lock`
   - `mail`
   - `minus`
