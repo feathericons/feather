@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `thumbs-down`
   - `thumbs-up`
   - `video-off`
+  - `wind`
   - `zap`
 
 ### Changed
