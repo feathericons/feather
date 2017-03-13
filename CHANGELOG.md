@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `instagram`
   - `map-pin`
   - `mic-off`
+  - `music`
   - `phone`
   - `phone-call`
   - `phone-forwarded`
