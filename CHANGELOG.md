@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `filter`
   - `hash`
   - `home`
+  - `instagram`
   - `map-pin`
   - `mic-off`
   - `phone`
