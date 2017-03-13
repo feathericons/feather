@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `cloud-off`
   - `comment-circle`
   - `eye-off`
+  - `facebook`
   - `feather`
   - `filter`
   - `hash`
