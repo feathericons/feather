@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `camera-off`
   - `circle`
   - `cloud-off`
+  - `comment-circle`
   - `eye-off`
   - `feather`
   - `filter`
