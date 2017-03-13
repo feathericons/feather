@@ -37,6 +37,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `sunset`
   - `thumbs-down`
   - `thumbs-up`
+  - `user-minus`
+  - `user-plus`
   - `video-off`
   - `wind`
   - `zap`
