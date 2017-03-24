@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `feather`
   - `filter`
   - `hash`
+  - `headphones`
   - `home`
   - `info`
   - `instagram`
