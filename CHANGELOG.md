@@ -46,6 +46,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `sunset`
   - `thumbs-down`
   - `thumbs-up`
+  - `triangle`
   - `user-minus`
   - `user-plus`
   - `video-off`
