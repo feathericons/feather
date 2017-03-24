@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `map-pin`
   - `mic-off`
   - `music`
+  - `octagon`
   - `phone`
   - `phone-call`
   - `phone-forwarded`
