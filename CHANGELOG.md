@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `circle`
   - `cloud-off`
   - `comment-circle`
+  - `cpu`
   - `edit`
   - `eye-off`
   - `facebook`
