@@ -71,6 +71,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `minus`
   - `moon`
   - `plus`
+  - `printer`
   - `search`
   - `star`
   - `unlock`
