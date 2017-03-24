@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Add # new icons:
   - `alert-circle`
+  - `alert-octagon`
   - `alert-triangle`
   - `aperture`
   - `at-sign`
