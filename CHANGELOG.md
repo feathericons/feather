@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - Add # new icons:
+  - `activity`
   - `alert-circle`
   - `alert-octagon`
   - `alert-triangle`
