@@ -71,6 +71,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `camera`
   - `check`
   - `cloud`
+  - `cog`
   - `comment-square`
   - `file`
   - `folder`
