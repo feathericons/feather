@@ -26,12 +26,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `eye-off`
   - `facebook`
   - `feather`
+  - `female`
   - `filter`
   - `hash`
   - `headphones`
   - `home`
   - `info`
   - `instagram`
+  - `male`
   - `map-pin`
   - `mic-off`
   - `music`
