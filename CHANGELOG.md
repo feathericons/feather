@@ -54,6 +54,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `thumbs-down`
   - `thumbs-up`
   - `triangle`
+  - `twitter`
   - `user-minus`
   - `user-plus`
   - `video-off`
