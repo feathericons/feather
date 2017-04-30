@@ -5,6 +5,11 @@
 
 Each icon is designed on a 24x24 grid with an emphasis on consistency and simplicity.
 
+Change Log
+---
+
+See [CHANGELOG.md](https://github.com/colebemis/feather/blob/gh-pages/CHANGELOG.md)
+
 License
 ---
 
