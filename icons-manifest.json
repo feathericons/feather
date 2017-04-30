@@ -53,6 +53,8 @@
   "alert-circle",
   "alert-triangle",
   "alert-octagon",
+  "maximize",
+  "minimize",
   "bell",
   "bell-off",
   "activity",
