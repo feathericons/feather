@@ -67,6 +67,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
 - Change # icons:
   - `anchor`
+  - `arrow-down`
+  - `arrow-left`
+  - `arrow-right`
+  - `arrow-up`
   - `bell`
   - `bookmark`
   - `camera`
