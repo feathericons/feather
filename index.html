@@ -18,6 +18,10 @@ description: Feather is a collection of simply beautiful open source icons. Each
 
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
 <body>
   {% include header.html %}
