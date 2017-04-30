@@ -85,6 +85,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `folder`
   - `heart`
   - `inbox`
+  - `layers`
   - `layout`
   - `lock`
   - `mail`
