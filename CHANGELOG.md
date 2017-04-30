@@ -73,6 +73,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `arrow-up`
   - `bell`
   - `bookmark`
+  - `box`
   - `camera`
   - `check`
   - `cloud`
