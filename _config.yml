@@ -1,5 +1,11 @@
 data_dir: .
 exclude:
   - README.md
+  - CHANGELOG.md
   - ISSUE_TEMPLATE.md
   - LICENSE
+  - package.json
+  - icons-manifest.json
+  - bin
+  - sandbox
+  - stash
