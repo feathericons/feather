@@ -53,6 +53,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `sunset`
   - `thumbs-down`
   - `thumbs-up`
+  - `trash-2`
   - `triangle`
   - `twitter`
   - `user-minus`
