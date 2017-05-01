@@ -92,6 +92,7 @@
   "target",
   "loader",
   "clock",
+  "watch",
   "printer",
   "pie-chart",
   "edit",

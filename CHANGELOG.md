@@ -106,6 +106,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `unlock`
   - `user`
   - `video`
+  - `watch`
   - `x`
   - `zoom-in`
   - `zoom-out`
