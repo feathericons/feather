@@ -93,7 +93,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `lock`
   - `mail`
   - `maximize`
+  - `maximize-2`
   - `minimize`
+  - `minimize-2`
   - `minus`
   - `moon`
   - `plus`
