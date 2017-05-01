@@ -84,6 +84,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `cog`
   - `comment-square`
   - `file`
+  - `flag`
   - `folder`
   - `heart`
   - `inbox`
