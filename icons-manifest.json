@@ -99,6 +99,8 @@
   "pie-chart",
   "edit",
   "cog",
+  "rotate-ccw",
+  "rotate-cw",
   "map",
   "life-buoy",
   "flag",

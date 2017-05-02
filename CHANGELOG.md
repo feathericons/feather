@@ -102,6 +102,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `moon`
   - `plus`
   - `printer`
+  - `rotate-ccw`
+  - `rotate-cw`
   - `search`
   - `star`
   - `unlock`
