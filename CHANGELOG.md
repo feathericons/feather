@@ -47,6 +47,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `phone-outgoing`
   - `pocket`
   - `radio`
+  - `refresh-ccw`
+  - `rotate-ccw`
   - `scissors`
   - `square`
   - `sunrise`
@@ -102,7 +104,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `moon`
   - `plus`
   - `printer`
-  - `rotate-ccw`
+  - `refresh-cw`
   - `rotate-cw`
   - `search`
   - `star`

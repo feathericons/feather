@@ -101,6 +101,8 @@
   "cog",
   "rotate-ccw",
   "rotate-cw",
+  "refresh-ccw",
+  "refresh-cw",
   "map",
   "life-buoy",
   "flag",
