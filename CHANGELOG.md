@@ -89,6 +89,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `comment-square`
   - `download`
   - `droplet`
+  - `external-link`
   - `file`
   - `flag`
   - `folder`
