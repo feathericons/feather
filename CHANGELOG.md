@@ -75,6 +75,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `arrow-left`
   - `arrow-right`
   - `arrow-up`
+  - `bar-chart`
   - `bell`
   - `bookmark`
   - `box`
