@@ -7,7 +7,14 @@
         <div class="tooltip">
           <p class="tooltip-icon-name">{{ icon }}</p>
           <!-- TODO: remove tabindex="-1" -->
-          <a class="tooltip-download" href="{{ icon_path }}" download tabindex="-1">Download</a>
+          <a
+            class="tooltip-download"
+            href="{{ icon_path }}"
+            download
+            tabindex="-1"
+            onclick="ga('send', 'event', 'download', 'click', '{{ icon }}');">
+            Download
+          </a>
         </div>
       </div>
     {% endfor %}

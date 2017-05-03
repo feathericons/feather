@@ -5,8 +5,20 @@
       <p class="description">Simply beautiful open source icons</p>
     </div>
     <div class="header-button-group">
-      <a class="button button-primary" href="feather-{{ site.data.package.version }}.zip" download>Download</a>
-      <a class="button button-secondary" href="https://twitter.com/intent/tweet?text=Feather%20-%20Simply%20beautiful%20open%20source%20icons%20by%20%40colebemis%20colebemis.github.io/feather" target="_blank">Tweet</a>
+      <a
+        class="button button-primary"
+        href="feather-{{ site.data.package.version }}.zip"
+        download
+        onclick="ga('send', 'event', 'download', 'click', 'all');">
+        Download
+      </a>
+      <a
+        class="button button-secondary"
+        href="https://twitter.com/intent/tweet?text=Feather%20-%20Simply%20beautiful%20open%20source%20icons%20by%20%40colebemis%20colebemis.github.io/feather"
+        target="_blank"
+        onclick="ga('send', 'event', 'share', 'click', 'twitter');">
+        Tweet
+      </a>
     </div>
   </div>
 </header>
