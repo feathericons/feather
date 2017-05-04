@@ -81,6 +81,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bell`
   - `bookmark`
   - `box`
+  - `briefcase`
   - `camera`
   - `check`
   - `check-circle`
