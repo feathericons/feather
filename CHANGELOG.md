@@ -115,6 +115,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `printer`
   - `search`
   - `star`
+  - `tag`
   - `unlock`
   - `upload`
   - `upload-cloud`
