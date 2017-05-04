@@ -78,6 +78,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `arrow-up`
   - `bar-chart`
   - `bar-chart-2`
+  - `battery`
   - `bell`
   - `bookmark`
   - `box`
