@@ -106,6 +106,8 @@
   "bar-chart-2",
   "edit",
   "cog",
+  "toggle-left",
+  "toggle-right",
   "rotate-ccw",
   "rotate-cw",
   "refresh-ccw",
