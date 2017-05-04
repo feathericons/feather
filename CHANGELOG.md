@@ -110,8 +110,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `play`
   - `plus`
   - `printer`
-  - `refresh-cw`
-  - `rotate-cw`
   - `search`
   - `star`
   - `unlock`
