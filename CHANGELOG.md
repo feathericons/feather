@@ -109,6 +109,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `minimize-2`
   - `minus`
   - `moon`
+  - `move`
   - `pause`
   - `play`
   - `plus`
