@@ -88,6 +88,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `cog`
   - `comment-square`
   - `download`
+  - `download-cloud`
   - `droplet`
   - `external-link`
   - `file`
@@ -115,6 +116,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `star`
   - `unlock`
   - `upload`
+  - `upload-cloud`
   - `user`
   - `video`
   - `watch`

@@ -93,6 +93,8 @@
   "zap",
   "download",
   "upload",
+  "download-cloud",
+  "upload-cloud",
   "box",
   "target",
   "loader",
