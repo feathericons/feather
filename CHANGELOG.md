@@ -98,6 +98,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `flag`
   - `folder`
   - `heart`
+  - `image`
   - `inbox`
   - `layers`
   - `layout`
