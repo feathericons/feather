@@ -115,6 +115,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `plus`
   - `printer`
   - `search`
+  - `share`
   - `star`
   - `tag`
   - `unlock`
