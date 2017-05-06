@@ -172,8 +172,10 @@ a {
   margin: 0.25rem;
   padding: 0.75rem;
   stroke-width: 2px;
+  border-radius: $border-radius;
   outline: none;
   cursor: pointer;
+  transition: background-color $transition-duration;
 
   @include for-tablet-portrait-up {
     margin: 0.5rem;
@@ -184,6 +186,10 @@ a {
     height: 100%;
     stroke: currentColor;
     stroke-width: inherit;
+  }
+
+  &:hover {
+    background: $color-border;
   }
 }
 
@@ -204,10 +210,8 @@ a {
   visibility: hidden;
   z-index: 10;
   cursor: default;
-  transition:
-    transform $transition-duration,
-    opacity $transition-duration,
-    visibility $transition-duration;
+  transition-property: transform, opacity, visibility;
+  transition-duration: $transition-duration;
 
   @include for-tablet-portrait-up {
     min-width: 12rem;
