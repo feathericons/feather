@@ -188,7 +188,8 @@ a {
     stroke-width: inherit;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     background: $color-border;
   }
 }
@@ -197,7 +198,7 @@ a {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: calc(100% + 15px);
+  top: calc(100% + 20px);
   left: 50%;
   min-width: 8rem;
   transform: translateX(-50%) scale(0.75);
