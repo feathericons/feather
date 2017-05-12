@@ -1,6 +1,17 @@
 ---
 title: Feather
 description: Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on consistency and simplicity.
+links:
+- title: Donate
+  url: ttps://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G6CPFZ6PQRZW8&lc=US&item_name=Feather&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+- title: GitHub
+  url: https://github.com/colebemis/feather
+- title: Change Log
+  url: https://github.com/colebemis/feather/blob/gh-pages/CHANGELOG.md
+- title: License
+  url: https://github.com/colebemis/feather/blob/gh-pages/LICENSE
+- title: Contact
+  url: mailto:cole@colebemis.com
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -17,16 +28,23 @@ description: Feather is a collection of simply beautiful open source icons. Each
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/tachyons/css/tachyons.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 
   {% if site.google_analytics and jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
 </head>
-<body>
-  {% include header.html %}
-  {% include icons.html %}
+<body class="ma0 rubik font-smoothing black-60 bg-near-white">
+
+  <div class="pb5 pb6-ns bg-white">
+    {% include header.html %}
+    {% include icons.html %}
+  </div>
+
   {% include request.html %}
-  {% include footer.html %}
+  {% include footer.html links=page.links %}
+
+  </script>
 </body>
 </html>
