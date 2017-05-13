@@ -1,3 +1,15 @@
+:root {
+  --accent: #4353FF;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
 .rubik {
   font-family: "Rubik", sans-serif;
 }
