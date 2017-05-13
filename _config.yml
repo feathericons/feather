@@ -4,6 +4,7 @@ exclude:
   - CHANGELOG.md
   - ISSUE_TEMPLATE.md
   - LICENSE
+  - node_modules
   - bin
   - sandbox
   - stash

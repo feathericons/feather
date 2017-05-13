@@ -7,12 +7,11 @@
     "url": "https://github.com/colebemis/feather.git"
   },
   "scripts": {
-    "start": "parallelshell 'jekyll serve' 'npm run watch'",
-    "watch": "onchange 'icons/**/*' 'package.json' -v -i -- npm run make",
-    "build": "npm run make && jekyll build",
-    "make": "npm run make:manifest && npm run make:zip",
-    "make:manifest": "./bin/make-manifest.sh > manifest.json",
-    "make:zip": "./bin/make-zip.sh"
+    "start": "npm run build:manifest && parallelshell 'jekyll serve' 'npm run watch'",
+    "watch": "onchange 'icons/**/*' -v -- npm run build:manifest",
+    "build": "npm run build:manifest && npm run build:zip && jekyll build",
+    "build:manifest": "./bin/build-manifest.sh > manifest.json",
+    "build:zip": "./bin/build-zip.sh"
   },
   "license": "MIT",
   "devDependencies": {
