@@ -1,15 +1,14 @@
-<footer class="section footer">
-  <div class="container footer-container">
-    <div class="footer-main">
-    <ul class="footer-links">
-      <li class="footer-link"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G6CPFZ6PQRZW8&lc=US&item_name=Feather&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a></li>
-      <li class="footer-link"><a href="https://github.com/colebemis/feather" target="_blank">GitHub</a></li>
-      <li class="footer-link"><a href="https://github.com/colebemis/feather/blob/gh-pages/CHANGELOG.md" target="_blank">Change Log</a></li>
-      <li class="footer-link"><a href="https://github.com/colebemis/feather/blob/gh-pages/LICENSE" target="_blank">License</a></li>
-      <li class="footer-link"><a href="mailto:cole@colebemis.com" target="_blank">Contact</a></li>
-    </ul>
-    <p class="made-with-love"><a href="http://colebemis.com" target="_blank">Made with &lt;3 by Cole Bemis</a></p>
-    </div>
-    <p class="version">v{{ site.data.package.version }} - {{ site.data['icons-manifest'] | size }} icons</p>
-  </div>
+<footer class="flex flex-column items-center pv5 bt b--black-10">
+  <ul class="flex flex-column flex-row-l justify-center w-80 mv0 pl0 list">
+    {% for link in include.links %}
+    <li class="mh3-l pv3 pv0-l f6 ttu tracked bb b--black-10 bn-l">
+      <a class="lh-copy color-inherit no-underline dim" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="mt5 mb2 lh-copy black-90 dim">
+    <a class="no-underline color-inherit" href="http://colebemis.com" target="_blank">Made with &lt;3 by Cole Bemis</a>
+   </p>
+  <p class="mv0 f6 lh-copy">v{{ site.data.package.version }}</p>
 </footer>
