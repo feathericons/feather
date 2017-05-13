@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# find and store current version number
-version=$(grep '"version"' package.json | cut -d '"' -f4)
-
-# compress 'icons' directory into feather-[version].zip
-zip -r feather-${version}.zip ./icons/*
+./bin/make-manifest.sh > manifest.json
+./bin/make-zip.sh
+jekyll build
