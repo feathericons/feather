@@ -7,6 +7,3 @@ exclude:
   - bin
   - sandbox
   - stash
-
-# Google Analytics Tracking ID
-google_analytics: UA-63028889-4
