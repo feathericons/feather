@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bell-off`
   - `bluetooth`
   - `camera-off`
+  - `chevron-down`
+  - `chevron-left`
+  - `chevron-right`
+  - `chevron-up`
   - `circle`
   - `cloud-off`
   - `comment-circle`
