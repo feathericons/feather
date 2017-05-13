@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "parallelshell 'jekyll serve' 'npm run watch'",
-    "watch": "onchange 'icons/**/*' -v -i -- npm run make",
+    "watch": "onchange 'icons/**/*' 'package.json' -v -i -- npm run make",
     "build": "npm run make && jekyll build",
     "make": "npm run make:manifest && npm run make:zip",
     "make:manifest": "./bin/make-manifest.sh > manifest.json",
