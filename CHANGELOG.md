@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `chevron-left`
   - `chevron-right`
   - `chevron-up`
+  - `chrome`
   - `circle`
   - `cloud-off`
   - `comment-circle`
