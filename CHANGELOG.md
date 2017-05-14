@@ -102,6 +102,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `download-cloud`
   - `droplet`
   - `external-link`
+  - `fast-forward`
   - `file`
   - `flag`
   - `folder`
@@ -125,7 +126,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `printer`
   - `search`
   - `share`
+  - `skip-back`
+  - `skip-forward`
   - `star`
+  - `rewind`
   - `tag`
   - `unlock`
   - `upload`
