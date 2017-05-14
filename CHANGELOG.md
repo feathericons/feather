@@ -92,6 +92,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `check`
   - `check-circle`
   - `check-square`
+  - `clipboard`
   - `cloud`
   - `cog`
   - `comment-square`
