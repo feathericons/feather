@@ -1,5 +1,5 @@
 <ul class="flex flex-wrap justify-center w-80 w-80-ns center mw8 mv0 pl0 list">
-  {% for icon in site.data['manifest'] %}
+  {% for icon in site.data.manifest %}
   {% capture icon_path %}icons/{{ icon }}.svg{% endcapture %}
   <li class="icon relative pa3 ma2 black-90 bg-animate br3 outline-0 pointer">
     {% include_relative {{ icon_path }} %}
