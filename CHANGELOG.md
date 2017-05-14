@@ -84,6 +84,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bar-chart-2`
   - `battery`
   - `bell`
+  - `book`
   - `bookmark`
   - `box`
   - `briefcase`
