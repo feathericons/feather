@@ -40,6 +40,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `male`
   - `map-pin`
   - `mic-off`
+  - `more-vertical`
   - `music`
   - `octagon`
   - `phone`
