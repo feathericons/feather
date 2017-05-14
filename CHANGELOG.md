@@ -126,6 +126,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `printer`
   - `search`
   - `share`
+  - `shuffle`
   - `skip-back`
   - `skip-forward`
   - `star`
