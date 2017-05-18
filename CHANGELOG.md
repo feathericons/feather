@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `award`
   - `bell-off`
   - `bluetooth`
+  - `calendar`
   - `camera-off`
   - `chevron-down`
   - `chevron-left`
