@@ -97,7 +97,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `check-square`
   - `clipboard`
   - `cloud`
-  - `cog`
   - `comment-square`
   - `download`
   - `download-cloud`
@@ -126,6 +125,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `plus`
   - `printer`
   - `search`
+  - `settings`
   - `share`
   - `shuffle`
   - `skip-back`
