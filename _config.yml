@@ -1,6 +1,4 @@
 data_dir: .
-include:
-  - _headers
 exclude:
   - README.md
   - CHANGELOG.md
