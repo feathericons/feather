@@ -40,8 +40,12 @@
   box-sizing: content-box;
 }
 
-.icon svg {
+.icon [stroke] {
   stroke: currentColor;
+}
+
+.icon [fill]:not([fill=none]) {
+  fill: currentColor;
 }
 
 .tooltip {

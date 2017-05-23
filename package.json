@@ -16,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "onchange": "^3.2.1",
-    "parallelshell": "^2.0.0"
+    "parallelshell": "^2.0.0",
+    "svgo": "^0.7.2"
   }
 }
