@@ -15,6 +15,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `repeat`
 </details>
 
+### Changed
+
+<details>
+  <summary>Change # icons</summary>
+
+  - `droplet`
+</details
+
 ## v2.0.0 (2017-05-23)
 
 ### Added
