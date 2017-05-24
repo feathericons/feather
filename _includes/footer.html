@@ -12,5 +12,7 @@
    </p>
   <p class="mv0 f6 lh-copy">
     <span class="mh1">v{{ site.data.package.version }}</span>
+    -
+    <span class="mh1">{{ site.static_files | where_exp:"file", "file.path contains 'icons'" | size}} icons</span>
   </p>
 </footer>
