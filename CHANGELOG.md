@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   <summary>Add # icons</summary>
 
   - `cast`
+  - `repeat`
 </details>
 
 ## v2.0.0 (2017-05-23)
