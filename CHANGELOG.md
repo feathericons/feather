@@ -77,6 +77,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- Redesign project website
+- Use SVG `stroke` instead of `fill`. Read more about the benefits of SVG `stroke`:
+  - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
+
 <details>
   <summary>Change 66 icons</summary>
 
@@ -147,10 +151,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `zoom-in`
   - `zoom-out`
 </details>
-
-- Redesign project website
-- Use SVG `stroke` instead of `fill`. Read more about the benifits of SVG `stroke`:
-  - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
