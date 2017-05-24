@@ -1,4 +1,4 @@
-<footer class="flex flex-column items-center pv5 bt b--black-10">
+<footer class="flex flex-column items-center pb5 pt5-l">
   <ul class="flex flex-column flex-row-l justify-center w-80 mv0 pl0 list">
     {% for link in include.links %}
     <li class="mh3-l pv3 pv0-l f6 ttu tracked bb b--black-10 bn-l">
@@ -12,7 +12,5 @@
    </p>
   <p class="mv0 f6 lh-copy">
     <span class="mh1">v{{ site.data.package.version }}</span>
-    -
-    <span class="mh1">{{ site.data.manifest | size }} icons</span>
   </p>
 </footer>
