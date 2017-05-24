@@ -4,10 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## v2.0.0 (2017-05-23)
 
 ### Added
-- Add # new icons:
+<details>
+ <summary>Add 63 icons</summary>
+
   - `activity`
   - `alert-circle`
   - `alert-octagon`
@@ -71,12 +73,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `video-off`
   - `wind`
   - `zap`
+</details>
 
 ### Changed
-- Redesign project website
-- Use SVG `stroke` instead of `fill`. Read more about the benifits of SVG `stroke`:
-  - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
-- Change # icons:
+
+<details>
+  <summary>Change 66 icons</summary>
+
   - `align-center`
   - `anchor`
   - `arrow-down`
@@ -143,6 +146,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `x`
   - `zoom-in`
   - `zoom-out`
+</details>
+
+- Redesign project website
+- Use SVG `stroke` instead of `fill`. Read more about the benifits of SVG `stroke`:
+  - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
