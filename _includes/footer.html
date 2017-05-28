@@ -1,7 +1,7 @@
-<footer class="flex flex-column items-center pb5 pt5-l">
+<footer class="flex flex-column items-center pv5">
   <ul class="flex flex-column flex-row-l justify-center w-80 mv0 pl0 list">
     {% for link in include.links %}
-    <li class="mh3-l pv3 pv0-l f6 ttu tracked bb b--black-10 bn-l">
+    <li class="mh3-l pv3 pv0-l f5 bb b--black-10 bn-l">
       <a class="lh-copy color-inherit no-underline dim" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
     </li>
     {% endfor %}
@@ -10,9 +10,4 @@
   <p class="mt5 mb2 lh-copy black-90 dim">
     <a class="no-underline color-inherit" href="http://colebemis.com" target="_blank">Made with &lt;3 by Cole Bemis</a>
    </p>
-  <p class="mv0 f6 lh-copy">
-    <span class="mh1">v{{ site.data.package.version }}</span>
-    -
-    <span class="mh1">{{ site.static_files | where_exp:"file", "file.path contains 'icons'" | size}} icons</span>
-  </p>
 </footer>

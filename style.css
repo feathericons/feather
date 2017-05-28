@@ -22,11 +22,9 @@
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.25;
   text-align: center;
-  letter-spacing: 1px;
   text-decoration: none;
 }
 
