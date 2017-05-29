@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   <summary>Add # icons</summary>
 
   - `cast`
+  - `cloud-snow`
   - `repeat`
 </details>
 
