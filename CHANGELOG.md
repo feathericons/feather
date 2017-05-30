@@ -30,6 +30,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   <summary>Change # icons</summary>
 
   - `droplet`
+  - `user-minus`
+  - `user-plus`
+  - `user`
 </details
 
 ## v2.0.0 (2017-05-23)
