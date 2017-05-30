@@ -1,14 +1,10 @@
-<li class="icon relative pa3 ma2 black-90 bg-animate br3 outline-0 pointer">
-    {% include_relative {{ include.icon.path }} %}
-    <div class="tooltip flex flex-column tc white bg-dark-gray br3">
-      <p class="dib mh4 mv3 lh-copy nowrap">{{ include.icon.basename }}</p>
-      <a
-        class="btn white bg-black-90 dim br3 br--bottom outline-0"
-        href="{{ include.icon.path }}"
-        download
-        tabindex="-1"
-        onclick="ga('send', 'event', 'download', 'click', '{{ include.icon.basename }}');">
-        Download
-      </a>
-    </div>
-  </li>
+<li>
+  <a
+    href="{{ include.icon.path }}"
+    class="flex flex-row items-center dib pa3 br2 no-underline dark-gray bg-near-white bg-animate hover-bg-light-gray"
+    download
+    onclick="ga('send', 'event', 'download', 'click', '{{ include.icon.basename }}');">
+    <span class="svg flex-none lh-none">{% include_relative {{ include.icon.path }} %}</span>
+    <span class="ml3 lh-copy f6 tc black-60 ellipse">{{ include.icon.basename }}</span>
+  </a>
+</li>
