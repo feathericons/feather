@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `arrow-up-left`
   - `arrow-up-right`
   - `cast`
+  - `chevrons-down`
+  - `chevrons-left`
+  - `chevrons-right`
+  - `chevrons-up`
   - `cloud-snow`
   - `repeat`
 </details>
