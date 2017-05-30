@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `chevrons-right`
   - `chevrons-up`
   - `cloud-snow`
+  - `codepen`
   - `repeat`
 </details>
 
