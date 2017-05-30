@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 <details>
   <summary>Add # icons</summary>
 
+  - `arrow-down-left`
+  - `arrow-down-right`
+  - `arrow-up-left`
+  - `arrow-up-right`
   - `cast`
   - `cloud-snow`
   - `repeat`
