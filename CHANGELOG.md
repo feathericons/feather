@@ -51,6 +51,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bar-chart`
   - `bar-chart-2`
   - `droplet`
+  - `grid`
   - `twitter`
   - `user-minus`
   - `user-plus`
