@@ -26,6 +26,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `cloud-rain`
   - `cloud-snow`
   - `codepen`
+  - `edit-2`
+  - `edit-3`
   - `repeat`
   - `slack`
   - `trend-down`
