@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `compass`
   - `edit-2`
   - `edit-3`
+  - `link-2`
   - `list`
   - `log-in`
   - `log-out`
