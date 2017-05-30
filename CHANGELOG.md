@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `arrow-down-right`
   - `arrow-up-left`
   - `arrow-up-right`
+  - `battery-charging`
   - `cast`
   - `chevrons-down`
   - `chevrons-left`
