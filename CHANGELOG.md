@@ -8,11 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## TODO
 
-- `log-in`
-- `log-out`
 - `volume` icons (up, down, off, etc.)
 - `paper-airplane`
-- `link` (link, unlink)
 - `copy`
 - `shop`
 
@@ -41,6 +38,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `edit-2`
   - `edit-3`
   - `list`
+  - `log-in`
+  - `log-out`
   - `navigation-2`
   - `package`
   - `repeat`
