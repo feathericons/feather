@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `list`
   - `package`
   - `repeat`
+  - `share`
   - `slack`
   - `trend-down`
   - `trend-up`
