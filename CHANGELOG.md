@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## TODO
+
+- `log-in`
+- `log-out`
+- `volume` icons (up, down, off, etc.)
+- `paper-airplane`
+- `link` (link, unlink)
+- `copy`
+- `shop`
+
+
 ### Added
 
 <details>
@@ -35,8 +46,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `repeat`
   - `share`
   - `slack`
-  - `trend-down`
-  - `trend-up`
+  - `trending-down`
+  - `trending-up`
   - `type`
   - `user-check`
   - `user-x`
