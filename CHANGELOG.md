@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `edit-2`
   - `edit-3`
   - `list`
+  - `navigation-2`
   - `package`
   - `repeat`
   - `share`
