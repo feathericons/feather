@@ -34,6 +34,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `slack`
   - `trend-down`
   - `trend-up`
+  - `user-check`
+  - `user-x`
   - `voicemail`
 </details>
 
