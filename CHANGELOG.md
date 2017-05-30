@@ -48,6 +48,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 <details>
   <summary>Change # icons</summary>
 
+  - `bar-chart`
+  - `bar-chart-2`
   - `droplet`
   - `twitter`
   - `user-minus`
