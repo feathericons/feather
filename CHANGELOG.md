@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `codepen`
   - `edit-2`
   - `edit-3`
+  - `list`
   - `package`
   - `repeat`
   - `slack`
