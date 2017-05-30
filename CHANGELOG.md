@@ -45,6 +45,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `repeat`
   - `share`
   - `slack`
+  - `speaker`
   - `trending-down`
   - `trending-up`
   - `type`
