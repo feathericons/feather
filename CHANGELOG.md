@@ -20,6 +20,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `chevrons-left`
   - `chevrons-right`
   - `chevrons-up`
+  - `cloud-drizzle`
+  - `cloud-lightning`
+  - `cloud-rain`
   - `cloud-snow`
   - `codepen`
   - `repeat`
