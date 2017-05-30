@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `codepen`
   - `repeat`
   - `slack`
+  - `voicemail`
 </details>
 
 ### Changed
