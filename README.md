@@ -3,7 +3,7 @@
 
 ### Simply beautiful open source icons
 
-Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity
+Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity.
 
 Change Log
 ---
