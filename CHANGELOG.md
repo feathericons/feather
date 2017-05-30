@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## TODO
 
-- `volume` icons (up, down, off, etc.)
 - `paper-airplane`
 - `copy`
 - `shop`
@@ -52,6 +51,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `user-check`
   - `user-x`
   - `voicemail`
+  - `volume`
+  - `volume-1`
+  - `volume-2`
 </details>
 
 ### Changed
@@ -67,6 +69,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `user-minus`
   - `user-plus`
   - `user`
+  - `volume-x`
 </details
 
 ## v2.0.0 (2017-05-23)
