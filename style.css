@@ -8,12 +8,12 @@
 }
 
 .bg-accent {
-  background-color: #4353FF;
+  background-color: #0055ff;
 }
 
-.hover-bg-accent-darker:hover {
+/*.hover-bg-accent-darker:hover {
   background-color: #3E4DED;
-}
+}*/
 
 .button {
   display: inline-block;
