@@ -7,10 +7,7 @@
     "url": "https://github.com/colebemis/feather.git"
   },
   "scripts": {
-    "Xstart": "parallelshell 'jekyll serve' 'npm run watch'",
-    "Xwatch": "onchange 'icons/**/*' -v -- npm run svgo -- {{changed}}",
     "svgo": "for i in $(find icons/* -type d); do svgo --pretty --multipass --config=svgo-config.yml $i; done",
-    "Xsvgo": "svgo --pretty --multipass --config=svgo-config.yml",
     "build": "npm run build-zip && jekyll build",
     "build-zip": "./bin/build-zip.sh"
   },
