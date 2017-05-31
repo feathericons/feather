@@ -1,16 +1,3 @@
-:root {
-  --accent: #4353FF;
-  --accent-darker: #3E4DED;
-}
-
-.bg-accent {
-  background-color: var(--accent);
-}
-
-.hover-bg-accent-darker:hover {
-  background-color: var(--accent-darker);
-}
-
 .rubik {
   font-family: "Rubik", sans-serif;
 }
@@ -18,6 +5,14 @@
 .font-smoothing {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-accent {
+  background-color: #4353FF;
+}
+
+.hover-bg-accent-darker:hover {
+  background-color: #3E4DED;
 }
 
 .button {
@@ -39,16 +34,52 @@
   text-overflow: ellipsis;
 }
 
-.icon-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
-  grid-gap: 1rem;
-}
-
 .svg [stroke] {
   stroke: currentColor;
 }
 
 .svg [fill]:not([fill=none]) {
   fill: currentColor;
+}
+
+.icon-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem -1rem;
+}
+
+.icon-grid li {
+  width: 100%;
+  padding: 0 0.5rem 1rem;
+}
+
+/* medium breakpoint */
+@media (min-width: 30em) {
+  .icon-grid li {
+    width: 50%;
+  }
+}
+
+/* large breakpoint */
+@media (min-width: 60em) {
+  .icon-grid li {
+    width: 25%;
+  }
+}
+
+/* if supported, use grid layout  */
+@supports (display: grid) {
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-gap: 1rem;
+    margin: 0;
+  }
+
+  /* override default styles */
+  .icon-grid li {
+    width: 100%;
+    padding: 0;
+  }
 }
