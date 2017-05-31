@@ -4,12 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## v2.1.0 (2017-05-30)
 
 ### Added
 
+- Add icon categories (Thanks @wappsdotgr)
+- Display icon names to allow for <kbd>⌘</kbd> + <kbd>F</kbd> search
+
 <details>
-  <summary>Add # icons</summary>
+  <summary>Add 37 icons</summary>
 
   - `arrow-down-left`
   - `arrow-down-right`
@@ -52,8 +55,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- Redesign project site
+
 <details>
-  <summary>Change # icons</summary>
+  <summary>Change 9 icons</summary>
 
   - `bar-chart`
   - `bar-chart-2`
