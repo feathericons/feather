@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 - Add icon categories (Thanks @wappsdotgr)
-- Display icon names to allow for <kbd>⌘</kbd> + <kbd>F</kbd> search
+- Display icon names to allow for `⌘ + F` search
 
 <details>
   <summary>Add 37 icons</summary>
