@@ -1,21 +1,20 @@
 {
   "name": "feather",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
   "repository": {
     "type": "git",
     "url": "https://github.com/colebemis/feather.git"
   },
   "scripts": {
-    "start": "npm run build:manifest && parallelshell 'jekyll serve' 'npm run watch'",
-    "watch": "onchange 'icons/**/*' -v -- npm run build:manifest",
-    "build": "npm run build:manifest && npm run build:zip && jekyll build",
-    "build:manifest": "./bin/build-manifest.sh > manifest.json",
-    "build:zip": "./bin/build-zip.sh"
+    "svgo": "for i in $(find icons/* -type d); do svgo --pretty --multipass --config=svgo-config.yml $i; done",
+    "build": "npm run build-zip && jekyll build",
+    "build-zip": "./bin/build-zip.sh"
   },
   "license": "MIT",
   "devDependencies": {
     "onchange": "^3.2.1",
-    "parallelshell": "^2.0.0"
+    "parallelshell": "^2.0.0",
+    "svgo": "^0.7.2"
   }
 }

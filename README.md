@@ -1,9 +1,9 @@
-[Feather](https://colebemis.github.io/feather)
+[Feather](https://feather.netlify.com)
 ===
 
 ### Simply beautiful open source icons
 
-Each icon is designed on a 24x24 grid with an emphasis on consistency and simplicity.
+Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity.
 
 Change Log
 ---

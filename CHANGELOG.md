@@ -4,6 +4,73 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## v2.1.0 (2017-05-30)
+
+### Added
+
+- Add icon categories (Thanks @wappsdotgr)
+- Display icon names to allow for `⌘ + F` search
+
+<details>
+  <summary>Add 37 icons</summary>
+
+  - `arrow-down-left`
+  - `arrow-down-right`
+  - `arrow-up-left`
+  - `arrow-up-right`
+  - `battery-charging`
+  - `cast`
+  - `chevrons-down`
+  - `chevrons-left`
+  - `chevrons-right`
+  - `chevrons-up`
+  - `cloud-drizzle`
+  - `cloud-lightning`
+  - `cloud-rain`
+  - `cloud-snow`
+  - `codepen`
+  - `compass`
+  - `edit-2`
+  - `edit-3`
+  - `link-2`
+  - `list`
+  - `log-in`
+  - `log-out`
+  - `navigation-2`
+  - `package`
+  - `repeat`
+  - `share`
+  - `slack`
+  - `speaker`
+  - `trending-down`
+  - `trending-up`
+  - `type`
+  - `user-check`
+  - `user-x`
+  - `voicemail`
+  - `volume`
+  - `volume-1`
+  - `volume-2`
+</details>
+
+### Changed
+
+- Redesign project site
+
+<details>
+  <summary>Change 9 icons</summary>
+
+  - `bar-chart`
+  - `bar-chart-2`
+  - `droplet`
+  - `grid`
+  - `twitter`
+  - `user-minus`
+  - `user-plus`
+  - `user`
+  - `volume-x`
+</details>
+
 ## v2.0.0 (2017-05-23)
 
 ### Added
@@ -104,7 +171,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `check-square`
   - `clipboard`
   - `cloud`
-  - `cog`
   - `comment-square`
   - `download`
   - `download-cloud`
@@ -133,6 +199,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `plus`
   - `printer`
   - `search`
+  - `settings`
   - `share`
   - `shuffle`
   - `skip-back`
