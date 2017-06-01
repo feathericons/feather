@@ -1,4 +1,4 @@
-[Feather](https://feather.netlify.com)
+[Feather](https://feathericons.com)
 ===
 
 ### Simply beautiful open source icons
