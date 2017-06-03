@@ -8,7 +8,7 @@ Designed on a 24x24 grid with an emphasis on functionality, consistency and simp
 Change Log
 ---
 
-See [CHANGELOG.md](https://github.com/colebemis/feather/blob/gh-pages/CHANGELOG.md)
+See [CHANGELOG.md](https://github.com/colebemis/feather/blob/master/CHANGELOG.md)
 
 License
 ---
