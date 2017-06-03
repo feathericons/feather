@@ -1,0 +1,3 @@
+plugins:
+  - removeTitle: true
+  - convertShapeToPath: false

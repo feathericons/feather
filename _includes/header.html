@@ -1,21 +1,11 @@
-<header class="flex flex-column items-center w-80 mw8 pv5 pv6-ns center">
-    <h1 class="mt0 mb2 f2 fw3 tc lh-title black-90">Feather</h1>
-    <p class="mt0 mb5 mb4-ns f5 tc lh-copy">Simply beautiful open source icons</p>
+<header class="pv3 bb b--black-10">
+  <div class="w-80 center flex justify-between items-center">
+    <h1 class="mv0 normal f3 lh-copy black-90">Feather <span class="f5 black-60">v{{ site.data.package.version }}</span></h1>
 
-    <div class="flex flex-column flex-row-ns items-stretch justify-center w-100">
-      <a
-        class="btn mb3 mb0-ns mr3-ns white bg-accent br3 dim"
-        href="feather-{{ site.data.package.version }}.zip"
-        download
-        onclick="ga('send', 'event', 'download', 'click', 'all');">
-        Download
-      </a>
-      <a
-        class="btn btn-outline accent br3 dim"
-        href="https://twitter.com/intent/tweet?text=Feather%20-%20Simply%20beautiful%20open%20source%20icons%20by%20%40colebemis%20colebemis.github.io/feather"
-        target="_blank"
-        onclick="ga('send', 'event', 'share', 'click', 'twitter');">
-        Tweet
-      </a>
-    </div>
+    <ul class="list mv0 pl0 flex">
+      <li class="dn dib-ns"><a class="no-underline color-inherit dim" href="https://twitter.com/intent/tweet?text=Feather%20-%20Simply%20beautiful%20open%20source%20icons%20by%20%40colebemis%20https://feathericons.com" target="_blank">Tweet</a></li>
+      <li class="dn dib-ns ml4"><a class="no-underline color-inherit dim" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G6CPFZ6PQRZW8&lc=US&item_name=Feather&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a></li>
+      <li class="ml4"><a class="no-underline color-inherit dim" href="https://github.com/colebemis/feather" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
 </header>
