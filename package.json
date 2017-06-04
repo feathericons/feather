@@ -1,20 +1,19 @@
 {
   "name": "feather-icons",
   "version": "2.1.0",
-  "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/colebemis/feather.git"
-  },
+  "description": "Simply beautiful open source icons",
   "scripts": {
     "svgo": "for i in $(find icons/* -type d); do svgo --pretty --multipass --config=svgo-config.yml $i; done",
     "build": "npm run build-zip && jekyll build",
     "build-zip": "./bin/build-zip.sh"
   },
-  "license": "MIT",
   "devDependencies": {
-    "onchange": "^3.2.1",
-    "parallelshell": "^2.0.0",
     "svgo": "^0.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colebemis/feather.git"
+  },
+  "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
+  "license": "MIT"
 }
