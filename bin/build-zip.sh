@@ -4,4 +4,4 @@
 version=$(grep '"version"' package.json | cut -d '"' -f4)
 
 # compress 'icons' directory into feather-[version].zip
-zip -r feather-${version}.zip ./icons/
+zip -r feather.zip ./icons/
