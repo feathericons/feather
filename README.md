@@ -13,4 +13,4 @@ See [CHANGELOG.md](https://github.com/colebemis/feather/blob/master/CHANGELOG.md
 License
 ---
 
-Feather is released under the [MIT License](http://opensource.org/licenses/MIT). In short, you are free to use Feather in any personal, open-source or commercial work. Attribution is optional but appreciated.
+Feather is licensed under the [MIT License](http://opensource.org/licenses/MIT).
