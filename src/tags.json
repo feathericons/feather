@@ -64,6 +64,7 @@
   "github": ["logo", "version control"],
   "gitlab": ["logo", "version control"],
   "global": ["world", "browser", "language", "translate"],
+  "google": ["logo"],
   "hard-drive": ["computer", "server"],
   "hash": ["hashtag", "number", "pound"],
   "headphones": ["music", "audio"],
