@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <svg xmlns="http://www.w3.org/2000/svg">
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="cloud-drizzle">
-    <line x1="8" y1="19" x2="8" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="8" y1="13" x2="8" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="16" y1="19" x2="16" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="16" y1="13" x2="16" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="12" y1="21" x2="12" y2="23" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="12" y1="15" x2="12" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="8" y1="19" x2="8" y2="21" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="8" y1="13" x2="8" y2="15" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="16" y1="19" x2="16" y2="21" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="16" y1="13" x2="16" y2="15" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="12" y1="21" x2="12" y2="23" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="12" y1="15" x2="12" y2="17" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="cloud-lightning">
-    <path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="13 11 9 17 15 17 11 23" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="cloud-snow">
-    <path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="8" y1="16" x2="8" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="8" y1="20" x2="8" y2="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="18" x2="12" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="22" x2="12" y2="22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="16" y1="16" x2="16" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="16" y1="20" x2="16" y2="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="13 11 9 17 15 17 11 23" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="cloud-rain">
-    <line x1="16" y1="13" x2="16" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="8" y1="13" x2="8" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="12" y1="15" x2="12" y2="23" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="16" y1="13" x2="16" y2="21" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="8" y1="13" x2="8" y2="21" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="12" y1="15" x2="12" y2="23" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="cloud-snow">
+    <path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="8" y1="16" x2="8" y2="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="8" y1="20" x2="8" y2="20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="18" x2="12" y2="18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="22" x2="12" y2="22" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="16" y1="16" x2="16" y2="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="16" y1="20" x2="16" y2="20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="droplet">
-    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" fill="none" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="moon">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="moon">
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sunrise">
-    <path d="M17 18a5 5 0 0 0-10 0"/>
-    <line x1="12" y1="2" x2="12" y2="9"/>
-    <line x1="4.22" y1="10.22" x2="5.64" y2="11.64"/>
-    <line x1="1" y1="18" x2="3" y2="18"/>
-    <line x1="21" y1="18" x2="23" y2="18"/>
-    <line x1="18.36" y1="11.64" x2="19.78" y2="10.22"/>
-    <line x1="23" y1="22" x2="1" y2="22"/>
-    <polyline points="8 6 12 2 16 6"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sun">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sun">
     <circle cx="12" cy="12" r="5"/>
     <line x1="12" y1="1" x2="12" y2="3"/>
     <line x1="12" y1="21" x2="12" y2="23"/>
@@ -55,10 +45,17 @@
     <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="thermometer">
-    <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sunrise">
+    <path d="M17 18a5 5 0 0 0-10 0"/>
+    <line x1="12" y1="2" x2="12" y2="9"/>
+    <line x1="4.22" y1="10.22" x2="5.64" y2="11.64"/>
+    <line x1="1" y1="18" x2="3" y2="18"/>
+    <line x1="21" y1="18" x2="23" y2="18"/>
+    <line x1="18.36" y1="11.64" x2="19.78" y2="10.22"/>
+    <line x1="23" y1="22" x2="1" y2="22"/>
+    <polyline points="8 6 12 2 16 6"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sunset">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sunset">
     <path d="M17 18a5 5 0 0 0-10 0"/>
     <line x1="12" y1="9" x2="12" y2="2"/>
     <line x1="4.22" y1="10.22" x2="5.64" y2="11.64"/>
@@ -68,10 +65,16 @@
     <line x1="23" y1="22" x2="1" y2="22"/>
     <polyline points="16 5 12 9 8 5"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="wind">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="thermometer">
+    <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="umbrella">
+    <path d="M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="wind">
     <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="aperture">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="aperture">
     <circle cx="12" cy="12" r="10"/>
     <line x1="14.31" y1="8" x2="20.05" y2="17.94"/>
     <line x1="9.69" y1="8" x2="21.17" y2="8"/>
@@ -80,322 +83,323 @@
     <line x1="14.31" y1="16" x2="2.83" y2="16"/>
     <line x1="16.62" y1="12" x2="10.88" y2="21.94"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="umbrella">
-    <path d="M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="camera-off">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="camera-off">
     <line x1="1" y1="1" x2="23" y2="23"/>
     <path d="M21 21H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3m3-3h6l2 3h4a2 2 0 0 1 2 2v9.34m-7.72-2.06a4 4 0 1 1-5.56-5.56"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="camera">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="camera">
     <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
     <circle cx="12" cy="13" r="4"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="image">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="film">
+    <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="7" y1="2" x2="7" y2="22" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="17" y1="2" x2="17" y2="22" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="2" y1="12" x2="22" y2="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="2" y1="7" x2="7" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="2" y1="17" x2="7" y2="17" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="17" y1="17" x2="22" y2="17" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="17" y1="7" x2="22" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="image">
     <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
     <circle cx="8.5" cy="8.5" r="1.5"/>
     <polyline points="21 15 16 10 5 21"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="film">
-    <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="7" y1="2" x2="7" y2="22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="17" y1="2" x2="17" y2="22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="2" y1="12" x2="22" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="2" y1="7" x2="7" y2="7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="2" y1="17" x2="7" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="17" y1="17" x2="22" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="17" y1="7" x2="22" y2="7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="video">
-    <polygon points="23 7 16 12 23 17 23 7"/>
-    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="pause-circle">
-    <circle cx="12" cy="12" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="10" y1="15" x2="10" y2="9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="14" y1="15" x2="14" y2="9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="video-off">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="video-off">
     <path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2m5.66 0H14a2 2 0 0 1 2 2v3.34l1 1L23 7v10"/>
     <line x1="1" y1="1" x2="23" y2="23"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="play-circle">
-    <circle cx="12" cy="12" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polygon points="10 8 16 12 10 16 10 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="video">
+    <polygon points="23 7 16 12 23 17 23 7"/>
+    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="fast-forward">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="fast-forward">
     <polygon points="13 19 22 12 13 5 13 19"/>
     <polygon points="2 19 11 12 2 5 2 19"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="pause">
-    <rect x="6" y="4" width="4" height="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="14" y="4" width="4" height="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="pause-circle">
+    <circle cx="12" cy="12" r="10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="10" y1="15" x2="10" y2="9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="14" y1="15" x2="14" y2="9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="play">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="pause">
+    <rect x="6" y="4" width="4" height="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="14" y="4" width="4" height="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="play-circle">
+    <circle cx="12" cy="12" r="10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="10 8 16 12 10 16 10 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="play">
     <polygon points="5 3 19 12 5 21 5 3"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="repeat">
-    <polyline points="17 1 21 5 17 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="7 23 3 19 7 15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M3 11V9a4 4 0 0 1 4-4h14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M21 13v2a4 4 0 0 1-4 4H3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 1 21 5 17 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="7 23 3 19 7 15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M3 11V9a4 4 0 0 1 4-4h14" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M21 13v2a4 4 0 0 1-4 4H3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="shuffle">
-    <polyline points="16 3 21 3 21 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="21 16 21 21 16 21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="4" y1="20" x2="21" y2="3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="15" y1="15" x2="21" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="4" y1="4" x2="9" y2="9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="rewind">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="rewind">
     <polygon points="11 19 2 12 11 5 11 19"/>
     <polygon points="22 19 13 12 22 5 22 19"/>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="shuffle">
+    <polyline points="16 3 21 3 21 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="21 16 21 21 16 21" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="4" y1="20" x2="21" y2="3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="15" y1="15" x2="21" y2="21" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="4" y1="4" x2="9" y2="9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="skip-back">
-    <polygon points="19 20 9 12 19 4 19 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="5" y1="19" x2="5" y2="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="19 20 9 12 19 4 19 20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="5" y1="19" x2="5" y2="5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="skip-forward">
-    <polygon points="5 4 15 12 5 20 5 4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="19" y1="5" x2="19" y2="19" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="5 4 15 12 5 20 5 4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="19" y1="5" x2="19" y2="19" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="stop-circle">
-    <circle cx="12" cy="12" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="9" y="9" width="6" height="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="volume-2">
-    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="12" cy="12" r="10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="9" y="9" width="6" height="6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="volume-1">
-    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="volume">
-    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="volume-2">
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="volume-x">
-    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="23" y1="9" x2="17" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="17" y1="9" x2="23" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="23" y1="9" x2="17" y2="15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="17" y1="9" x2="23" y2="15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="volume">
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="codepen">
-    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="22" x2="12" y2="15.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="2" x2="12" y2="8.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="22 8.5 12 15.5 2 8.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="2 15.5 12 8.5 22 15.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="22" x2="12" y2="15.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="2" x2="12" y2="8.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="22 8.5 12 15.5 2 8.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="2 15.5 12 8.5 22 15.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chrome">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chrome">
     <circle cx="12" cy="12" r="10"/>
     <circle cx="12" cy="12" r="4"/>
     <line x1="21.17" y1="8" x2="12" y2="8"/>
     <line x1="3.95" y1="6.06" x2="8.54" y2="14"/>
     <line x1="10.88" y1="21.94" x2="15.46" y2="14"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="facebook">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="facebook">
     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="github">
-    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="instagram">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="instagram">
     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
     <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="pocket">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="pocket">
     <path d="M4 3h16a2 2 0 0 1 2 2v6a10 10 0 0 1-10 10A10 10 0 0 1 2 11V5a2 2 0 0 1 2-2z"/>
     <polyline points="8 10 12 14 16 10"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="slack">
-    <path d="M22.08 9C19.81 1.41 16.54-.35 9 1.92S-.35 7.46 1.92 15 7.46 24.35 15 22.08 24.35 16.54 22.08 9z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="12.57" y1="5.99" x2="16.15" y2="16.39" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="7.85" y1="7.61" x2="11.43" y2="18.01" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="16.39" y1="7.85" x2="5.99" y2="11.43" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="18.01" y1="12.57" x2="7.61" y2="16.15" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M22.08 9C19.81 1.41 16.54-.35 9 1.92S-.35 7.46 1.92 15 7.46 24.35 15 22.08 24.35 16.54 22.08 9z" fill="none" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="12.57" y1="5.99" x2="16.15" y2="16.39" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="7.85" y1="7.61" x2="11.43" y2="18.01" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="16.39" y1="7.85" x2="5.99" y2="11.43" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="18.01" y1="12.57" x2="7.61" y2="16.15" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="twitter">
-    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="compass">
-    <circle cx="12" cy="12" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="crosshair">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="crosshair">
     <circle cx="12" cy="12" r="10"/>
     <line x1="22" y1="12" x2="18" y2="12"/>
     <line x1="6" y1="12" x2="2" y2="12"/>
     <line x1="12" y1="6" x2="12" y2="2"/>
     <line x1="12" y1="22" x2="12" y2="18"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="globe">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="compass">
+    <circle cx="12" cy="12" r="10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="globe">
     <circle cx="12" cy="12" r="10"/>
     <line x1="2" y1="12" x2="22" y2="12"/>
     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="map-pin">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="map-pin">
     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
     <circle cx="12" cy="10" r="3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="map">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="map">
     <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/>
     <line x1="8" y1="2" x2="8" y2="18"/>
     <line x1="16" y1="6" x2="16" y2="22"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="navigation">
-    <polygon points="3 11 22 2 13 21 11 13 3 11" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="navigation-2">
-    <polygon points="12 2 19 21 12 17 5 21 12 2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="12 2 19 21 12 17 5 21 12 2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="activity">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="navigation">
+    <polygon points="3 11 22 2 13 21 11 13 3 11" fill="none" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="activity">
     <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="alert-circle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="airplay">
+    <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/>
+    <polygon points="12 15 17 21 7 21 12 15"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="alert-circle">
     <circle cx="12" cy="12" r="10"/>
     <line x1="12" y1="8" x2="12" y2="12"/>
     <line x1="12" y1="16" x2="12" y2="16"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="airplay">
-    <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/>
-    <polygon points="12 15 17 21 7 21 12 15"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="alert-octagon">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="alert-octagon">
     <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/>
     <line x1="12" y1="8" x2="12" y2="12"/>
     <line x1="12" y1="16" x2="12" y2="16"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="alert-triangle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="alert-triangle">
     <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
     <line x1="12" y1="9" x2="12" y2="13"/>
     <line x1="12" y1="17" x2="12" y2="17"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-center">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-center">
     <line x1="18" y1="10" x2="6" y2="10"/>
     <line x1="21" y1="6" x2="3" y2="6"/>
     <line x1="21" y1="14" x2="3" y2="14"/>
     <line x1="18" y1="18" x2="6" y2="18"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-right">
-    <line x1="21" y1="10" x2="7" y2="10"/>
-    <line x1="21" y1="6" x2="3" y2="6"/>
-    <line x1="21" y1="14" x2="3" y2="14"/>
-    <line x1="21" y1="18" x2="7" y2="18"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-left">
-    <line x1="17" y1="10" x2="3" y2="10"/>
-    <line x1="21" y1="6" x2="3" y2="6"/>
-    <line x1="21" y1="14" x2="3" y2="14"/>
-    <line x1="17" y1="18" x2="3" y2="18"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-justify">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-justify">
     <line x1="21" y1="10" x2="3" y2="10"/>
     <line x1="21" y1="6" x2="3" y2="6"/>
     <line x1="21" y1="14" x2="3" y2="14"/>
     <line x1="21" y1="18" x2="3" y2="18"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="anchor">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-left">
+    <line x1="17" y1="10" x2="3" y2="10"/>
+    <line x1="21" y1="6" x2="3" y2="6"/>
+    <line x1="21" y1="14" x2="3" y2="14"/>
+    <line x1="17" y1="18" x2="3" y2="18"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="align-right">
+    <line x1="21" y1="10" x2="7" y2="10"/>
+    <line x1="21" y1="6" x2="3" y2="6"/>
+    <line x1="21" y1="14" x2="3" y2="14"/>
+    <line x1="21" y1="18" x2="7" y2="18"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="anchor">
     <circle cx="12" cy="5" r="3"/>
     <line x1="12" y1="22" x2="12" y2="8"/>
     <path d="M5 12H2a10 10 0 0 0 20 0h-3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="bar-chart-2">
-    <rect x="10" y="3" width="4" height="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="18" y="8" width="4" height="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="2" y="13" width="4" height="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="award">
-    <circle cx="12" cy="8" r="7"/>
-    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="at-sign">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="at-sign">
     <circle cx="12" cy="12" r="4"/>
     <path d="M16 12v1a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"/>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="award">
+    <circle cx="12" cy="8" r="7"/>
+    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="bar-chart-2">
+    <rect x="10" y="3" width="4" height="18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="18" y="8" width="4" height="13" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="2" y="13" width="4" height="8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="bar-chart">
-    <rect x="18" y="3" width="4" height="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="10" y="8" width="4" height="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="2" y="13" width="4" height="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="18" y="3" width="4" height="18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="10" y="8" width="4" height="13" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="2" y="13" width="4" height="8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bell-off">
-    <path d="M8.56 2.9A7 7 0 0 1 19 9v4m-2 4H2a3 3 0 0 0 3-3V9a7 7 0 0 1 .78-3.22M13.73 21a2 2 0 0 1-3.46 0"/>
-    <line x1="1" y1="1" x2="23" y2="23"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="battery-charging">
+    <path d="M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="23" y1="13" x2="23" y2="11" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="11 6 7 12 13 12 9 18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="battery">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="battery">
     <rect x="1" y="6" width="18" height="12" rx="2" ry="2"/>
     <line x1="23" y1="13" x2="23" y2="11"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="battery-charging">
-    <path d="M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="23" y1="13" x2="23" y2="11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="11 6 7 12 13 12 9 18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bell-off">
+    <path d="M8.56 2.9A7 7 0 0 1 19 9v4m-2 4H2a3 3 0 0 0 3-3V9a7 7 0 0 1 .78-3.22M13.73 21a2 2 0 0 1-3.46 0"/>
+    <line x1="1" y1="1" x2="23" y2="23"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bell">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bell">
     <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bluetooth">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bluetooth">
     <polyline points="6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="book">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="book">
     <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
     <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bookmark">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="bookmark">
     <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="box">
-    <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="2.32 6.16 12 11 21.68 6.16" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="22.76" x2="12" y2="11" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="2.32 6.16 12 11 21.68 6.16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="22.76" x2="12" y2="11" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="calendar">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="briefcase">
+    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="calendar">
     <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
     <line x1="16" y1="2" x2="16" y2="6"/>
     <line x1="8" y1="2" x2="8" y2="6"/>
     <line x1="3" y1="10" x2="21" y2="10"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="cast">
-    <path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="2" y1="20" x2="2" y2="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="2" y1="20" x2="2" y2="20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="briefcase">
-    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
-    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="check-circle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="check-circle">
     <path d="M22 11.07V12a10 10 0 1 1-5.93-9.14"/>
     <polyline points="23 3 12 14 9 11"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="clipboard">
-    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
-    <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="circle">
-    <circle cx="12" cy="12" r="10"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="check-square">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="check-square">
     <polyline points="9 11 12 14 23 3"/>
     <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="check">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="check">
     <polyline points="20 6 9 17 4 12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="cloud">
-    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="circle">
+    <circle cx="12" cy="12" r="10"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="command">
-    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="clipboard">
+    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+    <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="cloud-off">
-    <path d="M22.61 16.95A5 5 0 0 0 18 10h-1.26a8 8 0 0 0-7.05-6M5 5a8 8 0 0 0 4 15h9a5 5 0 0 0 1.7-.3"/>
-    <line x1="1" y1="1" x2="23" y2="23"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="clock">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="clock">
     <circle cx="12" cy="12" r="10"/>
     <polyline points="12 6 12 12 15 15"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="cpu">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="cloud-off">
+    <path d="M22.61 16.95A5 5 0 0 0 18 10h-1.26a8 8 0 0 0-7.05-6M5 5a8 8 0 0 0 4 15h9a5 5 0 0 0 1.7-.3"/>
+    <line x1="1" y1="1" x2="23" y2="23"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="cloud">
+    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="command">
+    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="copy">
+    <rect x="9" y="9" width="13" height="13" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="cpu">
     <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
     <rect x="9" y="9" width="6" height="6"/>
     <line x1="9" y1="1" x2="9" y2="4"/>
@@ -407,132 +411,133 @@
     <line x1="1" y1="9" x2="4" y2="9"/>
     <line x1="1" y1="14" x2="4" y2="14"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="copy">
-    <rect x="9" y="9" width="13" height="13" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="credit-card">
-    <rect x="1" y="4" width="22" height="16" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="1" y1="10" x2="23" y2="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="1" y="4" width="22" height="16" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="1" y1="10" x2="23" y2="10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="delete">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="delete">
     <path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/>
     <line x1="18" y1="9" x2="12" y2="15"/>
     <line x1="12" y1="9" x2="18" y2="15"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="edit-2">
-    <polygon points="16 3 21 8 8 21 3 21 3 16 16 3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="disc">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="disc">
     <circle cx="12" cy="12" r="10"/>
     <circle cx="12" cy="12" r="3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="download">
-    <path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/>
-    <polyline points="8 12 12 16 16 12"/>
-    <line x1="12" y1="2" x2="12" y2="16"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="download-cloud">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="download-cloud">
     <polyline points="8 17 12 21 16 17"/>
     <line x1="12" y1="12" x2="12" y2="21"/>
     <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="eye-off">
-    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
-    <line x1="1" y1="1" x2="23" y2="23"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="download">
+    <path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/>
+    <polyline points="8 12 12 16 16 12"/>
+    <line x1="12" y1="2" x2="12" y2="16"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="edit">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="edit-2">
+    <polygon points="16 3 21 8 8 21 3 21 3 16 16 3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="edit-3">
+    <polygon points="14 2 18 6 7 17 3 17 3 13 14 2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="3" y1="22" x2="21" y2="22" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="edit">
     <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"/>
     <polygon points="18 2 22 6 12 16 8 16 8 12 18 2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="edit-3">
-    <polygon points="14 2 18 6 7 17 3 17 3 13 14 2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="3" y1="22" x2="21" y2="22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="external-link">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="external-link">
     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
     <polyline points="15 3 21 3 21 9"/>
     <line x1="10" y1="14" x2="21" y2="3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="feather">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="eye-off">
+    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
+    <line x1="1" y1="1" x2="23" y2="23"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="eye">
+    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+    <circle cx="12" cy="12" r="3"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="feather">
     <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
     <line x1="16" y1="8" x2="2" y2="22"/>
     <line x1="17" y1="15" x2="9" y2="15"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="eye">
-    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-    <circle cx="12" cy="12" r="3"/>
-  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="file-minus">
-    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="14 2 14 8 20 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="9" y1="15" x2="15" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="14 2 14 8 20 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="9" y1="15" x2="15" y2="15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="file-plus">
-    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="14 2 14 8 20 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="18" x2="12" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="9" y1="15" x2="15" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="14 2 14 8 20 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="18" x2="12" y2="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="9" y1="15" x2="15" y2="15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="file-text">
-    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="14 2 14 8 20 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="10 9 9 9 8 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="16" y1="13" x2="8" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="16" y1="17" x2="8" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="14 2 14 8 20 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="10 9 9 9 8 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="16" y1="13" x2="8" y2="13" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="16" y1="17" x2="8" y2="17" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="filter">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="filter">
     <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="file">
-    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
-    <polyline points="13 2 13 9 20 9"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="grid">
-    <rect x="3" y="3" width="7" height="7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="14" y="3" width="7" height="7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="14" y="14" width="7" height="7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="3" y="14" width="7" height="7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="folder">
-    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="flag">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="flag">
     <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
     <line x1="4" y1="22" x2="4" y2="15"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="hash">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
+    <polyline points="13 2 13 9 20 9"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="folder">
+    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="grid">
+    <rect x="3" y="3" width="7" height="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="14" y="3" width="7" height="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="14" y="14" width="7" height="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="3" y="14" width="7" height="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="hash">
     <line x1="4" y1="9" x2="20" y2="9"/>
     <line x1="4" y1="15" x2="20" y2="15"/>
     <line x1="10" y1="3" x2="8" y2="21"/>
     <line x1="16" y1="3" x2="14" y2="21"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="headphones">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="headphones">
     <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
     <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="heart">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="heart">
     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="home">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="home">
     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
     <polyline points="9 22 9 12 15 12 15 22"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="inbox">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="inbox">
     <polyline points="22 13 16 13 14 16 10 16 8 13 2 13"/>
     <path d="M5.47 5.19L2 13v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5l-3.47-7.81A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.83 1.19z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="info">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="info">
     <circle cx="12" cy="12" r="10"/>
     <line x1="12" y1="16" x2="12" y2="12"/>
     <line x1="12" y1="8" x2="12" y2="8"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="layers">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="layers">
     <polygon points="12 2 2 7 12 12 22 7 12 2"/>
     <polyline points="2 17 12 22 22 17"/>
     <polyline points="2 12 12 17 22 12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="life-buoy">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="layout">
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+    <line x1="3" y1="9" x2="21" y2="9"/>
+    <line x1="9" y1="21" x2="9" y2="9"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="life-buoy">
     <circle cx="12" cy="12" r="10"/>
     <circle cx="12" cy="12" r="4"/>
     <line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/>
@@ -541,16 +546,23 @@
     <line x1="14.83" y1="9.17" x2="18.36" y2="5.64"/>
     <line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="layout">
-    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-    <line x1="3" y1="9" x2="21" y2="9"/>
-    <line x1="9" y1="21" x2="9" y2="9"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="link-2">
+    <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="8" y1="12" x2="16" y2="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="link">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="loader">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="list">
+    <line x1="8" y1="6" x2="21" y2="6" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="8" y1="12" x2="21" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="8" y1="18" x2="21" y2="18" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="3" y1="6" x2="3" y2="6" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="3" y1="12" x2="3" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="3" y1="18" x2="3" y2="18" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="loader">
     <line x1="12" y1="2" x2="12" y2="6"/>
     <line x1="12" y1="18" x2="12" y2="22"/>
     <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/>
@@ -560,102 +572,83 @@
     <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/>
     <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="list">
-    <line x1="8" y1="6" x2="21" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="8" y1="12" x2="21" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="8" y1="18" x2="21" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="3" y1="6" x2="3" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="3" y1="12" x2="3" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="3" y1="18" x2="3" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="link-2">
-    <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="8" y1="12" x2="16" y2="12" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="lock">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="lock">
     <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
     <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="log-out">
-    <path d="M10 22H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="17 16 21 12 17 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="21" y1="12" x2="9" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="log-in">
-    <path d="M14 22h5a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="11 16 15 12 11 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="15" y1="12" x2="3" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M14 22h5a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="11 16 15 12 11 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="15" y1="12" x2="3" y2="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="maximize-2">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="maximize-2">
     <polyline points="15 3 21 3 21 9"/>
     <polyline points="9 21 3 21 3 15"/>
     <line x1="21" y1="3" x2="14" y2="10"/>
     <line x1="3" y1="21" x2="10" y2="14"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="maximize">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="log-out">
+    <path d="M10 22H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 16 21 12 17 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="21" y1="12" x2="9" y2="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="maximize">
     <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="menu">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="menu">
     <line x1="3" y1="12" x2="21" y2="12"/>
     <line x1="3" y1="6" x2="21" y2="6"/>
     <line x1="3" y1="18" x2="21" y2="18"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mic">
-    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-    <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-    <line x1="12" y1="19" x2="12" y2="23"/>
-    <line x1="8" y1="23" x2="16" y2="23"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mic-off">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mic-off">
     <line x1="1" y1="1" x2="23" y2="23"/>
     <line x1="12" y1="19" x2="12" y2="23"/>
     <line x1="8" y1="23" x2="16" y2="23"/>
     <path d="M9 9v3a3 3 0 0 0 5.12 2.12M15 9.34V4a3 3 0 0 0-5.94-.6"/>
     <path d="M17 16.95A7 7 0 0 1 5 12v-2m14 0v2a7 7 0 0 1-.11 1.23"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minimize-2">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mic">
+    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+    <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+    <line x1="12" y1="19" x2="12" y2="23"/>
+    <line x1="8" y1="23" x2="16" y2="23"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minimize-2">
     <polyline points="4 14 10 14 10 20"/>
     <polyline points="20 10 14 10 14 4"/>
     <line x1="14" y1="10" x2="21" y2="3"/>
     <line x1="3" y1="21" x2="10" y2="14"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minimize">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minimize">
     <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minus-circle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minus-circle">
     <circle cx="12" cy="12" r="10"/>
     <line x1="8" y1="12" x2="16" y2="12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minus-square">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minus-square">
     <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
     <line x1="8" y1="12" x2="16" y2="12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minus">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="minus">
     <line x1="5" y1="12" x2="19" y2="12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="more-horizontal">
-    <circle cx="12" cy="12" r="2"/>
-    <circle cx="20" cy="12" r="2"/>
-    <circle cx="4" cy="12" r="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="more-vertical">
-    <circle cx="12" cy="12" r="2"/>
-    <circle cx="12" cy="4" r="2"/>
-    <circle cx="12" cy="20" r="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="monitor">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="monitor">
     <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
     <line x1="8" y1="21" x2="16" y2="21"/>
     <line x1="12" y1="17" x2="12" y2="21"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="octagon">
-    <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="more-horizontal">
+    <circle cx="12" cy="12" r="2"/>
+    <circle cx="20" cy="12" r="2"/>
+    <circle cx="4" cy="12" r="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="music">
-    <path d="M9 17H5a2 2 0 0 0-2 2 2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm12-2h-4a2 2 0 0 0-2 2 2 2 0 0 0 2 2h2a2 2 0 0 0 2-2z"/>
-    <polyline points="9 17 9 5 21 3 21 15"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="more-vertical">
+    <circle cx="12" cy="12" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+    <circle cx="12" cy="20" r="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="move">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="move">
     <polyline points="5 9 2 12 5 15"/>
     <polyline points="9 5 12 2 15 5"/>
     <polyline points="15 19 12 22 9 19"/>
@@ -663,402 +656,409 @@
     <line x1="2" y1="12" x2="22" y2="12"/>
     <line x1="12" y1="2" x2="12" y2="22"/>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="music">
+    <path d="M9 17H5a2 2 0 0 0-2 2 2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm12-2h-4a2 2 0 0 0-2 2 2 2 0 0 0 2 2h2a2 2 0 0 0 2-2z"/>
+    <polyline points="9 17 9 5 21 3 21 15"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="octagon">
+    <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="package">
-    <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="2.32 6.16 12 11 21.68 6.16" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="22.76" x2="12" y2="11" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="7" y1="3.5" x2="17" y2="8.5" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="2.32 6.16 12 11 21.68 6.16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="22.76" x2="12" y2="11" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="7" y1="3.5" x2="17" y2="8.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="percent">
-    <line x1="19" y1="5" x2="5" y2="19" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="6.5" cy="6.5" r="2.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="17.5" cy="17.5" r="2.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="19" y1="5" x2="5" y2="19" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="6.5" cy="6.5" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="17.5" cy="17.5" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="pie-chart">
-    <path d="M21.21 15.89A10 10 0 1 1 8 2.83" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M22 12A10 10 0 0 0 12 2v10z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M21.21 15.89A10 10 0 1 1 8 2.83" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M22 12A10 10 0 0 0 12 2v10z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="plus-square">
-    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-    <line x1="12" y1="8" x2="12" y2="16"/>
-    <line x1="8" y1="12" x2="16" y2="12"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="power">
-    <path d="M18.36 6.64a9 9 0 1 1-12.73 0"/>
-    <line x1="12" y1="2" x2="12" y2="12"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="plus">
-    <line x1="12" y1="5" x2="12" y2="19"/>
-    <line x1="5" y1="12" x2="19" y2="12"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="printer">
-    <polyline points="6 9 6 2 18 2 18 9"/>
-    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
-    <rect x="6" y="14" width="12" height="8"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="refresh-ccw">
-    <polyline points="1 4 1 10 7 10"/>
-    <polyline points="23 20 23 14 17 14"/>
-    <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="radio">
-    <circle cx="12" cy="12" r="2"/>
-    <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="refresh-cw">
-    <polyline points="23 4 23 10 17 10"/>
-    <polyline points="1 20 1 14 7 14"/>
-    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="plus-circle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="plus-circle">
     <circle cx="12" cy="12" r="10"/>
     <line x1="12" y1="8" x2="12" y2="16"/>
     <line x1="8" y1="12" x2="16" y2="12"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="rotate-ccw">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="plus-square">
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+    <line x1="12" y1="8" x2="12" y2="16"/>
+    <line x1="8" y1="12" x2="16" y2="12"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="plus">
+    <line x1="12" y1="5" x2="12" y2="19"/>
+    <line x1="5" y1="12" x2="19" y2="12"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="power">
+    <path d="M18.36 6.64a9 9 0 1 1-12.73 0"/>
+    <line x1="12" y1="2" x2="12" y2="12"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="printer">
+    <polyline points="6 9 6 2 18 2 18 9"/>
+    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+    <rect x="6" y="14" width="12" height="8"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="radio">
+    <circle cx="12" cy="12" r="2"/>
+    <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="refresh-ccw">
+    <polyline points="1 4 1 10 7 10"/>
+    <polyline points="23 20 23 14 17 14"/>
+    <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="refresh-cw">
+    <polyline points="23 4 23 10 17 10"/>
+    <polyline points="1 20 1 14 7 14"/>
+    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="rotate-ccw">
     <polyline points="1 4 1 10 7 10"/>
     <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="rotate-cw">
-    <polyline points="23 4 23 10 17 10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="scissors">
-    <circle cx="6" cy="6" r="3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="6" cy="18" r="3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="20" y1="4" x2="8.12" y2="15.88" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="14.47" y1="14.48" x2="20" y2="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="8.12" y1="8.12" x2="12" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="23 4 23 10 17 10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="save">
-    <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="17 21 17 13 7 13 7 21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="7 3 7 8 15 8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 21 17 13 7 13 7 21" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="7 3 7 8 15 8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="search">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="scissors">
+    <circle cx="6" cy="6" r="3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="6" cy="18" r="3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="20" y1="4" x2="8.12" y2="15.88" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="14.47" y1="14.48" x2="20" y2="20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="8.12" y1="8.12" x2="12" y2="12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="search">
     <circle cx="10.5" cy="10.5" r="7.5"/>
     <line x1="21" y1="21" x2="15.8" y2="15.8"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="server">
-    <rect x="2" y="2" width="20" height="8" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <rect x="2" y="14" width="20" height="8" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="6" y1="6" x2="6" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="6" y1="18" x2="6" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="2" y="2" width="20" height="8" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="2" y="14" width="20" height="8" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="6" y1="6" x2="6" y2="6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="6" y1="18" x2="6" y2="18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="settings">
-    <circle cx="12" cy="12" r="3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="12" cy="12" r="3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" fill="none" stroke-miterlimit="10" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="share-2">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="share-2">
     <circle cx="18" cy="5" r="3"/>
     <circle cx="6" cy="12" r="3"/>
     <circle cx="18" cy="19" r="3"/>
     <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
     <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="shield">
-    <path d="M12 22s8-4 8-10V4l-8-2-8 2v8c0 6 8 10 8 10z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="share">
-    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="16 6 12 2 8 6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="2" x2="12" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="16 6 12 2 8 6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="2" x2="12" y2="15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="shield">
+    <path d="M12 22s8-4 8-10V4l-8-2-8 2v8c0 6 8 10 8 10z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="sidebar">
-    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="9" y1="3" x2="9" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="9" y1="3" x2="9" y2="21" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="slash">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="slash">
     <circle cx="12" cy="12" r="10"/>
     <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="smartphone">
-    <rect x="5" y="2" width="14" height="20" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="18" x2="12" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="5" y="2" width="14" height="20" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="18" x2="12" y2="18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="speaker">
-    <rect x="4" y="2" width="16" height="20" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="12" cy="14" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="6" x2="12" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="4" y="2" width="16" height="20" rx="2" ry="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="12" cy="14" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="6" x2="12" y2="6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="star">
-    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="square">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="square">
     <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="tag">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="star">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="tablet">
+    <rect x="4" y="2" width="16" height="20" rx="2" ry="2" transform="rotate(180 12 12)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="18" x2="12" y2="18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="tag">
     <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
     <line x1="7" y1="7" x2="7" y2="7"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="tablet">
-    <rect x="4" y="2" width="16" height="20" rx="2" ry="2" transform="rotate(180 12 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="18" x2="12" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="thumbs-down">
-    <path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="target">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="target">
     <circle cx="12" cy="12" r="10"/>
     <circle cx="12" cy="12" r="6"/>
     <circle cx="12" cy="12" r="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-left">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="thumbs-down">
+    <path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="thumbs-up">
+    <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-left">
     <rect x="1" y="5" width="22" height="14" rx="7" ry="7"/>
     <circle cx="8" cy="12" r="3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="thumbs-up">
-    <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-right">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-right">
     <rect x="1" y="5" width="22" height="14" rx="7" ry="7"/>
     <circle cx="16" cy="12" r="3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="trash-2">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="trash-2">
     <polyline points="3 6 5 6 21 6"/>
     <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
     <line x1="10" y1="11" x2="10" y2="17"/>
     <line x1="14" y1="11" x2="14" y2="17"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="trash">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="trash">
     <polyline points="3 6 5 6 21 6"/>
     <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="trending-down">
-    <polyline points="23 18 13.5 8.5 8.5 13.5 1 6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="17 18 23 18 23 12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="23 18 13.5 8.5 8.5 13.5 1 6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 18 23 18 23 12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="trending-up">
-    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="17 6 23 6 23 12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 6 23 6 23 12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="triangle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="triangle">
     <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="type">
-    <polyline points="4 7 4 4 20 4 20 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="9" y1="20" x2="15" y2="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="12" y1="4" x2="12" y2="20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="4 7 4 4 20 4 20 7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="9" y1="20" x2="15" y2="20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="12" y1="4" x2="12" y2="20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="unlock">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="unlock">
     <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
     <path d="M7 11V7a5 5 0 0 1 9.9-1"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="upload-cloud">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="upload-cloud">
     <polyline points="16 16 12 12 8 16"/>
     <polyline points="16 16 12 12 8 16"/>
     <line x1="12" y1="12" x2="12" y2="21"/>
     <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="upload">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="upload">
     <path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/>
     <polyline points="16 6 12 2 8 6"/>
     <line x1="12" y1="2" x2="12" y2="16"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="user-check">
-    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="8.5" cy="7" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="17 11 19 13 23 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="8.5" cy="7" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 11 19 13 23 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="user-minus">
-    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="8.5" cy="7" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="23" y1="11" x2="17" y2="11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="8.5" cy="7" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="23" y1="11" x2="17" y2="11" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="user-plus">
-    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="8.5" cy="7" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="20" y1="8" x2="20" y2="14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="23" y1="11" x2="17" y2="11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="8.5" cy="7" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="20" y1="8" x2="20" y2="14" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="23" y1="11" x2="17" y2="11" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="user-x">
-    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="8.5" cy="7" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="18" y1="8" x2="23" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="23" y1="8" x2="18" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="users">
-    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M23 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="9" cy="7" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="8.5" cy="7" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="18" y1="8" x2="23" y2="13" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="23" y1="8" x2="18" y2="13" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="user">
-    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <circle cx="12" cy="7" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="12" cy="7" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="wifi">
-    <path d="M5 11.55a11 11 0 0 1 14.08 0M1.41 8a16 16 0 0 1 21.17 0M8.52 15.11a6 6 0 0 1 6.95 0"/>
-    <line x1="12" y1="19" x2="12" y2="19"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="users">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="9" cy="7" r="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="watch">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="watch">
     <circle cx="12" cy="12" r="7"/>
     <polyline points="12 9 12 12 13.5 13.5"/>
     <path d="M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="x-square">
-    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-    <line x1="9" y1="9" x2="15" y2="15"/>
-    <line x1="15" y1="9" x2="9" y2="15"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="wifi">
+    <path d="M5 11.55a11 11 0 0 1 14.08 0M1.41 8a16 16 0 0 1 21.17 0M8.52 15.11a6 6 0 0 1 6.95 0"/>
+    <line x1="12" y1="19" x2="12" y2="19"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="zap">
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="x-circle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="x-circle">
     <circle cx="12" cy="12" r="10"/>
     <line x1="15" y1="9" x2="9" y2="15"/>
     <line x1="9" y1="9" x2="15" y2="15"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="x">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="x-square">
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+    <line x1="9" y1="9" x2="15" y2="15"/>
+    <line x1="15" y1="9" x2="9" y2="15"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="x">
     <line x1="18" y1="6" x2="6" y2="18"/>
     <line x1="6" y1="6" x2="18" y2="18"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="zoom-in">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="zap">
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="zoom-in">
     <circle cx="11" cy="11" r="8"/>
     <line x1="21" y1="21" x2="16.65" y2="16.65"/>
     <line x1="11" y1="8" x2="11" y2="14"/>
     <line x1="8" y1="11" x2="14" y2="11"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="zoom-out">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="zoom-out">
     <circle cx="11" cy="11" r="8"/>
     <line x1="21" y1="21" x2="16.65" y2="16.65"/>
     <line x1="8" y1="11" x2="14" y2="11"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mail">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mail">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
     <polyline points="22,6 12,13 2,6"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="message-circle">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="message-circle">
     <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="message-square">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="message-square">
     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-incoming">
-    <polyline points="16 2 16 8 22 8"/>
-    <line x1="23" y1="1" x2="16" y2="8"/>
-    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-call">
+    <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-forwarded">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-forwarded">
     <polyline points="19 1 23 5 19 9"/>
     <line x1="15" y1="5" x2="23" y2="5"/>
     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-call">
-    <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-incoming">
+    <polyline points="16 2 16 8 22 8"/>
+    <line x1="23" y1="1" x2="16" y2="8"/>
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-missed">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-missed">
     <line x1="23" y1="1" x2="17" y2="7"/>
     <line x1="17" y1="1" x2="23" y2="7"/>
     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-off">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-off">
     <path d="M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 2 2 0 0 1 1.72 2v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91"/>
     <line x1="23" y1="1" x2="1" y2="23"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-outgoing">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone-outgoing">
     <polyline points="23 7 23 1 17 1"/>
     <line x1="16" y1="8" x2="23" y2="1"/>
     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="phone">
     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="arrow-down-left">
-    <line x1="18" y1="6" x2="6" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <polyline points="15 18 6 18 6 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="voicemail">
-    <circle cx="5.5" cy="11.5" r="4.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
-    <circle cx="18.5" cy="11.5" r="4.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="5.5" y1="16" x2="18.5" y2="16" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="5.5" cy="11.5" r="4.5" fill="none" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="18.5" cy="11.5" r="4.5" fill="none" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="5.5" y1="16" x2="18.5" y2="16" fill="none" stroke-miterlimit="10" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="arrow-down-left">
+    <line x1="18" y1="6" x2="6" y2="18" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="15 18 6 18 6 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="arrow-down-right">
-    <line x1="6" y1="6" x2="18" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <polyline points="9 18 18 18 18 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="6" y1="6" x2="18" y2="18" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="9 18 18 18 18 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="arrow-up-left">
-    <line x1="18" y1="18" x2="6" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <polyline points="15 6 6 6 6 15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-right">
-    <line x1="4" y1="12" x2="20" y2="12"/>
-    <polyline points="14 6 20 12 14 18"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-down">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-down">
     <line x1="12" y1="4" x2="12" y2="20"/>
     <polyline points="18 14 12 20 6 14"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-left">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-left">
     <line x1="20" y1="12" x2="4" y2="12"/>
     <polyline points="10 18 4 12 10 6"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-down">
-    <polyline points="6 9 12 15 18 9"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-right">
+    <line x1="4" y1="12" x2="20" y2="12"/>
+    <polyline points="14 6 20 12 14 18"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="arrow-up-left">
+    <line x1="18" y1="18" x2="6" y2="6" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="15 6 6 6 6 15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="arrow-up-right">
-    <line x1="6" y1="18" x2="18" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-    <polyline points="9 6 18 6 18 15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="6" y1="18" x2="18" y2="6" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="9 6 18 6 18 15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-up">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="arrow-up">
     <line x1="12" y1="20" x2="12" y2="4"/>
     <polyline points="6 10 12 4 18 10"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-left">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-down">
+    <polyline points="6 9 12 15 18 9"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-left">
     <polyline points="15 18 9 12 15 6"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="chevrons-down">
-    <polyline points="7 13 12 18 17 13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="7 6 12 11 17 6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-up">
-    <polyline points="18 15 12 9 6 15"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-right">
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-right">
     <polyline points="9 18 15 12 9 6"/>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chevron-up">
+    <polyline points="18 15 12 9 6 15"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="chevrons-down">
+    <polyline points="7 13 12 18 17 13" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="7 6 12 11 17 6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="chevrons-left">
-    <polyline points="11 17 6 12 11 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="18 17 13 12 18 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="11 17 6 12 11 7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="18 17 13 12 18 7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="chevrons-right">
-    <polyline points="13 17 18 12 13 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="6 17 11 12 6 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="13 17 18 12 13 7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="6 17 11 12 6 7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="chevrons-up">
-    <polyline points="17 11 12 6 7 11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <polyline points="17 18 12 13 7 18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 11 12 6 7 11" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="17 18 12 13 7 18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-down-left">
-    <polyline points="9 10 4 15 9 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M20 4v7a4 4 0 0 1-4 4H4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="9 10 4 15 9 20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20 4v7a4 4 0 0 1-4 4H4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-down-right">
-    <polyline points="15 10 20 15 15 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M4 4v7a4 4 0 0 0 4 4h12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-left-up">
-    <polyline points="14 9 9 4 4 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M20 20h-7a4 4 0 0 1-4-4V4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="15 10 20 15 15 20" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M4 4v7a4 4 0 0 0 4 4h12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-left-down">
-    <polyline points="14 15 9 20 4 15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M20 4h-7a4 4 0 0 0-4 4v12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="14 15 9 20 4 15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20 4h-7a4 4 0 0 0-4 4v12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-right-up">
-    <polyline points="10 9 15 4 20 9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M4 20h7a4 4 0 0 0 4-4V4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-left-up">
+    <polyline points="14 9 9 4 4 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20 20h-7a4 4 0 0 1-4-4V4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-right-down">
-    <polyline points="10 15 15 20 20 15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M4 4h7a4 4 0 0 1 4 4v12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="10 15 15 20 20 15" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M4 4h7a4 4 0 0 1 4 4v12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-right-up">
+    <polyline points="10 9 15 4 20 9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M4 20h7a4 4 0 0 0 4-4V4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-up-left">
-    <polyline points="9 14 4 9 9 4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M20 20v-7a4 4 0 0 0-4-4H4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="9 14 4 9 9 4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20 20v-7a4 4 0 0 0-4-4H4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="corner-up-right">
-    <polyline points="15 14 20 9 15 4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path d="M4 20v-7a4 4 0 0 1 4-4h12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline points="15 14 20 9 15 4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M4 20v-7a4 4 0 0 1 4-4h12" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </symbol>
 </svg>

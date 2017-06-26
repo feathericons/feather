@@ -41,6 +41,28 @@ function walkdir(root, callback) {
 }
 
 /**
+ * Removes the stroke attribute from an svg element
+ * and its children. This will run forever if there are any
+ * cyclic references.
+ */
+function removeStrokeAttr(root) {
+    const queue = [root];
+    while (queue.length > 0) {
+        const element = queue.pop();
+
+        if (element['$'] && element['$']['stroke']) {
+            delete element['$']['stroke'];
+        }
+
+        for (let key in element) {
+            if (key === '$') continue;
+            let child = element[key];
+            if (typeof child === 'object') queue.push(child);
+        }
+    }
+}
+
+/**
  * Creates an entry for the icon in the global allIcons.
  * @param {*} filepath The name of the icon's file.
  * @param {*} icon The parsed XML for the icon.
@@ -57,6 +79,7 @@ function writeIcon(filename, icon) {
     }
 
     let symbol = icon['svg'];
+    removeStrokeAttr(symbol);
 
     let basename;
     const dotIndex = filename.lastIndexOf('.');
