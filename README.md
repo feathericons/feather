@@ -5,6 +5,11 @@
 
 Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity.
 
+Related Projects
+---
+
+ - [angular-feather](https://github.com/michaelbazos/angular-feather) - feather icons for  angular applications
+
 Change Log
 ---
 
