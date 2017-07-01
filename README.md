@@ -9,6 +9,7 @@ Related Projects
 ---
 
  - [angular-feather](https://github.com/michaelbazos/angular-feather) - feather icons for  angular applications
+ - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
 
 Change Log
 ---
