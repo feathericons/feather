@@ -3,5 +3,5 @@
 # find and store current version number
 version=$(grep '"version"' package.json | cut -d '"' -f4)
 
-# compress 'icons' directory into feather-[version].zip
-zip -r feather.zip ./icons/
+# compress 'icons' directory and 'all-icons.svg' into feather-[version].zip
+zip -r feather.zip all-icons.svg ./icons/
