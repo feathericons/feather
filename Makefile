@@ -8,7 +8,7 @@ all: lint build
 lint: dist/icons.json
 	./node_modules/.bin/eslint .
 
-build: dist/feather.js dist/feather.min.js
+build: dist/feather.js dist/feather.min.js dist/icons
 
 node_modules:
 	npm install
@@ -24,3 +24,8 @@ dist/feather.js: dist/icons.json $(src_dir) $(src_files)
 
 dist/feather.min.js: dist/icons.json $(src_dir) $(src_files)
 	./node_modules/.bin/webpack --output-filename feather.min.js -p
+
+dist/icons: dist/icons.json
+	rm -rf dist/icons
+	mkdir -p dist/icons
+	./node_modules/.bin/babel-node bin/build-svgs.js
