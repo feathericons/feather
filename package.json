@@ -5,9 +5,6 @@
   "scripts": {
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
-    "svgo": "for i in $(find icons/* -type d); do svgo --pretty --multipass --config=svgo-config.yml $i; done",
-    "build": "npm run build-zip && jekyll build",
-    "build-zip": "./bin/build-zip.sh",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
