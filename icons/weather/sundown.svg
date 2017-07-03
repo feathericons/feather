@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17,17 C17,14.2385763 14.7614237,12 12,12 C9.23857625,12 7,14.2385763 7,17" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <path d="M4.22,9.22 L5.64,10.64" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <path d="M1,17 L3,17" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <path d="M21,17 L23,17" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <path d="M18.36,10.64 L19.78,9.22" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <path d="M23,21 L1,21" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <g id="Group" transform="translate(12.000000, 4.500000) scale(1, -1) translate(-12.000000, -4.500000) translate(8.000000, 1.000000)" stroke="#000000" stroke-width="2">
+            <path d="M4,0 L4,7" id="Shape"></path>
+            <polyline id="Shape" points="0 4 4 0 8 4"></polyline>
+        </g>
+    </g>
+</svg>
