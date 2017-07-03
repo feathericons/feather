@@ -1,5 +1,7 @@
 .DS_Store
 node_modules
 _site
+*.zip
+manifest.json
 sandbox
 stash

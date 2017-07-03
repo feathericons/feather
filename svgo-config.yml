@@ -1,0 +1,4 @@
+plugins:
+  - removeTitle: true
+  - convertShapeToPath: false
+  - mergePaths: false

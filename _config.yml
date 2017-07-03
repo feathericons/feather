@@ -1,12 +1,5 @@
-data_dir: .
 exclude:
-  - README.md
-  - CHANGELOG.md
-  - ISSUE_TEMPLATE.md
-  - LICENSE
+  - node_modules
   - bin
   - sandbox
   - stash
-
-# Google Analytics Tracking ID
-google_analytics: UA-63028889-4

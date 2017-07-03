@@ -1,0 +1,11 @@
+<div class="pv4">
+    <h2 class="mt0 mb4 f6 ttu tracked normal">{{ include.category | replace: '-', ' '}}</h2>
+    <ul class="icon-grid mv0 pl0 list">
+      {% capture category_path %}icons/{{ include.category }}{% endcapture %}
+      {% for icon in site.static_files %}
+        {% if icon.path contains category_path  %}
+          {% include icon.html icon=icon %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>

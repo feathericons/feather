@@ -1,0 +1,10 @@
+<li>
+  <a
+    href="{{ include.icon.path }}"
+    class="flex flex-row items-center dib pa3 br2 no-underline dark-gray bg-near-white bg-animate hover-bg-light-gray"
+    download
+    onclick="ga('send', 'event', 'download', 'click', '{{ include.icon.basename }}');">
+    <span class="svg flex-none lh-none">{% include_relative {{ include.icon.path }} %}</span>
+    <span class="ml3 lh-copy f6 tc black-60 ellipse">{{ include.icon.basename }}</span>
+  </a>
+</li>

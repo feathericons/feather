@@ -1,6 +1,6 @@
 ---
-title: Feather
-description: Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on consistency and simplicity.
+title: Feather – Simply beautiful open source icons
+description: Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity.
 links:
 - title: Donate
   url: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=G6CPFZ6PQRZW8&lc=US&item_name=Feather&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
@@ -23,26 +23,21 @@ links:
   <meta name="description" content="{{ page.description }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.description }}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://feathericons.com/assets/feather-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@colebemis">
 
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
   <link href="https://unpkg.com/tachyons/css/tachyons.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics.html %}
-  {% endif %}
 </head>
-<body class="ma0 rubik font-smoothing black-60 bg-near-white">
+<body class="ma0 rubik font-smoothing black-60 bg-white">
 
-  <div class="pb5 pb6-ns bg-white">
-    {% include header.html %}
-    {% include icons.html %}
-  </div>
-
-  {% include request.html %}
+  {% include header.html %}
+  {% include hero.html %}
+  {% include icons.html %}
   {% include footer.html links=page.links %}
 
   </script>

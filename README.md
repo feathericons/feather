@@ -1,18 +1,22 @@
-[Feather](https://colebemis.github.io/feather)
+[Feather](https://feathericons.com)
 ===
 
 ### Simply beautiful open source icons
 
-Each icon is designed on a 24x24 grid with an emphasis on consistency and simplicity.
+Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity.
+
+Related Projects
+---
+
+ - [angular-feather](https://github.com/michaelbazos/angular-feather) - Feather icons for Angular applications
+ - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
 
 Change Log
 ---
 
-See [CHANGELOG.md](https://github.com/colebemis/feather/blob/gh-pages/CHANGELOG.md)
+See [CHANGELOG.md](https://github.com/colebemis/feather/blob/master/CHANGELOG.md)
 
 License
 ---
 
-Feather is released under the [MIT License](http://opensource.org/licenses/MIT). In short, you are free to use Feather in any personal, open-source or commercial work. Attribution is optional but appreciated.
-
-
+Feather is licensed under the [MIT License](http://opensource.org/licenses/MIT).

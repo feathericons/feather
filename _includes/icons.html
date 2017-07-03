@@ -1,19 +1,10 @@
-<ul class="flex flex-wrap justify-center w-80 w-80-ns center mw8 mv0 pl0 list">
-  {% for icon in site.data['icons-manifest'] %}
-  {% capture icon_path %}icons/{{ icon }}.svg{% endcapture %}
-  <li class="icon relative pa3 ma2 black-90 bg-animate br3 outline-0 pointer">
-    {% include_relative {{ icon_path }} %}
-    <div class="tooltip flex flex-column tc white bg-dark-gray br3">
-      <p class="dib mh4 mv3 lh-copy nowrap">{{ icon }}</p>
-      <a
-        class="btn white bg-black-90 dim br3 br--bottom outline-0"
-        href="{{ icon_path }}"
-        download
-        tabindex="-1"
-        onclick="ga('send', 'event', 'download', 'click', '{{ icon }}');">
-        Download
-      </a>
-    </div>
-  </li>
-  {% endfor %}
-</ul>
+<div class="w-80 center pv5">
+  {% include category.html category="core" %}
+  {% include category.html category="media-controls" %}
+  {% include category.html category="communication" %}
+  {% include category.html category="photo-and-video" %}
+  {% include category.html category="location" %}
+  {% include category.html category="weather" %}
+  {% include category.html category="arrows" %}
+  {% include category.html category="logos" %}
+</div>

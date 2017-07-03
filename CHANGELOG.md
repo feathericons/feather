@@ -4,10 +4,79 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## v2.1.0 (2017-05-30)
 
 ### Added
-- Add # new icons:
+
+- Add icon categories (Thanks @wappsdotgr)
+- Display icon names to allow for `⌘ + F` search
+
+<details>
+  <summary>Add 37 icons</summary>
+
+  - `arrow-down-left`
+  - `arrow-down-right`
+  - `arrow-up-left`
+  - `arrow-up-right`
+  - `battery-charging`
+  - `cast`
+  - `chevrons-down`
+  - `chevrons-left`
+  - `chevrons-right`
+  - `chevrons-up`
+  - `cloud-drizzle`
+  - `cloud-lightning`
+  - `cloud-rain`
+  - `cloud-snow`
+  - `codepen`
+  - `compass`
+  - `edit-2`
+  - `edit-3`
+  - `link-2`
+  - `list`
+  - `log-in`
+  - `log-out`
+  - `navigation-2`
+  - `package`
+  - `repeat`
+  - `share`
+  - `slack`
+  - `speaker`
+  - `trending-down`
+  - `trending-up`
+  - `type`
+  - `user-check`
+  - `user-x`
+  - `voicemail`
+  - `volume`
+  - `volume-1`
+  - `volume-2`
+</details>
+
+### Changed
+
+- Redesign project site
+
+<details>
+  <summary>Change 9 icons</summary>
+
+  - `bar-chart`
+  - `bar-chart-2`
+  - `droplet`
+  - `grid`
+  - `twitter`
+  - `user-minus`
+  - `user-plus`
+  - `user`
+  - `volume-x`
+</details>
+
+## v2.0.0 (2017-05-23)
+
+### Added
+<details>
+ <summary>Add 63 icons</summary>
+
   - `activity`
   - `alert-circle`
   - `alert-octagon`
@@ -17,7 +86,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `award`
   - `bell-off`
   - `bluetooth`
+  - `calendar`
   - `camera-off`
+  - `chevron-down`
+  - `chevron-left`
+  - `chevron-right`
+  - `chevron-up`
+  - `chrome`
   - `circle`
   - `cloud-off`
   - `comment-circle`
@@ -36,6 +111,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `male`
   - `map-pin`
   - `mic-off`
+  - `more-vertical`
   - `music`
   - `octagon`
   - `phone`
@@ -64,12 +140,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `video-off`
   - `wind`
   - `zap`
+</details>
 
 ### Changed
+
 - Redesign project website
-- Use SVG `stroke` instead of `fill`. Read more about the benifits of SVG `stroke`:
+- Use SVG `stroke` instead of `fill`. Read more about the benefits of SVG `stroke`:
   - [SVG Stroke FTW!](http://danklammer.com/articles/svg-stroke-ftw/)
-- Change # icons:
+
+<details>
+  <summary>Change 66 icons</summary>
+
   - `align-center`
   - `anchor`
   - `arrow-down`
@@ -80,6 +161,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `bar-chart-2`
   - `battery`
   - `bell`
+  - `book`
   - `bookmark`
   - `box`
   - `briefcase`
@@ -87,13 +169,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `check`
   - `check-circle`
   - `check-square`
+  - `clipboard`
   - `cloud`
-  - `cog`
   - `comment-square`
   - `download`
   - `download-cloud`
   - `droplet`
   - `external-link`
+  - `fast-forward`
   - `file`
   - `flag`
   - `folder`
@@ -116,8 +199,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `plus`
   - `printer`
   - `search`
+  - `settings`
   - `share`
+  - `shuffle`
+  - `skip-back`
+  - `skip-forward`
   - `star`
+  - `rewind`
   - `tag`
   - `unlock`
   - `upload`
@@ -125,9 +213,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - `user`
   - `video`
   - `watch`
+  - `wifi`
   - `x`
   - `zoom-in`
   - `zoom-out`
+</details>
 
 ### Removed
 - Remove PSD, CSH and Webfont formats in favor of SVG. Read more about the benefits of SVG for icons:
