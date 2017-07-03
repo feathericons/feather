@@ -18,6 +18,7 @@ Feather is collection of **simply beautiful open source icons**. Each icon is de
 	* [`feather.replace()`](#featherreplaceoptions)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
+* [Related Projects](#related-projects)
 * [License](#license)
 
 ## Quick Start
