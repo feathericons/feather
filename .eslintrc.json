@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "no-use-before-define": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "no-shadow": "off",
+    "no-console": ["error", { "allow": ["warn", "error"] }]
+  }
+}
