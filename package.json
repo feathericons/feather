@@ -7,6 +7,7 @@
     "dist"
   ],
   "scripts": {
+    "build": "make build",
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
