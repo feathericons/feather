@@ -257,6 +257,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 
  - [angular-feather](https://github.com/michaelbazos/angular-feather) - Feather icons for Angular applications
  - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
+ - [vue-feather-icon](https://github.com/mage3k/vue-feather-icon) - Feather icons as Vue components
 
 ## License
 
