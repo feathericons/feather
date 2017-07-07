@@ -3,5 +3,3 @@ exclude:
   - bin
   - sandbox
   - stash
-gems:
-  - jekyll-redirect-from

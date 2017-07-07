@@ -1,27 +1,8 @@
 {
   "name": "feather-icons",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "Simply beautiful open source icons",
   "scripts": {
-    "commitmsg": "validate-commit-msg",
-    "cm": "git-cz",
-    "svgo": "for i in $(find icons/* -type d); do svgo --pretty --multipass --config=svgo-config.yml $i; done",
-    "build": "npm run build-zip && jekyll build",
-    "build-zip": "./bin/build-zip.sh",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
-  "devDependencies": {
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
-    "husky": "^0.13.4",
-    "semantic-release": "^6.3.6",
-    "svgo": "^0.7.2",
-    "validate-commit-msg": "^2.12.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   },
   "repository": {
     "type": "git",
