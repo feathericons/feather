@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 
-# find and store current version number
-version=$(grep '"version"' package.json | cut -d '"' -f4)
-
-# compress 'icons' directory into feather-[version].zip
-zip -r feather.zip ./icons/
+# compress 'icons' directory into feather.zip
+zip -r -j feather.zip ./node_modules/feather-icons/dist/icons/

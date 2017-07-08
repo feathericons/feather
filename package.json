@@ -1,13 +1,18 @@
 {
-  "name": "feather-icons",
+  "name": "feather",
   "version": "0.0.0",
   "description": "Simply beautiful open source icons",
   "scripts": {
+    "prebuild": "./bin/build-zip.sh",
+    "build": "jekyll build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/colebemis/feather.git"
   },
   "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "feather-icons": "^3.0.0"
+  }
 }
