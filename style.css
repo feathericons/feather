@@ -50,6 +50,8 @@
   padding: 0 0.5rem 1rem;
 }
 
+
+
 /* medium breakpoint */
 @media (min-width: 30em) {
   .icon-grid li {
@@ -68,7 +70,7 @@
 @supports (display: grid) {
   .icon-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
     grid-gap: 1rem;
     margin: 0;
   }
@@ -77,5 +79,73 @@
   .icon-grid li {
     width: 100%;
     padding: 0;
+  }
+}
+
+/* Carbon Ads */
+
+#carbonads {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background: #f4f4f4;
+  border-radius: .25rem;
+}
+
+#carbonads a {
+  text-decoration: none;
+}
+
+.carbon-wrap {
+  display: flex;
+}
+
+.carbon-img {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  line-height: 0;
+}
+
+.carbon-text {
+  color: currentColor;
+}
+
+.carbon-poweredby {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 45em) {
+  #carbonads {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    max-width: 12rem;
+    margin: 0;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+  }
+
+  .carbon-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carbon-img {
+    margin-right: 0;
+  }
+
+  .carbon-text {
+    text-align: center;
+    margin-top: 1rem;
   }
 }
