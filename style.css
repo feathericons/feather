@@ -127,9 +127,9 @@
 @media (min-width: 45em) {
   #carbonads {
     position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    max-width: 12rem;
+    bottom: 1rem;
+    right: 1rem;
+    max-width: 11rem;
     margin: 0;
     background: rgba(255,255,255,0.9);
     box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
