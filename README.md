@@ -1,22 +1,12 @@
-[Feather](https://feathericons.com)
-===
+# Feather
 
-### Simply beautiful open source icons
+## What is Feather?
 
-Designed on a 24x24 grid with an emphasis on functionality, consistency and simplicity.
+Feather is collection of **simply beautiful open source icons**. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and legibility.
 
-Related Projects
----
+[feathericons.com](https://feathericons.com)
 
- - [angular-feather](https://github.com/michaelbazos/angular-feather) - Feather icons for Angular applications
- - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
 
-Change Log
----
+See the [`master` branch](https://github.com/colebemis/feather) for more information.
 
-See [CHANGELOG.md](https://github.com/colebemis/feather/blob/master/CHANGELOG.md)
-
-License
----
-
-Feather is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+[👋](mailto:cole@colebemis.com)
