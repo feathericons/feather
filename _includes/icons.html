@@ -1,10 +1,9 @@
-<div class="w-80 center pv5">
-  {% include category.html category="core" %}
-  {% include category.html category="media-controls" %}
-  {% include category.html category="communication" %}
-  {% include category.html category="photo-and-video" %}
-  {% include category.html category="location" %}
-  {% include category.html category="weather" %}
-  {% include category.html category="arrows" %}
-  {% include category.html category="logos" %}
+<div class="w-80 center">
+  <ul class="icon-grid mv0 pl0 list">
+      {% for file in site.static_files %}
+        {% if file.path contains 'dist/icons/'  %}
+          {% include icon.html icon=file %}
+        {% endif %}
+      {% endfor %}
+    </ul>
 </div>
