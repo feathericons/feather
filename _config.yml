@@ -1,5 +1,9 @@
 exclude:
-  - node_modules
   - bin
   - sandbox
   - stash
+  - LICENSE
+  - README.md
+  - package.json
+  - Gemfile
+  - Gemfile.lock
