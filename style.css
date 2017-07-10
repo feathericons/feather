@@ -14,7 +14,7 @@
 .button {
   display: inline-block;
   padding: 1rem 2rem;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
@@ -49,8 +49,6 @@
   width: 100%;
   padding: 0 0.5rem 1rem;
 }
-
-
 
 /* medium breakpoint */
 @media (min-width: 30em) {
@@ -92,7 +90,7 @@
   font-size: 0.875rem;
   line-height: 1.5;
   background: #f4f4f4;
-  border-radius: .25rem;
+  border-radius: .125rem;
 }
 
 #carbonads a {
