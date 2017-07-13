@@ -2,21 +2,36 @@
   "name": "feather-icons",
   "version": "0.0.0-development",
   "description": "Simply beautiful open source icons",
+  "main": "dist/feather.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "all": "make",
+    "lint": "make lint",
+    "build": "make build",
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
-    "svgo": "for i in $(find icons/* -type d); do svgo --pretty --multipass --config=svgo-config.yml $i; done",
-    "build": "npm run build-zip && jekyll build",
-    "build-zip": "./bin/build-zip.sh",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
     "commitizen": "^2.9.6",
+    "core-js": "^2.4.1",
     "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.5.0",
     "husky": "^0.13.4",
+    "parse5": "^3.0.2",
+    "rsvp": "^3.6.0",
     "semantic-release": "^6.3.6",
     "svgo": "^0.7.2",
-    "validate-commit-msg": "^2.12.1"
+    "validate-commit-msg": "^2.12.1",
+    "webpack": "^3.0.0"
   },
   "config": {
     "commitizen": {

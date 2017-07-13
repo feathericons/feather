@@ -7,5 +7,7 @@ notifications:
 node_js: 6
 before_script:
   - npm prune
+script:
+  - npm run all
 after_success:
   - npm run semantic-release
