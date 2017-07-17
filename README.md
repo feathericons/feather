@@ -235,7 +235,7 @@ All classes on a placeholder element (i.e. `<i>`) will be copied to the `<svg>` 
 
 ## Roadmap
 
-- [ ] Write contributing guidelines
+- [x] Write contributing guidelines
 - [ ] Write icon design guidelines
 - [ ] Add usage examples
 - [ ] Add SVG sprite
@@ -249,7 +249,7 @@ All classes on a placeholder element (i.e. `<i>`) will be copied to the `<svg>` 
 
 ## Contributing
 
-*Contributing guidelines coming soon*
+For more info on how to contribute please follow [contribution guidelines](https://github.com/Soundnode/soundnode-app/blob/master/CONTRIBUTING.md)
 
 Caught a mistake or want to contribute to the documentation? [Edit this page on Github](https://github.com/colebemis/feather/blob/master/README.md)
 
