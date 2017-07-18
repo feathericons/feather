@@ -11,7 +11,7 @@ The following is a set of guidelines for contributing to Feather. Feel free to p
 Pull requests for new features, bug fixes, etc. are often appreciated. Please checkout the [project roadmap](https://github.com/colebemis/feather#roadmap) and raise an issue to discuss any of the items on the list.
 
 **Working on your first Pull Request?** You can learn how from this *free* series
-[How to Contribute to an Open Source Project on GitHub][https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github]
+[How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
 Guidelines for pull requests:
 - __Make your commit messages as descriptive as possible.__ Include as much information as you can. Explain anything that the file diffs themselves won’t make apparent.
