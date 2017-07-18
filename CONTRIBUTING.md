@@ -1,24 +1,33 @@
-# How to contribute
+# Contribution Guidelines
 
-If you would like to contribute to the project please follow the guidelines set out below. Keep in mind that they are not here to make your contribution a painful experience, but to simplify our jobs looking through issues and pull requests.
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-## Pull Request
+The following is a set of guidelines for contributing to Feather. Feel free to propose changes to this document in a pull request.
 
-Pull Request for new features, bugs (etc) are often appreciated.
+## Pull Requests
 
-- __Make your commit message as descriptive as possible.__ Include as much information as you can. Explain anything that the file diffs themselves won’t make apparent.
+> **Note:** At the moment we are not accepting pull requests containing _**icons**_. The best way to contribute an icon is to create an issue with a screenshot and link to an SVG of your icon.
+
+Pull requests for new features, bug fixes, etc. are often appreciated. Please checkout the [project roadmap](https://github.com/colebemis/feather#roadmap) and raise an issue to discuss any of the items on the list.
+
+**Working on your first Pull Request?** You can learn how from this *free* series
+[How to Contribute to an Open Source Project on GitHub][https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github]
+
+Guidelines for pull requests:
+- __Make your commit messages as descriptive as possible.__ Include as much information as you can. Explain anything that the file diffs themselves won’t make apparent.
 - __Document your pull request__. Explain your fix, link to the relevant issue, add screenshots when adding new icons.
 - __Make sure the target of your pull request is the relevant branch__. Most of bugfix or new feature should go to the `master` branch.
-- __Include only related work__. If your pull request has unrelated commit, won't be accepted.
+- __Include only related work__. If your pull request has unrelated commit, it won't be accepted.
 
-## Icon request
+## Icon Requests
 
-First answer the question why you are suggesting the icon?
-Create a issue with title [Icon request] then label with the proper tag `icon request` and add as much info as you can.
+Before creating an icon request, please search to see if someone has requested the icon already. If there is an open request, please add a :+1:.
 
-## Report a bug
+If the icon has not already been requested, [create an issue](https://github.com/colebemis/feather/issues/new?title=Icon%20Request:) with a title of `Icon request: <icon name>` and add as much information as possible.
 
-Before reporting any issues, please use the search tool to see if someone filed the same bug before.
+## Bug Reports
+
+Before reporting an issue, please search to see if someone has filed a similar issue before. If there is already an open issue, please add a :+1: and/or leave a comment with additional information.
 
 When creating a new issue make sure to include the following:
 - Version of `Feather` in use. Are you running from source/master? Are you using a released build? Which release?
