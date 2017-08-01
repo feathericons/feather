@@ -1,10 +1,13 @@
 # Feather
 
 [![Travis branch](https://img.shields.io/travis/colebemis/feather/master.svg?style=flat-square)](https://travis-ci.org/colebemis/feather)
+[![npm](https://img.shields.io/npm/v/feather-icons.svg?style=flat-square)](https://www.npmjs.com/colebemis/feather)
+[![npm](https://img.shields.io/npm/dm/feather-icons.svg?style=flat-square)](https://npm-stat.com/charts.html?package=feather-icons&from=2017-06-01)
+[![Code Climate](https://img.shields.io/codeclimate/github/colebemis/feather.svg?style=flat-square)](https://codeclimate.com/github/colebemis/feather)
 
 ## What is Feather?
 
-Feather is a collection of **simply beautiful open source icons**. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and legibility.
+Feather is a collection of **simply beautiful open source icons**. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
 
 [feathericons.com](https://feathericons.com)
 
