@@ -12,6 +12,8 @@
     "build": "make build",
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
+    "strokeToPath": "sudo chmod +x ./scripts/strokes-to-paths.sh && find icons -type f | parallel -j4 ./scripts/strokes-to-paths.sh {}",
+    "webFontCompiler": "rm -rf output && mkdir output && mv icons/not_converted/*.svg icons/already_converted",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
