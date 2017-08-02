@@ -12,9 +12,8 @@
     "build": "make build",
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
-    "installWebfontDep": "sudo npm i -g webfont && brew update && brew cask install xquartz && brew cask install inkscape",
     "strokeToPath": "sudo chmod +x ./scripts/strokes-to-paths.sh && find icons -type f | parallel -j4 ./scripts/strokes-to-paths.sh {}",
-    "webFontCompiler": "webfont ./icons/**/*.svg -f ClassApp -d ./output",
+    "webFontCompiler": "rm -rf output && mkdir output && mv icons/not_converted/*.svg icons/already_converted",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
@@ -46,8 +45,5 @@
     "url": "https://github.com/colebemis/feather.git"
   },
   "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
-  "license": "MIT",
-  "dependencies": {
-    "webfont": "^7.1.4"
-  }
+  "license": "MIT"
 }
