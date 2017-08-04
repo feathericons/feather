@@ -41,7 +41,7 @@ function replaceElement(element, options) {
     return;
   }
 
-  const elementClassAttr = element.getAttribute('class');
+  const elementClassAttr = element.getAttribute('class') || '';
   const classNames = (
     options.class ? `${options.class} ${elementClassAttr}` : elementClassAttr
   );
