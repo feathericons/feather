@@ -40,7 +40,7 @@ Or copy and paste the following code snippet into a blank `html` file.
 <!DOCTYPE html>
 <html lang="en">
   <title></title>
-  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
   <body>
 
     <!-- example icon -->
@@ -84,7 +84,7 @@ Include `feather.js` or `feather.min.js` with a `<script>` tag. These files are 
 Or load the script from a CDN provider.
 
 ```html
-<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
 ```
 
 After including the script, `feather` will be available as a global variable.
