@@ -254,6 +254,7 @@ All classes on a placeholder element (i.e. `<i>`) will be copied to the `<svg>` 
 - [ ] Add search/filter functionality to project website
 - [ ] Handle icon aliases
 - [ ] Handle usage of custom icons
+- [ ] Improve SVG accessibility
 
 ## Contributing
 
