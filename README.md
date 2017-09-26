@@ -84,6 +84,8 @@ Include `feather.js` or `feather.min.js` with a `<script>` tag. These files are 
 Or load the script from a CDN provider.
 
 ```html
+<!-- choose one -->
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
 ```
 
