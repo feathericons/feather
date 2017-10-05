@@ -42,12 +42,13 @@ function replaceElement(element, options) {
   }
 
   const elementClassAttr = element.getAttribute('class') || '';
-  const elementId = element.getAttribute('id');
+  const elementIdAttr = element.getAttribute('id');
   const classNames = (
     options.class ? `${options.class} ${elementClassAttr}` : elementClassAttr
   );
 
-  const svgString = toSvg(key, Object.assign({}, options, { class: classNames, id: elementId }));
+  const svgOptions = Object.assign({}, options, { class: classNames, id: elementIdAttr });
+  const svgString = toSvg(key, svgOptions);
   const svgDocument = new DOMParser().parseFromString(svgString, 'image/svg+xml');
   const svgElement = svgDocument.querySelector('svg');
 
