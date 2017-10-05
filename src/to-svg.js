@@ -35,7 +35,7 @@ export default function toSvg(key, options = {}) {
 
   combinedOptions.class = addDefaultClassNames(combinedOptions.class, key);
 
-  const attributes = optionsToAtrributes(combinedOptions);
+  const attributes = optionsToAttributes(combinedOptions);
 
   return `<svg ${attributes}>${icons[key]}</svg>`;
 }
@@ -64,7 +64,7 @@ function addDefaultClassNames(classNames, key) {
  * @param {Object} options
  * @returns {string}
  */
-function optionsToAtrributes(options) {
+function optionsToAttributes(options) {
   const attributes = [];
 
   Object.keys(options).forEach(key => {
