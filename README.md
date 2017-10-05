@@ -228,13 +228,13 @@ You can pass `feather.replace()` an `options` object:
 </script>
 ```
 
-All classes on a placeholder element (i.e. `<i>`) will be copied to the `<svg>` tag:
+The id and classes on a placeholder element (i.e. `<i>`) will be copied to the `<svg>` tag:
 
 ```html
-<i class="foo bar" data-feather="circle"></i>
+<i id="my-circle-icon" class="foo bar" data-feather="circle"></i>
 <!--
 <i> will be replaced with:
-<svg class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+<svg id="my-circle-icon" class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
 -->
 
 <script>

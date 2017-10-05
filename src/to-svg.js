@@ -68,7 +68,9 @@ function optionsToAtrributes(options) {
   const attributes = [];
 
   Object.keys(options).forEach(key => {
-    attributes.push(`${key}="${options[key]}"`);
+    if (options[key]) {
+      attributes.push(`${key}="${options[key]}"`);
+    }
   });
 
   return attributes.join(' ');
