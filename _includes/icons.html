@@ -1,4 +1,7 @@
-<div class="w-80 mw8 center">
+<div class="w-80 mw8 center" id="js-icons">
+  <div class="w-100 w-50-ns center mb5">
+    <input class="w-100 f4 pv3 br-pill bn bg-near-white bg-animate hover-bg-light-gray tc search" placeholder="Search" />
+  </div>
   <ul class="icon-grid mv0 pl0 list">
       {% for file in site.static_files %}
         {% if file.path contains 'dist/icons/'  %}

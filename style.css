@@ -11,6 +11,10 @@
   background-color: #0055ff;
 }
 
+input.search {
+  outline: none;
+}
+
 .button {
   display: inline-block;
   padding: 1rem 2rem;
