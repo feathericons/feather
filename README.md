@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/feather-icons.svg?style=flat-square)](https://www.npmjs.com/package/feather-icons)
 [![npm](https://img.shields.io/npm/dm/feather-icons.svg?style=flat-square)](https://npm-stat.com/charts.html?package=feather-icons&from=2017-06-01)
 [![Code Climate](https://img.shields.io/codeclimate/github/colebemis/feather.svg?style=flat-square)](https://codeclimate.com/github/colebemis/feather)
-[![CDNJS version](https://img.shields.io/cdnjs/v/feather-icons.svg)](https://cdnjs.com/libraries/feather-icons)
+[![CDNJS version](https://img.shields.io/cdnjs/v/feather-icons.svg?style=flat-square)](https://cdnjs.com/libraries/feather-icons)
 
 ## What is Feather?
 
