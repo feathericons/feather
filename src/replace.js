@@ -32,13 +32,11 @@ function replaceElement(element, options) {
   const key = element.getAttribute('data-feather');
 
   if (!key) {
-    console.error('The required `data-feather` attribute has no value.');
-    return;
+    throw new Error('The required `data-feather` attribute has no value.');
   }
 
   if (!icons[key]) {
-    console.error(`No icon matching '${key}'. See the complete list of icons at https://feathericons.com`);
-    return;
+    throw new Error(`No icon matching '${key}'. See the complete list of icons at https://feathericons.com`);
   }
 
   const elementClassAttr = element.getAttribute('class') || '';
