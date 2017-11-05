@@ -1,3 +1,4 @@
+{% assign tags = site.data.tags[include.icon.basename] | split: ", " | join " " %}
 <li>
   <a
     href="{{ include.icon.path }}"
@@ -5,6 +6,7 @@
     download
     onclick="ga('send', 'event', 'download', 'click', '{{ include.icon.basename }}');">
     <span class="svg flex-none lh-none">{% include_relative {{ include.icon.path }} %}</span>
-    <span class="ml3 lh-copy f6 f5-ns tc black-60 ellipse">{{ include.icon.basename }}</span>
+    <span class="icon-name ml3 lh-copy f6 f5-ns tc black-60 ellipse">{{ include.icon.basename }}</span>
+    <span class="icon-tags dn">{{tags}}</span>
   </a>
 </li>
