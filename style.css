@@ -11,10 +11,6 @@
   background-color: #0055ff;
 }
 
-input.search {
-  outline: none;
-}
-
 .button {
   display: inline-block;
   padding: 1rem 2rem;
@@ -106,6 +102,7 @@ input.search {
 }
 
 .carbon-img {
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   margin-right: 1rem;
