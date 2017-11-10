@@ -1,9 +1,4 @@
-/**
- * @file Processes all svg files in the `icons` directory.
- */
-
 /* eslint-disable import/no-extraneous-dependencies */
-import fs from 'fs';
 import path from 'path';
 import Svgo from 'svgo';
 import cheerio from 'cheerio';
@@ -11,22 +6,29 @@ import { format } from 'prettier';
 
 import DEFAULT_ATTRIBUTES from '../src/default-attributes.json';
 
-fs
-  .readdirSync(path.resolve(__dirname, '../icons'))
-  .filter(file => path.extname(file) === '.svg')
-  .forEach(svgFile => {
-    const svg = fs.readFileSync(path.resolve(__dirname, '../icons', svgFile));
+/**
+ * Process all SVGs in directory.
+ * @param {Object} fs - File system.
+ * @param {string} dir - A path to a directory containing SVGs to be processed.
+ */
+function processSvgs(fs, dir) {
+  fs
+    .readdirSync(dir)
+    .filter(file => path.extname(file) === '.svg')
+    .forEach(svgFile => {
+      const svg = fs.readFileSync(path.resolve(__dirname, dir, svgFile));
 
-    optimize(svg)
-      .then(setAttributes)
-      .then(format)
-      // remove semicolon inserted by prettier
-      // because prettier thinks it's formatting JSX not HTML
-      .then(svg => svg.replace(/;/g, ''))
-      .then(svg =>
-        fs.writeFileSync(path.resolve(__dirname, `../icons/${svgFile}`), svg),
-      );
-  });
+      optimize(svg)
+        .then(setAttributes)
+        .then(format)
+        // remove semicolon inserted by prettier
+        // because prettier thinks it's formatting JSX not HTML
+        .then(svg => svg.replace(/;/g, ''))
+        .then(svg =>
+          fs.writeFileSync(path.resolve(__dirname, dir, svgFile), svg),
+        );
+    });
+}
 
 /**
  * Optimize SVG with `svgo`.
@@ -61,3 +63,5 @@ function setAttributes(svg) {
 
   return $('body').html();
 }
+
+export default processSvgs;
