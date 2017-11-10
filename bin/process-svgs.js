@@ -34,7 +34,6 @@ function processSvgs(fs, dir) {
  * @returns {RSVP.Promise<string>}
  */
 function optimize(svg) {
-  console.log(svg);
   const svgo = new Svgo({
     plugins: [
       { convertShapeToPath: false },
