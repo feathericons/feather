@@ -16,7 +16,7 @@ function processSvgs(fs, dir) {
     .readdirSync(dir)
     .filter(file => path.extname(file) === '.svg')
     .forEach(svgFile => {
-      const svg = fs.readFileSync(path.resolve(__dirname, dir, svgFile));
+      const svg = fs.readFileSync(path.join(dir, svgFile));
 
       optimize(svg)
         .then(setAttributes)
@@ -24,9 +24,7 @@ function processSvgs(fs, dir) {
         // remove semicolon inserted by prettier
         // because prettier thinks it's formatting JSX not HTML
         .then(svg => svg.replace(/;/g, ''))
-        .then(svg =>
-          fs.writeFileSync(path.resolve(__dirname, dir, svgFile), svg),
-        );
+        .then(svg => fs.writeFileSync(path.join(dir, svgFile), svg));
     });
 }
 
@@ -36,6 +34,7 @@ function processSvgs(fs, dir) {
  * @returns {RSVP.Promise<string>}
  */
 function optimize(svg) {
+  console.log(svg);
   const svgo = new Svgo({
     plugins: [
       { convertShapeToPath: false },
