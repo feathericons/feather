@@ -2,13 +2,14 @@
  * @file Processes all svg files in the `icons` directory.
  */
 
+/* eslint-disable import/no-extraneous-dependencies */
 import fs from 'fs';
 import path from 'path';
 import Svgo from 'svgo';
 import cheerio from 'cheerio';
 import { format } from 'prettier';
 
-import DEFAULT_ATTRIBUTES from '../src/default-attributes';
+import DEFAULT_ATTRIBUTES from '../src/default-attributes.json';
 
 fs
   .readdirSync(path.resolve(__dirname, '../icons'))
