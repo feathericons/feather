@@ -3,18 +3,7 @@
  */
 
 import icons from '../dist/icons.json';
-
-const DEFAULT_OPTIONS = {
-  xmlns: 'http://www.w3.org/2000/svg',
-  width: 24,
-  height: 24,
-  viewBox: '0 0 24 24',
-  fill: 'none',
-  stroke: 'currentColor',
-  'stroke-width': 2,
-  'stroke-linecap': 'round',
-  'stroke-linejoin': 'round',
-};
+import DEFAULT_ATTRIBUTES from './default-attributes.json';
 
 /**
  * Create an SVG string.
@@ -31,7 +20,7 @@ export default function toSvg(key, options = {}) {
     throw new Error(`No icon matching '${key}'. See the complete list of icons at https://feathericons.com`);
   }
 
-  const combinedOptions = Object.assign({}, DEFAULT_OPTIONS, options);
+  const combinedOptions = Object.assign({}, DEFAULT_ATTRIBUTES, options);
 
   combinedOptions.class = addDefaultClassNames(combinedOptions.class, key);
 
