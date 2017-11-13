@@ -36,10 +36,8 @@ function optimize(svg) {
     ],
   });
 
-  return new Promise((resolve, reject) => {
-    svgo.optimize(svg, ({ data }) => {
-      resolve(data);
-    });
+  return new Promise(resolve => {
+    svgo.optimize(svg, ({ data }) => resolve(data));
   });
 }
 
