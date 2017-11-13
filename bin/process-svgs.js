@@ -4,12 +4,12 @@ import path from 'path';
 
 import processSvg from './process-svg';
 
-const DIR = path.resolve(__dirname, '../icons');
+const ICONS_DIR = path.resolve(__dirname, '../icons');
 
 fs
-  .readdirSync(DIR)
+  .readdirSync(ICONS_DIR)
   .filter(file => path.extname(file) === '.svg')
   .forEach(svgFile => {
-    const svg = fs.readFileSync(path.join(DIR, svgFile));
-    processSvg(svg).then(svg => fs.writeFileSync(path.join(DIR, svgFile), svg));
+    const svg = fs.readFileSync(path.join(ICONS_DIR, svgFile));
+    processSvg(svg).then(svg => fs.writeFileSync(path.join(ICONS_DIR, svgFile), svg));
   });
