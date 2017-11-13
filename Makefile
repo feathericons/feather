@@ -1,12 +1,15 @@
 src_files := src/*.js
 src_dir   := src
 
-.PHONY: all lint build
+.PHONY: all lint test build
 
-all: lint build
+all: lint test build
 
 lint: dist/icons.json
 	./node_modules/.bin/eslint .
+
+test:
+	./node_modules/.bin/jest
 
 build: dist/feather.js dist/feather.min.js dist/icons
 
