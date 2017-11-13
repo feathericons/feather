@@ -7,9 +7,9 @@
     "dist"
   ],
   "scripts": {
-    "test": "jest",
     "all": "make",
     "lint": "make lint",
+    "test": "make test",
     "build": "make build",
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
