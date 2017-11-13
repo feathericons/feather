@@ -1,3 +1,4 @@
+/* eslint-env jest */
 import processSvg from '../process-svg';
 
 test('processes SVG correctly', () => {
