@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import DEFAULT_ATTRIBUTES from './default-attributes.json';
 
 class Icon {
-  constructor(name, contents, tags) {
+  constructor(name, contents, tags = []) {
     this.name = name;
     this.contents = contents;
     this.tags = tags;
