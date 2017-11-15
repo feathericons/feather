@@ -28,6 +28,18 @@ class Icon {
       this.contents
     }</svg>`;
   }
+
+  /**
+   * Return string representation of an `Icon`.
+   *
+   * Added for backward compatibility. If old code expects `feather.icons.<name>`
+   * to be a string, `toString()` will get implicitly called.
+   *
+   * @returns {string}
+   */
+  toString() {
+    return this.contents;
+  }
 }
 
 /**
