@@ -13,6 +13,10 @@ class Icon {
     };
   }
 
+  /**
+   * Create an SVG string.
+   * @param {Object} attributes
+   */
   toSvg(attributes = {}) {
     const combinedAttributes = {
       ...this.attributes,
@@ -31,7 +35,6 @@ class Icon {
  * @param {Object} attributes
  * @returns {string}
  */
-// TODO: move to utils directory
 function attributesToString(attributes) {
   return Object.keys(attributes)
     .map(key => `${key}="${attributes[key]}"`)
