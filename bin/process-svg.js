@@ -3,7 +3,7 @@ import Svgo from 'svgo';
 import cheerio from 'cheerio';
 import { format } from 'prettier';
 
-import DEFAULT_ATTRIBUTES from '../src/default-attributes.json';
+import DEFAULT_ATTRS from '../src/default-attrs.json';
 
 /**
  * Process SVG string.
@@ -13,7 +13,7 @@ import DEFAULT_ATTRIBUTES from '../src/default-attributes.json';
 function processSvg(svg) {
   return (
     optimize(svg)
-      .then(setAttributes)
+      .then(setAttrs)
       .then(format)
       // remove semicolon inserted by prettier
       // because prettier thinks it's formatting JSX not HTML
@@ -46,11 +46,11 @@ function optimize(svg) {
  * @param {string} svg - An SVG string.
  * @returns {string}
  */
-function setAttributes(svg) {
+function setAttrs(svg) {
   const $ = cheerio.load(svg);
 
-  Object.keys(DEFAULT_ATTRIBUTES).forEach(key =>
-    $('svg').attr(key, DEFAULT_ATTRIBUTES[key]),
+  Object.keys(DEFAULT_ATTRS).forEach(key =>
+    $('svg').attr(key, DEFAULT_ATTRS[key]),
   );
 
   return $('body').html();

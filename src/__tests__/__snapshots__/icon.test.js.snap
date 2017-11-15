@@ -2,7 +2,7 @@
 
 exports[`constructs icon object correctly 1`] = `
 Icon {
-  "attributes": Object {
+  "attrs": Object {
     "class": "feather feather-test",
     "fill": "none",
     "height": 24,
@@ -27,7 +27,7 @@ Icon {
 
 exports[`constructs icon object correctly 2`] = `
 Icon {
-  "attributes": Object {
+  "attrs": Object {
     "class": "feather feather-test",
     "fill": "none",
     "height": 24,
