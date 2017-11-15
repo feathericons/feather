@@ -3,9 +3,7 @@
   "version": "0.0.0-development",
   "description": "Simply beautiful open source icons",
   "main": "dist/feather.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "all": "make",
     "lint": "make lint",
@@ -13,7 +11,11 @@
     "build": "make build",
     "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
