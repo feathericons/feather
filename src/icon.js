@@ -1,5 +1,4 @@
 import classnames from 'classnames';
-import paramCase from 'param-case';
 
 import DEFAULT_ATTRIBUTES from './default-attributes.json';
 
