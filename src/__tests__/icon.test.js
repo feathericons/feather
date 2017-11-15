@@ -3,13 +3,13 @@ import Icon from '../icon';
 
 const icon1 = new Icon(
   'test',
-  '<line x1="23" y1="1" x2="" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />',
+  '<line x1="23" y1="1" x2="1" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />',
   ['hello', 'world', 'foo', 'bar'],
 );
 
 const icon2 = new Icon(
   'test',
-  '<line x1="23" y1="1" x2="" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />',
+  '<line x1="23" y1="1" x2="1" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />',
 );
 
 test('constructs icon object correctly', () => {
