@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`copies placeholder element attributes to <svg> tag 1`] = `"<i data-feather=\\"icon1\\" id=\\"test\\" class=\\"foo bar\\" stroke-width=\\"1\\"></i>"`;
+
+exports[`copies placeholder element attributes to <svg> tag 2`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"1\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-icon1 foo bar\\" id=\\"test\\"><line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\"></line><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>"`;
+
+exports[`replaces [data-feather] elements with SVG markup 1`] = `"<i data-feather=\\"icon1\\"></i><span data-feather=\\"icon2\\"></span>"`;
+
+exports[`replaces [data-feather] elements with SVG markup 2`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-icon1\\"><line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\"></line><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg><svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-icon2\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"11\\"></circle></svg>"`;
+
+exports[`sets attributes passed as parameters 1`] = `"<i data-feather=\\"icon1\\" id=\\"test\\" class=\\"foo bar\\" stroke-width=\\"1\\"></i>"`;
+
+exports[`sets attributes passed as parameters 2`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"1\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-icon1 foo bar hello\\" color=\\"salmon\\" id=\\"test\\"><line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\"></line><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>"`;
