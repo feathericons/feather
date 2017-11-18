@@ -1,13 +1,9 @@
-/**
- * @file Builds `dist/icons` directory.
- */
-
 import fs from 'fs';
 import path from 'path';
-import { icons, toSvg } from '../src';
+import icons from '../src/icons';
 
-Object.keys(icons).forEach(icon => {
-  const svg = toSvg(icon);
+Object.keys(icons).forEach(name => {
+  const svg = icons[name].toSvg();
 
-  fs.writeFileSync(path.resolve(__dirname, `../dist/icons/${icon}.svg`), svg);
+  fs.writeFileSync(path.resolve(__dirname, `../dist/icons/${name}.svg`), svg);
 });
