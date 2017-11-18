@@ -9,7 +9,7 @@ import icons from './icons';
  */
 function toSvg(name, attrs = {}) {
   console.warn(
-    'feather.toSvg() is deprecated. Please use feather.icons.<name>.toSvg() instead.',
+    'feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead.',
   );
 
   if (!name) {
