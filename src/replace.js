@@ -1,4 +1,4 @@
-/* global document, DOMParser */
+/* eslint-env browser */
 import classnames from 'classnames/dedupe';
 
 import icons from './icons';

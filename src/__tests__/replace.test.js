@@ -1,4 +1,4 @@
-/* eslint-env jest */
+/* eslint-env jest, browser */
 import replace from '../replace';
 
 jest.mock('../../dist/icons.json', () => ({
