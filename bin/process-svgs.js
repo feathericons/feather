@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import fs from 'fs';
 import path from 'path';
 
@@ -11,5 +10,7 @@ fs
   .filter(file => path.extname(file) === '.svg')
   .forEach(svgFile => {
     const svg = fs.readFileSync(path.join(ICONS_DIR, svgFile));
-    processSvg(svg).then(svg => fs.writeFileSync(path.join(ICONS_DIR, svgFile), svg));
+    processSvg(svg).then(svg =>
+      fs.writeFileSync(path.join(ICONS_DIR, svgFile), svg),
+    );
   });
