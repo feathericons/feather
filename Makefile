@@ -20,7 +20,7 @@ dist:
 	mkdir dist
 
 dist/icons.json: node_modules dist icons icons/*.svg
-	./node_modules/.bin/babel-node bin/build-json.js
+	./node_modules/.bin/babel-node bin/build-icons-json.js
 
 dist/feather.js: dist/icons.json $(src_dir) $(src_files)
 	./node_modules/.bin/webpack --output-filename feather.js
