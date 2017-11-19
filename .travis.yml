@@ -8,6 +8,6 @@ node_js: 6
 before_script:
   - npm prune
 script:
-  - npm run all
+  - npm start
 after_success:
   - npm run semantic-release

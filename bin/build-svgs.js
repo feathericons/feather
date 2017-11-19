@@ -1,13 +1,13 @@
-/**
- * @file Builds `dist/icons` directory.
- */
-
 import fs from 'fs';
 import path from 'path';
-import { icons, toSvg } from '../src';
+import icons from '../src/icons';
 
-Object.keys(icons).forEach(icon => {
-  const svg = toSvg(icon);
+const OUT_DIR = path.resolve(__dirname, '../dist/icons');
 
-  fs.writeFileSync(path.resolve(__dirname, `../dist/icons/${icon}.svg`), svg);
+console.log(`Building SVGs in ${OUT_DIR}`); // eslint-disable-line no-console
+
+Object.keys(icons).forEach(name => {
+  const svg = icons[name].toSvg();
+
+  fs.writeFileSync(path.join(OUT_DIR, `${name}.svg`), svg);
 });

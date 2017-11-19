@@ -1,0 +1,7 @@
+{
+  "airplay": ["stream"],
+  "bell": ["alarm", "notification"],
+  "settings": ["cog", "edit", "gear", "preferences"],
+  "star": ["bookmark"],
+  "x": ["cancel", "close", "delete", "remove"]
+}
