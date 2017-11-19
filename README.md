@@ -218,7 +218,7 @@ feather.icons.circle.toSvg({ class: 'foo bar' })
 // '<svg class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
 ```
 
-[View Source](https://github.com/colebemis/feather/blob/master/src/icons.js)
+[View Source](https://github.com/colebemis/feather/blob/master/src/icon.js)
 
 ### `feather.replace([attrs])`
 
