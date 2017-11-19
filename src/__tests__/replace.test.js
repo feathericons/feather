@@ -7,17 +7,21 @@ jest.mock('../../dist/icons.json', () => ({
   icon2: '<circle cx="12" cy="12" r="11" />',
 }));
 
+function setInnerHTML(innerHTML) {
+  document.body.innerHTML = innerHTML;
+}
+
 test('replaces [data-feather] elements with SVG markup', () => {
-  document.body.innerHTML =
-    '<i data-feather="icon1"></i><span data-feather="icon2"></i>';
+  setInnerHTML('<i data-feather="icon1"></i><span data-feather="icon2"></i>');
   expect(document.body.innerHTML).toMatchSnapshot();
   replace();
   expect(document.body.innerHTML).toMatchSnapshot();
 });
 
 test('copies placeholder element attributes to <svg> tag', () => {
-  document.body.innerHTML =
-    '<i data-feather="icon1" id="test" class="foo bar" stroke-width="1"></i>';
+  setInnerHTML(
+    '<i data-feather="icon1" id="test" class="foo bar" stroke-width="1"></i>',
+  );
   expect(document.body.innerHTML).toMatchSnapshot();
   replace();
   expect(document.body.innerHTML).toMatchSnapshot();
