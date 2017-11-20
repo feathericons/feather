@@ -1,11 +1,17 @@
 {
-  "extends": "airbnb-base",
-  "plugins": ["import"],
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["import", "prettier"],
   "rules": {
-    "arrow-parens": ["error", "as-needed"],
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "no-param-reassign": "off",
     "no-shadow": "off",
-    "no-use-before-define": "off"
+    "no-use-before-define": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ]
   }
 }
