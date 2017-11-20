@@ -11,15 +11,22 @@
     "build": "./bin/build.sh",
     "lint": "eslint .",
     "test": "jest",
-    "precommit": "lint-staged",
-    "commitmsg": "validate-commit-msg",
     "cm": "git-cz",
+    "precommit": "lint-staged",
+    "commitmsg": "commitlint --edit",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "classnames": "^2.2.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^5.0.0",
+    "@commitlint/config-angular": "^5.0.0",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -46,11 +53,6 @@
     "svgo": "^0.7.2",
     "validate-commit-msg": "^2.12.1",
     "webpack": "^3.0.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   },
   "repository": {
     "type": "git",
