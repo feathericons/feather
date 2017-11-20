@@ -1,6 +1,6 @@
 # Feather
 
-[![Travis branch](https://img.shields.io/travis/colebemis/feather/master.svg?style=flat-square)](https://travis-ci.org/colebemis/feather)
+[![Travis branch](https://img.shields.io/travis/feathericons/feather/master.svg?style=flat-square)](https://travis-ci.org/colebemis/feather)
 [![npm](https://img.shields.io/npm/v/feather-icons.svg?style=flat-square)](https://www.npmjs.com/package/feather-icons)
 [![npm](https://img.shields.io/npm/dm/feather-icons.svg?style=flat-square)](https://npm-stat.com/charts.html?package=feather-icons&from=2017-06-01)
 [![CDNJS version](https://img.shields.io/cdnjs/v/feather-icons.svg?style=flat-square)](https://cdnjs.com/libraries/feather-icons)

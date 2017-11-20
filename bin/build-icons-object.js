@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import path from 'path';
 import cheerio from 'cheerio';
+import { minify } from 'html-minifier';
 
 /**
  * Build an object in the format: `{ <name>: <contents> }`.
@@ -28,7 +29,7 @@ function buildIconsObject(svgFiles, getSvg) {
  */
 function getSvgContents(svg) {
   const $ = cheerio.load(svg);
-  return $('svg').html();
+  return minify($('svg').html(), { collapseWhitespace: true });
 }
 
 export default buildIconsObject;
