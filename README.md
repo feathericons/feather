@@ -329,5 +329,3 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 ## License
 
 Feather is licensed under the [MIT License](https://github.com/colebemis/feather/blob/master/LICENSE).
-
-[👋](mailto:cole@colebemis.com)
