@@ -17,7 +17,7 @@ npm install feather-icons
 
 **Sponsored by**
 
-<a href="https://stdlib.com" target="_blank">
+<a href="https://stdlib.com">
   <img src="https://stdlib.com/static/images/stdlib-logo-wordmark-128.png" width="128" />
 </a>
 
