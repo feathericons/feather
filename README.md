@@ -31,7 +31,7 @@ npm install feather-icons
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
-	* [[DEPRECATED] `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
+	* [[Deprecated] `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Related Projects](#related-projects)
@@ -287,7 +287,7 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 
 ---
 
-### [DEPRECATED] `feather.toSvg(name, [attrs])`
+### [Deprecated] `feather.toSvg(name, [attrs])`
 
 > **Note:** `feather.toSvg()` is deprecated. Please use `feather.icons[name].toSvg()` instead.
 
