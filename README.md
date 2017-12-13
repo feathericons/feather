@@ -164,7 +164,7 @@ See the [API Reference](#api-reference) for more information about the available
 
 ### `feather.icons`
 
-An object with information about every icon.
+An object with data about every icon.
 
 #### Usage
 
@@ -172,7 +172,7 @@ An object with information about every icon.
 feather.icons.x
 // {
 //    name: 'x',
-//    contents: '<line ... /><line ... />`,
+//    contents: '<line ... /><line ... />',
 //    tags: ['cancel', 'close', 'delete', 'remove'],
 //    attrs: {
 //      class: 'feather feather-x',
@@ -189,10 +189,12 @@ feather.icons.x
 // }
 
 feather.icons.x.toString()
-// '<line ... /><line ... />`
+// '<line ... /><line ... />'
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/icons.js)
+
+---
 
 ### `feather.icons[name].toSvg([attrs])`
 
@@ -218,6 +220,8 @@ feather.icons.circle.toSvg({ class: 'foo bar' })
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/icon.js)
+
+---
 
 ### `feather.replace([attrs])`
 
@@ -274,6 +278,8 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/replace.js)
+
+---
 
 ### [DEPRECATED] `feather.toSvg(name, [attrs])`
 
