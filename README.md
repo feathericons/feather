@@ -9,11 +9,17 @@
 
 Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
 
-**[feathericons.com](https://feathericons.com)**
+https://feathericons.com
 
-```
+```sh
 npm install feather-icons
 ```
+
+**Sponsored by**
+
+<a href="https://stdlib.com" target="_blank">
+  <img src="https://stdlib.com/static/images/stdlib-logo-wordmark-128.png" width="128" />
+</a>
 
 ## Table of Contents
 
