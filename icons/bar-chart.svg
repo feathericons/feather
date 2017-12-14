@@ -9,7 +9,7 @@
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <rect x="18" y="3" width="4" height="18" />
-  <rect x="10" y="8" width="4" height="13" />
-  <rect x="2" y="13" width="4" height="8" />
+  <line x1="12" y1="20" x2="12" y2="10" />
+  <line x1="18" y1="20" x2="18" y2="4" />
+  <line x1="6" y1="20" x2="6" y2="16" />
 </svg>
