@@ -9,6 +9,6 @@
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <line x1="6" y1="18" x2="18" y2="6" />
-  <polyline points="9 6 18 6 18 15" />
+  <line x1="7" y1="17" x2="17" y2="7" />
+  <polyline points="7 7 17 7 17 17" />
 </svg>
