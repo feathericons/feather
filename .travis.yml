@@ -4,8 +4,10 @@ cache:
     - node_modules
 notifications:
   email: false
-node_js: 6
+node_js: 8
 before_script:
   - npm prune
+script:
+  - npm start
 after_success:
   - npm run semantic-release
