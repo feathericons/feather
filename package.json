@@ -34,7 +34,7 @@
     "babel-register": "^6.24.1",
     "cheerio": "^1.0.0-rc.2",
     "commitizen": "^2.9.6",
-    "core-js": "^2.4.1",
+    "core-js": "^2.5.3",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
