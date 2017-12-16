@@ -36,7 +36,7 @@
     "commitizen": "^2.9.6",
     "core-js": "^2.5.3",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^4.0.0",
+    "eslint": "^4.13.1",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.5.0",
