@@ -75,7 +75,7 @@
   "log-in": ["sign in", "arrow"],
   "log-out": ["sign out", "arrow"],
   "mail": ["email"],
-  "map-pin": ["location", "navigation", "travel", "markep"],
+  "map-pin": ["location", "navigation", "travel", "marker"],
   "map": ["location", "navigation", "travel"],
   "maximize": ["fullscreen"],
   "maximize-2": ["fullscreen", "arrows"],
