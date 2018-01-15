@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^5.2.5",
-    "@commitlint/config-angular": "^5.1.1",
+    "@commitlint/config-angular": "^6.0.2",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
