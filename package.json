@@ -25,7 +25,7 @@
     "classnames": "^2.2.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^5.2.5",
+    "@commitlint/cli": "^6.0.2",
     "@commitlint/config-angular": "^5.1.1",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
