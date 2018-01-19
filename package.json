@@ -48,7 +48,7 @@
     "npm-run-all": "^4.1.2",
     "prettier": "^1.8.2",
     "rimraf": "^2.6.2",
-    "semantic-release": "^8.2.0",
+    "semantic-release": "^12.2.2",
     "svgo": "^0.7.2",
     "webpack": "^3.10.0"
   },
