@@ -120,6 +120,42 @@ Call the `feather.replace()` method.
 
 All elements that have a `data-feather` attribute will be replaced with SVG markup corresponding to their `data-feather` attribute value. See the [API Reference](#api-reference) for more information about `feather.replace()`.
 
+#### 5. SVG Sprite
+A SVG Sprite is also provided, which can be used as following:
+```html
+<svg class="feather feather-[iconName]"
+  width="24"
+  height="24"  
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <use xlink:href="feather-sprite.svg#[iconName]"/>
+</svg>
+```
+Where `iconName` is the name of the icon you want to display.
+
+Same result but using a CSS class:
+```css
+.feather-default {
+  width: 24px; 
+  height: 24px; 
+  stroke: currentColor; 
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: none
+}
+```
+```html
+<svg class="feather-default feather feather-[iconName]">
+  <use xlink:href="feather-sprite.svg#[iconName]"/>
+</svg>
+```
+This way 
+
 ### Node
 #### 1. Install
 
