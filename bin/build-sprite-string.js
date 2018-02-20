@@ -17,6 +17,11 @@ const svgStartTag = `<svg xmlns="${defaultAttrs.xmlns}">
 
 const svgEndTag = ' </defs>\n</svg>';
 
+/**
+ * Renders the inner sprites as SVG Symbols
+ * @param {object} icons the icons object
+ * @returns {string} the rendered string with SVG symbols
+ */
 export default function buildSpriteString(icons) {
   const symbols = Object.keys(icons)
     .map(icon => toSvgSymbol(icon, icons[icon]))
