@@ -27,6 +27,7 @@ npm install feather-icons
 * [Usage](#usage)
   * [Client-side](#client-side)
   * [Node](#node)
+  * [SVG Sprite](#svg-sprite)
 * [API Reference](#api-reference)
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
@@ -192,7 +193,7 @@ Same result but using a CSS class:
   stroke-width: 2; 
   stroke-linecap: round; 
   stroke-linejoin: round; 
-  fill: none
+  fill: none;
 }
 ```
 ```html
