@@ -13,8 +13,7 @@
     "test": "jest",
     "cm": "git-cz",
     "precommit": "lint-staged",
-    "commitmsg": "commitlint --edit",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commitmsg": "commitlint --edit"
   },
   "config": {
     "commitizen": {

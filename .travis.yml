@@ -9,5 +9,8 @@ before_script:
   - npm prune
 script:
   - npm start
-after_success:
-  - npm run semantic-release
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
