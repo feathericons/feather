@@ -1,8 +1,7 @@
 import defaultAttrs from '../src/default-attrs.json';
 
-const svgStartTag = `<svg xmlns="${defaultAttrs.xmlns}">
-  <defs>\n`;
-const svgEndTag = ' </defs>\n</svg>';
+const svgStartTag = `<svg xmlns="${defaultAttrs.xmlns}">\n<defs>\n`;
+const svgEndTag = '</defs>\n</svg>';
 
 /**
  * Renders the inner sprites as SVG Symbols
@@ -12,7 +11,7 @@ const svgEndTag = ' </defs>\n</svg>';
 function buildSpriteString(icons) {
   const symbols = Object.keys(icons)
     .map(icon => toSvgSymbol(icon, icons[icon]))
-    .reduce((spriteString, symbolString) => spriteString + symbolString, '');
+    .join('');
 
   return svgStartTag + symbols + svgEndTag;
 }
@@ -24,9 +23,8 @@ function buildSpriteString(icons) {
  * @returns {string} the rendered SVG symbol
  */
 function toSvgSymbol(name, contents) {
-  return `    <symbol id="${name}" viewBox="${defaultAttrs.viewBox}">
-      ${contents}
-    </symbol>\n`;
+  return `<symbol id="${name}" viewBox="${defaultAttrs.viewBox}">
+${contents}\n</symbol>\n`;
 }
 
 export default buildSpriteString;
