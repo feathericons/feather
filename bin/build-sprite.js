@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import icons from '../dist/icons.json';
-import buildSprite from './build-sprite-function';
+import buildSprite from './build-sprite-string';
 
 const sprite = buildSprite(icons);
 

@@ -2,8 +2,9 @@ import defaultAttrs from '../src/default-attrs.json';
 
 /**
  * Renders a SVG symbol tag
- * @param {*} name The name of the icon
- * @param {*} contents The contents of the icon
+ * @param {string} name The name of the icon
+ * @param {string} contents The contents of the icon
+ * @returns {string} the rendered SVG symbol
  */
 function toSvgSymbol(name, contents) {
   return `    <symbol id="${name}" viewBox="${defaultAttrs.viewBox}">

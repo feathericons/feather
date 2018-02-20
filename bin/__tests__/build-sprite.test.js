@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import buildSprite from '../build-sprite-function';
+import buildSprite from '../build-sprite-string';
 
 const icons = {
   icon1:
