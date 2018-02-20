@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import buildSprite from '../build-sprite-string';
+import buildSpriteString from '../build-sprite-string';
 
 const icons = {
   icon1:
@@ -8,5 +8,5 @@ const icons = {
 };
 
 test('builds sprite correctly', () => {
-  expect(buildSprite(icons)).toMatchSnapshot();
+  expect(buildSpriteString(icons)).toMatchSnapshot();
 });

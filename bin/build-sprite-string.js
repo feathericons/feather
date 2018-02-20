@@ -17,7 +17,7 @@ const svgStartTag = `<svg xmlns="${defaultAttrs.xmlns}">
 
 const svgEndTag = ' </defs>\n</svg>';
 
-export default function buildSprite(icons) {
+export default function buildSpriteString(icons) {
   const symbols = Object.keys(icons)
     .map(icon => toSvgSymbol(icon, icons[icon]))
     .reduce((spriteString, symbolString) => spriteString + symbolString, '');

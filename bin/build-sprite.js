@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import icons from '../dist/icons.json';
-import buildSprite from './build-sprite-string';
+import buildSpriteString from './build-sprite-string';
 
-const sprite = buildSprite(icons);
+const sprite = buildSpriteString(icons);
 
 const OUT_FILE = path.resolve(__dirname, '../dist/feather-sprite.svg');
 
