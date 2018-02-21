@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`builds sprite correctly 1`] = `
+"<svg xmlns=\\"http://www.w3.org/2000/svg\\">
+<defs>
+<symbol id=\\"icon1\\" viewBox=\\"0 0 24 24\\">
+<line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\"></line><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line>
+</symbol>
+<symbol id=\\"icon2\\" viewBox=\\"0 0 24 24\\">
+<circle cx=\\"12\\" cy=\\"12\\" r=\\"11\\"></circle>
+</symbol>
+</defs>
+</svg>"
+`;

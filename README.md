@@ -27,6 +27,7 @@ npm install feather-icons
 * [Usage](#usage)
   * [Client-side](#client-side)
   * [Node](#node)
+  * [SVG Sprite](#svg-sprite)
 * [API Reference](#api-reference)
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
@@ -165,6 +166,42 @@ feather.icons.x.toSvg({ class: 'foo bar', 'stroke-width': 1, color: 'red' })
 ```
 
 See the [API Reference](#api-reference) for more information about the available properties and methods of the `feather` object.
+
+### SVG Sprite
+A SVG Sprite is also provided, which can be used as following:
+```html
+<svg class="feather feather-[iconName]"
+  width="24"
+  height="24"  
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <use xlink:href="feather-sprite.svg#[iconName]"/>
+</svg>
+```
+Where `iconName` is the name of the icon you want to display.
+
+Same result but using a CSS class:
+```css
+.feather {
+  width: 24px; 
+  height: 24px; 
+  stroke: currentColor; 
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: none;
+}
+```
+```html
+<svg class="feather feather-[iconName]">
+  <use xlink:href="feather-sprite.svg#[iconName]"/>
+</svg>
+```
+Prefer using CSS classes to keep things organized.
 
 ## API Reference
 
