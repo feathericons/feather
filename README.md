@@ -172,7 +172,7 @@ A SVG Sprite is also provided, which can be used as following:
 ```html
 <svg class="feather feather-[iconName]"
   width="24"
-  height="24"  
+  height="24"
   fill="none"
   stroke="currentColor"
   stroke-width="2"
@@ -187,12 +187,12 @@ Where `iconName` is the name of the icon you want to display.
 Same result but using a CSS class:
 ```css
 .feather {
-  width: 24px; 
-  height: 24px; 
-  stroke: currentColor; 
-  stroke-width: 2; 
-  stroke-linecap: round; 
-  stroke-linejoin: round; 
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   fill: none;
 }
 ```
@@ -321,6 +321,74 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/replace.js)
+
+---
+
+### `feather.append([attrs])`
+
+Appends the svgs to the element, instead of replacing the element.
+_changes the `data-feather-append` to `data-feather-appended` to prevent prepending multiple svgs_
+
+#### Parameters
+
+| Name       | Type   | Description |
+| ---------- | ------ | ----------- |
+| `attrs` (optional)  | Object | Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+#### Usage
+
+> **Note:** `feather.append()` only works in a browser environment.
+
+Simple usage:
+```html
+<i data-feather-append="circle"></i>
+<!--
+<i> will result in:
+<i data-feather-appended="circle">
+  <svg class="feather feather-circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+</i>
+-->
+
+<script>
+  feather.append()
+</script>
+```
+
+[View Source](https://github.com/colebemis/feather/blob/master/src/append.js)
+
+---
+
+### `feather.prepend([attrs])`
+
+Prepends the svgs to the element, instead of replacing the element.
+_changes the `data-feather-prepend` to `data-feather-prepended` to prevent prepending multiple svgs_
+
+#### Parameters
+
+| Name       | Type   | Description |
+| ---------- | ------ | ----------- |
+| `attrs` (optional)  | Object | Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+#### Usage
+
+> **Note:** `feather.prepend()` only works in a browser environment.
+
+Simple usage:
+```html
+<i data-feather-prepend="circle"></i>
+<!--
+<i> will result in:
+<i data-feather-prepended="circle">
+  <svg class="feather feather-circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+</i>
+-->
+
+<script>
+  feather.prepend()
+</script>
+```
+
+[View Source](https://github.com/colebemis/feather/blob/master/src/append.js)
 
 ---
 
