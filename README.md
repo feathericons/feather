@@ -172,7 +172,7 @@ A SVG Sprite is also provided, which can be used as following:
 ```html
 <svg class="feather feather-[iconName]"
   width="24"
-  height="24"
+  height="24"  
   fill="none"
   stroke="currentColor"
   stroke-width="2"
@@ -187,12 +187,12 @@ Where `iconName` is the name of the icon you want to display.
 Same result but using a CSS class:
 ```css
 .feather {
-  width: 24px;
-  height: 24px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  width: 24px; 
+  height: 24px; 
+  stroke: currentColor; 
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
   fill: none;
 }
 ```
