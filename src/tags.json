@@ -151,6 +151,7 @@
   "x-circle": ["cancel", "close", "delete", "remove", "times"],
   "x-square": ["cancel", "close", "delete", "remove", "times"],
   "x": ["cancel", "close", "delete", "remove", "times"],
+  "youtube": ["logo", "video", "play"],
   "zap-off": ["flash", "camera", "lightning"],
   "zap": ["flash", "camera", "lightning"]
 }
