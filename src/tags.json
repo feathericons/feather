@@ -53,6 +53,7 @@
   "folder-minus": ["directory"],
   "folder-plus": ["directory"],
   "folder": ["directory"],
+  "gift": ["present", "box", "birthday", "party"],
   "git-branch": ["code", "version control"],
   "git-commit": ["code", "version control"],
   "git-merge": ["code", "version control"],
