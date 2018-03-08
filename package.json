@@ -49,7 +49,7 @@
     "rimraf": "^2.6.2",
     "semantic-release": "^12.2.2",
     "svgo": "^0.7.2",
-    "webpack": "^3.10.0"
+    "webpack": "^4.1.1"
   },
   "repository": {
     "type": "git",
