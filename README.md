@@ -235,6 +235,8 @@ feather.icons.x.toString()
 // '<line ... /><line ... />'
 ```
 
+> **Note:** `x` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com). Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `feather.icons.x`). Instead, use bracket notation (e.g. `feather.icons['arrow-right']`).
+
 [View Source](https://github.com/colebemis/feather/blob/master/src/icons.js)
 
 ---
