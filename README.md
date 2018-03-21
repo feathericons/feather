@@ -25,7 +25,7 @@ npm install feather-icons
 
 * [Quick Start](#quick-start)
 * [Usage](#usage)
-  * [Client-side](#client-side)
+  * [Client-side JavaScript](#client-side-javascript)
   * [Node](#node)
   * [SVG Sprite](#svg-sprite)
 * [API Reference](#api-reference)
@@ -67,7 +67,7 @@ At its core, Feather is a collection of [SVG](https://svgontheweb.com/#svg) file
 
 The following are additional ways you can use Feather.
 
-### Client-side
+### Client-side JavaScript
 
 #### 1. Install
 
