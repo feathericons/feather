@@ -168,40 +168,58 @@ feather.icons.x.toSvg({ class: 'foo bar', 'stroke-width': 1, color: 'red' })
 See the [API Reference](#api-reference) for more information about the available properties and methods of the `feather` object.
 
 ### SVG Sprite
-A SVG Sprite is also provided, which can be used as following:
+
+#### 1. Install
+
+> **Note:** If you intend to use Feather with a CDN, you can skip this installation step.
+
+Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+
+```
+npm install feather-icons --save
+```
+
+Or just copy [`feather-sprite.svg`](https://unpkg.com/feather-icons/dist/feather-sprite.svg) into your project directory.
+
+#### 2. Use
+
+In your HTML, you can include an icon like so:
+
 ```html
-<svg class="feather feather-[iconName]"
+<svg
   width="24"
-  height="24"  
+  height="24"
   fill="none"
   stroke="currentColor"
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <use xlink:href="feather-sprite.svg#[iconName]"/>
+  <use xlink:href="path/to/feather-sprite.svg#circle"/>
 </svg>
 ```
-Where `iconName` is the name of the icon you want to display.
 
-Same result but using a CSS class:
+> **Note:** `circle` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com).
+
+However, this markup can be simplified using a simple CSS class to avoid repetition of SVG attributes between icons.
+
 ```css
 .feather {
-  width: 24px; 
-  height: 24px; 
-  stroke: currentColor; 
-  stroke-width: 2; 
-  stroke-linecap: round; 
-  stroke-linejoin: round; 
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   fill: none;
 }
 ```
+
 ```html
-<svg class="feather feather-[iconName]">
-  <use xlink:href="feather-sprite.svg#[iconName]"/>
+<svg class="feather">
+  <use xlink:href="path/to/dist/feather-sprite.svg#circle"/>
 </svg>
 ```
-Prefer using CSS classes to keep things organized.
 
 ## API Reference
 

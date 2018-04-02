@@ -1,30 +1,28 @@
 import defaultAttrs from '../src/default-attrs.json';
 
-const svgStartTag = `<svg xmlns="${defaultAttrs.xmlns}">\n<defs>\n`;
-const svgEndTag = '</defs>\n</svg>';
-
 /**
- * Renders the inner sprites as SVG Symbols
- * @param {object} icons the icons object
- * @returns {string} the rendered string with SVG symbols
+ * Build an SVG sprite string containing SVG symbols.
+ * @param {Object} icons
+ * @returns {string}
  */
 function buildSpriteString(icons) {
   const symbols = Object.keys(icons)
     .map(icon => toSvgSymbol(icon, icons[icon]))
     .join('');
 
-  return svgStartTag + symbols + svgEndTag;
+  return `<svg xmlns="${defaultAttrs.xmlns}"><defs>${symbols}</defs></svg>`;
 }
 
 /**
- * Renders a SVG symbol tag
- * @param {string} name The name of the icon
- * @param {string} contents The contents of the icon
- * @returns {string} the rendered SVG symbol
+ * Create an SVG symbol string.
+ * @param {string} name - Icon name
+ * @param {string} contents - SVG contents
+ * @returns {string}
  */
 function toSvgSymbol(name, contents) {
-  return `<symbol id="${name}" viewBox="${defaultAttrs.viewBox}">
-${contents}\n</symbol>\n`;
+  return `<symbol id="${name}" viewBox="${defaultAttrs.viewBox}">${
+    contents
+  }</symbol>`;
 }
 
 export default buildSpriteString;
