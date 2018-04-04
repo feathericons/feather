@@ -1,4 +1,4 @@
-import defaultAttrs from '../src/default-attrs.json';
+import DEFAULT_ATTRS from '../src/default-attrs.json';
 
 /**
  * Build an SVG sprite string containing SVG symbols.
@@ -10,7 +10,7 @@ function buildSpriteString(icons) {
     .map(icon => toSvgSymbol(icon, icons[icon]))
     .join('');
 
-  return `<svg xmlns="${defaultAttrs.xmlns}"><defs>${symbols}</defs></svg>`;
+  return `<svg xmlns="${DEFAULT_ATTRS.xmlns}"><defs>${symbols}</defs></svg>`;
 }
 
 /**
@@ -20,7 +20,7 @@ function buildSpriteString(icons) {
  * @returns {string}
  */
 function toSvgSymbol(name, contents) {
-  return `<symbol id="${name}" viewBox="${defaultAttrs.viewBox}">${
+  return `<symbol id="${name}" viewBox="${DEFAULT_ATTRS.viewBox}">${
     contents
   }</symbol>`;
 }
