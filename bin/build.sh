@@ -21,5 +21,5 @@ mkdir dist/icons
 ./node_modules/.bin/babel-node bin/build-svgs.js
 
 # Build JavaScript library
-./node_modules/.bin/webpack --output-filename feather.js
-./node_modules/.bin/webpack --output-filename feather.min.js -p
+./node_modules/.bin/webpack --output-filename feather.js --mode development
+./node_modules/.bin/webpack --output-filename feather.min.js --mode production

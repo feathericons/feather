@@ -1,12 +1,7 @@
-import path from 'path';
+const path = require('path');
 
-export default {
-  entry: [
-    'core-js/fn/array/from',
-    'core-js/fn/object/assign',
-    'core-js/fn/set',
-    path.resolve(__dirname, 'src/index.js'),
-  ],
+module.exports = {
+  entry: ['core-js/fn/array/from', path.resolve(__dirname, 'src/index.js')],
   output: {
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
