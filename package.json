@@ -7,10 +7,11 @@
     "dist"
   ],
   "scripts": {
-    "all": "npm-run-all --sequential build lint test",
+    "all": "npm-run-all --sequential build lint test:coverage",
     "build": "./bin/build.sh",
     "lint": "eslint .",
-    "test": "jest",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage",
     "cm": "git-cz",
     "precommit": "lint-staged",
     "commitmsg": "commitlint --edit"
