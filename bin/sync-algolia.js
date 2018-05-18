@@ -27,10 +27,10 @@ function syncAlgolia() {
   index.clearIndex((err, content) => {
     if (err) throw err;
     console.log(content);
-  });
 
-  index.addObjects(records, (err, content) => {
-    if (err) throw err;
-    console.log(content);
+    index.addObjects(records, (err, content) => {
+      if (err) throw err;
+      console.log(content);
+    });
   });
 }
