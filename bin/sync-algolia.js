@@ -8,10 +8,10 @@ if (
   process.env.TRAVIS_PULL_REQUEST === 'false' &&
   process.env.TRAVIS_BRANCH === 'master'
 ) {
-  console.log('Syncing Algolia records');
+  console.log('Syncing Algolia records...');
   syncAlgolia();
 } else {
-  console.log('Skipped Algolia sync');
+  console.log('Skipped Algolia sync.');
 }
 
 function syncAlgolia() {
