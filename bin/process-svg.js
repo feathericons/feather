@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import Svgo from 'svgo';
 import cheerio from 'cheerio';
 import { format } from 'prettier';

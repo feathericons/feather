@@ -5,7 +5,7 @@ import processSvg from './process-svg';
 
 const IN_DIR = path.resolve(__dirname, '../icons');
 
-console.log(`Processing SVGs in ${IN_DIR}`); // eslint-disable-line no-console
+console.log(`Processing SVGs in ${IN_DIR}`);
 
 fs
   .readdirSync(IN_DIR)
