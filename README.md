@@ -13,7 +13,7 @@ Feather is a collection of simply beautiful open source icons. Each icon is desi
 
 https://feathericons.com
 
-```sh
+```shell
 npm install feather-icons
 ```
 
@@ -77,7 +77,7 @@ The following are additional ways you can use Feather.
 
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
-```
+```shell
 npm install feather-icons --save
 ```
 
@@ -85,13 +85,15 @@ Or just copy [`feather.js`](https://unpkg.com/feather-icons/dist/feather.js) or 
 
 #### 2. Include
 
-Include `feather.js` or `feather.min.js` with a `<script>` tag. These files are located in the `dist` directory of the npm package.
+Include `feather.js` or `feather.min.js` with a `<script>` tag:
 
 ```html
 <script src="path/to/dist/feather.js"></script>
 ```
 
-Or load the script from a CDN provider.
+> **Note:** `feather.js` and `feather.min.js` are located in the `dist` directory of the npm package.
+
+Or load the script from a CDN provider:
 
 ```html
 <!-- choose one -->
@@ -103,7 +105,7 @@ After including the script, `feather` will be available as a global variable.
 
 #### 3. Use
 
-To use an icon on your page, add a `data-feather` attribute with the icon name to an element.
+To use an icon on your page, add a `data-feather` attribute with the icon name to an element:
 
 ```html
 <i data-feather="circle"></i>
@@ -113,7 +115,7 @@ See the complete list of icons at [feathericons.com](https://feathericons.com).
 
 #### 4. Replace
 
-Call the `feather.replace()` method.
+Call the `feather.replace()` method:
 
 ```html
 <script>
@@ -126,15 +128,15 @@ All elements that have a `data-feather` attribute will be replaced with SVG mark
 ### Node
 #### 1. Install
 
-Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm):
 
-```
+```shell
 npm install feather-icons --save
 ```
 
 #### 2. Require
 
-```javascript
+```js
 const feather = require('feather-icons')
 ```
 
@@ -157,7 +159,8 @@ feather.icons.x
 //      'stroke-width': 2,
 //      'stroke-linecap': 'round',
 //      'stroke-linejoin': 'round',
-//    }
+//    },
+//    toSvg: [Function],
 // }
 
 feather.icons.x.toSvg()
@@ -177,7 +180,7 @@ See the [API Reference](#api-reference) for more information about the available
 
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
-```
+```shell
 npm install feather-icons --save
 ```
 
@@ -185,7 +188,7 @@ Or just copy [`feather-sprite.svg`](https://unpkg.com/feather-icons/dist/feather
 
 #### 2. Use
 
-In your HTML, you can include an icon like so:
+Include an icon on your page with the following markup:
 
 ```html
 <svg
@@ -203,7 +206,7 @@ In your HTML, you can include an icon like so:
 
 > **Note:** `circle` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com).
 
-However, this markup can be simplified using a simple CSS class to avoid repetition of SVG attributes between icons.
+However, this markup can be simplified using a simple CSS class to avoid repetition of SVG attributes between icons:
 
 ```css
 .feather {
@@ -248,7 +251,8 @@ feather.icons.x
 //      'stroke-width': 2,
 //      'stroke-linecap': 'round',
 //      'stroke-linejoin': 'round',
-//    }
+//    },
+//    toSvg: [Function],
 // }
 
 feather.icons.x.toString()
@@ -273,7 +277,7 @@ Returns an SVG string.
 
 #### Usage
 
-```javascript
+```js
 feather.icons.circle.toSvg()
 // '<svg class="feather feather-circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
 
@@ -361,7 +365,7 @@ Returns an SVG string.
 
 #### Usage
 
-```javascript
+```js
 feather.toSvg('circle')
 // '<svg class="feather feather-circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
 
