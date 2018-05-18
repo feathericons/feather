@@ -10,6 +10,7 @@ before_script:
 script:
   - npm run all
 after_success:
+  - npx codecov
   - npx babel-node ./bin/sync-algolia.js
 deploy:
   provider: script

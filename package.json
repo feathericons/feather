@@ -21,6 +21,11 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
   "dependencies": {
     "classnames": "^2.2.5"
   },

@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import feather from '../..';
+import feather from '../index';
 
 test('has correct properties', () => {
   expect(feather).toHaveProperty('icons');
