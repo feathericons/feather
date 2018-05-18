@@ -4,8 +4,8 @@ import { minify } from 'html-minifier';
 
 /**
  * Build an object in the format: `{ <name>: <contents> }`.
- * @param {string[]} svgFiles - A list of file names.
- * @param {Function} getSvg - A function that returns the contents of an SVG file.
+ * @param {string[]} svgFiles - A list of filenames.
+ * @param {Function} getSvg - A function that returns the contents of an SVG file given a filename.
  * @returns {Object}
  */
 function buildIconsObject(svgFiles, getSvg) {
@@ -25,6 +25,7 @@ function buildIconsObject(svgFiles, getSvg) {
 /**
  * Get contents between opening and closing `<svg>` tags.
  * @param {string} svg
+ * @returns {string}
  */
 function getSvgContents(svg) {
   const $ = cheerio.load(svg);
