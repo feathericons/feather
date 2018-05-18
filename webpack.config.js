@@ -6,6 +6,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
     library: 'feather',
+    // Prevents webpack from referencing `window` in the UMD build
+    // Source: https://git.io/vppgU
+    globalObject: 'typeof self !== \'undefined\' ? self : this',
   },
   devtool: 'source-map',
   module: {
