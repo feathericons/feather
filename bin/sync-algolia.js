@@ -15,6 +15,7 @@ if (
 }
 
 function syncAlgolia() {
+  // ALGOLIA_ADMIN_KEY must be added as an environment variable in Travis CI
   const client = algolia(ALGOLIA_APP_ID, process.env.ALGOLIA_ADMIN_KEY);
 
   const index = client.initIndex('icons');
