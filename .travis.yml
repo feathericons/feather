@@ -8,7 +8,7 @@ node_js: 8
 before_script:
   - npm prune
 script:
-  - npm all
+  - npm run all
 after_success:
   - npx babel-node ./bin/sync-algolia.js
 deploy:
