@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "start": "npm-run-all --sequential build lint test",
+    "all": "npm-run-all --sequential build lint test",
     "build": "./bin/build.sh",
     "lint": "eslint .",
     "test": "jest",
