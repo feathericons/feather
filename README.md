@@ -377,7 +377,6 @@ feather.toSvg('circle', { class: 'foo bar' })
 ## Roadmap
 
 - [ ] Write icon design guidelines
-- [ ] Track code coverage
 - [ ] Improve SVG accessibility
 - [ ] Handle usage of custom icons
 - [ ] Add usage examples
