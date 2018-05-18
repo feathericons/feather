@@ -9,6 +9,8 @@ before_script:
   - npm prune
 script:
   - npm start
+after_success:
+  - npx babel-node ./bin/sync-algolia.js
 deploy:
   provider: script
   skip_cleanup: true

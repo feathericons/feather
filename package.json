@@ -26,6 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^5.2.5",
     "@commitlint/config-angular": "^5.1.1",
+    "algoliasearch": "^3.27.1",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
