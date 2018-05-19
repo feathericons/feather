@@ -21,15 +21,10 @@ function syncAlgolia() {
   const index = client.initIndex('icons');
   const indexTmp = client.initIndex('icons_tmp');
 
-  console.log('Copying target index into temporary index...');
-  client.copyIndex(
-    index.indexName,
-    indexTmp.indexName,
-    ['settings', 'synonyms', 'rules'],
-    err => {
-      if (err) throw err;
-    },
-  );
+  console.log('Copying target index settings into temporary index...');
+  client.copyIndex(index.indexName, indexTmp.indexName, ['settings'], err => {
+    if (err) throw err;
+  });
 
   const records = Object.keys(icons).map(name => ({
     name,
