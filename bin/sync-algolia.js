@@ -21,6 +21,11 @@ function syncAlgolia() {
   const index = client.initIndex('icons');
   const indexTmp = client.initIndex('icons_tmp');
 
+  index.setSettings({
+    searchableAttributes: ['unordered(name)', 'unordered(tags)'],
+    customRanking: ['asc(name)'],
+  });
+
   console.log('Copying target index settings into temporary index...');
   client.copyIndex(index.indexName, indexTmp.indexName, ['settings'], err => {
     if (err) throw err;
