@@ -275,6 +275,14 @@ Returns an SVG string.
 | --------- | ------ | ----------- |
 | `attrs` (optional) | Object |  Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
 
+> **Hint:** You might find these SVG attributes helpful for manipulating icons:
+> * [`color`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/color)
+> * [`width`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width)
+> * [`height`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height)
+> * [`stroke-width`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-width)
+> * [`stroke-linecap`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-linecap)
+> * [`stroke-linejoin`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-linejoin)
+
 #### Usage
 
 ```js
