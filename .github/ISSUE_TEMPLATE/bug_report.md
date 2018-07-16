@@ -9,16 +9,17 @@ Before reporting an issue, please search to see if someone has filed a similar i
 
 ## Prerequisites
 
-* Version of Feather:
+* Version:
 * Are you running from source/master:
 * Are you using a released build:
-* Which release are you using:
 * Operating system: 
-* 32 or 64 bits:
+* Bits:
 
 ## Step to reproduce
 
 *(Type here)*
+
+### Actual behavior
 
 ## Any message or error
 
@@ -28,3 +29,39 @@ Before reporting an issue, please search to see if someone has filed a similar i
 
 * Links
 * Screenshots
+
+
+Here is what a great bug report would look like:
+
+```
+## Prerequisites
+
+Version: Release v3.1.0
+Running from: Import using webpack
+Operating system: Mac OSX
+Bits: 64 bits
+
+## Step to reproduce
+
+ - Import `check` icon
+ - Add to a React component/view
+ - Run the react app
+ - Notice that the `check` isn't rendering correctly which seems a encoding problem
+ 
+### Actual behavior:
+
+ - Import `check` icon
+ - Add to a React component/view
+ - Run the react app
+ - Check is displayed with correct encoding (e.g UTF-8)
+
+## Any message or error
+
+No console output
+...
+
+## Resources
+
+No resources
+...
+```
