@@ -408,6 +408,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
  - [vue-feather-icon](https://github.com/mage3k/vue-feather-icon) - Feather icons as Vue components
+ - [figma-feather](https://github.com/mittalyashu/figma-feather) - Feather icons as a Figma library
 
 ## License
 
