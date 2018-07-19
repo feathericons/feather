@@ -37,24 +37,36 @@ When creating a new issue make sure to include the following:
 - A screenshot of any visual bug.
 
 Here is what a great bug report would look like:
+
 ```
-Check not rendering properly
+## Prerequisites
 
 Version: Release v3.1.0
-Downloaded from: Import using webpack
-OS: Mac OSX
+Running from: Import using webpack
+Operating system: Mac OSX
+Bits: 64 bits
 
-How to reproduce:
+## Step to reproduce
+
  - Import `check` icon
  - Add to a React component/view
  - Run the react app
  - Notice that the `check` isn't rendering correctly which seems a encoding problem
-Actual result:
+ 
+### Actual behavior:
+
  - Import `check` icon
  - Add to a React component/view
  - Run the react app
  - Check is displayed with correct encoding (e.g UTF-8)
 
+## Any message or error
+
 No console output
+...
+
+## Resources
+
+No resources
 ...
 ```
