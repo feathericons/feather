@@ -1,14 +1,18 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
-  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.7,4 L4.3,4 C2.43,4 1,5.48571429 1,7.42857143 L1,16.5714286 C1,18.5142857 2.43,20 4.3,20 L19.7,20 C21.57,20 23,18.5142857 23,16.5714286 L23,7.42857143 C23,5.48571429 21.57,4 19.7,4 Z M21,16.8 C21,17.52 20.55,18 19.875,18 L4.125,18 C3.45,18 3,17.52 3,16.8 L3,7.2 C3,6.48 3.45,6 4.125,6 L19.875,6 C20.55,6 21,6.48 21,7.2 L21,16.8 Z M14.84375,11.7518797 L10.46875,9.04511278 C10.375,8.98496241 10.25,8.98496241 10.15625,9.04511278 C10.0625,9.07518797 10,9.16541353 10,9.28571429 L10,14.6992481 C10,14.8195489 10.0625,14.9097744 10.15625,14.9699248 C10.21875,15 10.25,15 10.3125,15 C10.375,15 10.4375,14.9699248 10.46875,14.9398496 L14.84375,12.2330827 C14.9375,12.1729323 15,12.0827068 15,11.9924812 C15,11.9022556 14.9375,11.7819549 14.84375,11.7518797 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-youtube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
 </svg>

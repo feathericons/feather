@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / seat 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.6,15.0000236 C17.6,16.1045957 16.7045655,17.0000272 15.5999934,17.0000236 L8.39999344,17 C7.2954265,16.9999964 6.4,16.1045669 6.4,15 L6.4,14 L5,14 L5,19.0000236 C5,19.5965448 5.36313092,20.0000236 5.7,20.0000236 L18.3,20.0000236 C18.6368691,20.0000236 19,19.5965448 19,19.0000236 L19,14 L17.6,14 L17.6,15.0000236 Z M2,12 L7.5,12 C7.99705627,12 8.4,12.4477153 8.4,13 L8.4,15 L15.6,15.0000236 L15.6,13 C15.6,12.4477153 16.0029437,12 16.5,12 L22,12 C22.5522847,12 23,12.4477153 23,13 C23,13.5522847 22.5522847,14 22,14 L21,14 L21,19.0000236 C21,20.6568779 19.7911688,22.0000236 18.3,22.0000236 L5.7,22.0000236 C4.20883118,22.0000236 3,20.6568779 3,19.0000236 L3,14 L2,14 C1.44771525,14 1,13.5522847 1,13 C1,12.4477153 1.44771525,12 2,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-seat-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

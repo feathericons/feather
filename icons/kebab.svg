@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / kebab</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,10 C10.8666667,10 10,10.8666667 10,12 C10,13.1333333 10.8666667,14 12,14 C13.1333333,14 14,13.1333333 14,12 C14,10.8666667 13.1333333,10 12,10 Z M12,6 C13.1333333,6 14,5.13333333 14,4 C14,2.86666667 13.1333333,2 12,2 C10.8666667,2 10,2.86666667 10,4 C10,5.13333333 10.8666667,6 12,6 Z M12,18 C10.8666667,18 10,18.8666667 10,20 C10,21.1333333 10.8666667,22 12,22 C13.1333333,22 14,21.1333333 14,20 C14,18.8666667 13.1333333,18 12,18 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-kebab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>
