@@ -121,6 +121,7 @@
   "skip-forward": ["music"],
   "slash": ["ban", "no"],
   "sliders": ["settings", "controls"],
+  "slack": ["logo"],
   "speaker": ["music"],
   "star": ["bookmark", "favorite", "like"],
   "sun": ["brightness", "weather", "light"],
