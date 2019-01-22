@@ -408,7 +408,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
  - [vue-feather-icon](https://github.com/mage3k/vue-feather-icon) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
- - [Feather Icons in Figma](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Icons-Set?node-id=0%3A1) - Feather Icons for Figma
+ - [figma-feather](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Icons-Set?node-id=0%3A1) - Feather Icons for Figma
 
 ## License
 
