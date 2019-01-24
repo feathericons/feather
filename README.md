@@ -225,6 +225,10 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
   <use xlink:href="path/to/dist/feather-sprite.svg#circle"/>
 </svg>
 ```
+### Figma
+Feather icons are available as a component library in Figma. A master set of the icons is maintained [here](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Icons-Set?node-id=0%3A1).
+
+To use simply login to your Figma account and **Duplicate** the file to your Drafts.
 
 ## API Reference
 
@@ -408,7 +412,6 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
  - [vue-feather-icon](https://github.com/mage3k/vue-feather-icon) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
- - [figma-feather](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Icons-Set?node-id=0%3A1) - Feather Icons for Figma
 
 ## License
 
