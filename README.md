@@ -30,6 +30,7 @@ npm install feather-icons
   * [Client-side JavaScript](#client-side-javascript)
   * [Node](#node)
   * [SVG Sprite](#svg-sprite)
+  * [Figma](#figma)
 * [API Reference](#api-reference)
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
