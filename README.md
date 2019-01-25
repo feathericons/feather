@@ -227,9 +227,7 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
 </svg>
 ```
 ### Figma
-Feather icons are available as a component library in Figma. A master set of the icons is maintained [here](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Icons-Set?node-id=0%3A1).
-
-To use simply login to your Figma account and **Duplicate** the file to your Drafts.
+Feather is available as a [Figma component library](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Component-Library). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
 
 ## API Reference
 
