@@ -72,6 +72,7 @@
   "image": ["picture"],
   "inbox": ["email"],
   "instagram": ["logo", "camera"],
+  "key": ["password", "login", "authentication"],
   "life-bouy": ["help", "life ring", "support"],
   "linkedin": ["logo"],
   "lock": ["security", "password"],
