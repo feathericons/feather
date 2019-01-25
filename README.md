@@ -30,6 +30,7 @@ npm install feather-icons
   * [Client-side JavaScript](#client-side-javascript)
   * [Node](#node)
   * [SVG Sprite](#svg-sprite)
+  * [Figma](#figma)
 * [API Reference](#api-reference)
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
@@ -225,6 +226,8 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
   <use xlink:href="path/to/dist/feather-sprite.svg#circle"/>
 </svg>
 ```
+### Figma
+Feather is available as a [Figma component library](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Component-Library). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
 
 ## API Reference
 
