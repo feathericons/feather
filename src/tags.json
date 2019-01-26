@@ -103,6 +103,7 @@
   "paperclip": ["attachment"],
   "pause": ["music", "stop"],
   "pause-circle": ["music", "stop"],
+  "pen-tool": ["pen", "vector", "drawing"],
   "play": ["music", "start"],
   "play-circle": ["music", "start"],
   "plus": ["add", "new"],
