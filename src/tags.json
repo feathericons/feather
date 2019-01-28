@@ -114,6 +114,7 @@
   "rewind": ["music"],
   "rss": ["feed", "subscribe"],
   "save": ["floppy disk"],
+  "search": ["find", "magnifier", "magnifying glass"],
   "send": ["message", "mail", "paper airplane"],
   "settings": ["cog", "edit", "gear", "preferences"],
   "shield": ["security"],
