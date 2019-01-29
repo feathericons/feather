@@ -95,7 +95,7 @@
   "moon": ["dark", "night"],
   "more-horizontal": ["ellipsis"],
   "more-vertical": ["ellipsis"],
-  "mouse-pointer": ["mouse", "pointer", "arrow", "cursor"],
+  "mouse-pointer": ["arrow", "cursor"],
   "move": ["arrows"],
   "navigation": ["location", "travel"],
   "navigation-2": ["location", "travel"],
