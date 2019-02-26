@@ -158,6 +158,7 @@
   "watch": ["clock", "time"],
   "wind": ["weather", "air"],
   "x-circle": ["cancel", "close", "delete", "remove", "times"],
+  "x-octagon": ["delete", "stop", "alert", "warning", "times"],
   "x-square": ["cancel", "close", "delete", "remove", "times"],
   "x": ["cancel", "close", "delete", "remove", "times"],
   "youtube": ["logo", "video", "play"],
