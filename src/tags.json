@@ -22,6 +22,7 @@
   "cloud-snow": ["weather", "blizzard"],
   "cloud": ["weather"],
   "codepen": ["logo"],
+  "codesandbox": ["logo"],
   "coffee": ["drink", "cup", "mug", "tea", "cafe", "hot", "beverage"],
   "command": ["keyboard", "cmd"],
   "compass": ["navigation", "safari", "travel"],
