@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="17px" viewBox="0 0 34 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>soundcloud</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-239.000000, -23.000000)" stroke="#000000" stroke-width="2">
+            <g id="soundcloud" transform="translate(239.500000, 24.000000)">
+                <path d="M16.5,15 L27.7923134,15 L28.1844983,15 C30.7281661,14.6646245 32,13.3667005 32,11.1062278 C32,8.84575514 30.7281661,7.62585621 28.1844983,7.44653102 L27.3629071,7.44653102 C27.3629071,4.65094849 26.1361911,2.61798971 23.6827591,1.34765468 C21.2293271,0.0773196491 18.835074,0.23208125 16.5,1.81193948 L16.5,15 Z" id="cloud"></path>
+                <path d="M12.5,3 L12.5,15" id="1st-line" stroke-linecap="round"></path>
+                <path d="M8.5,5 L8.5,15" id="2nd-line" stroke-linecap="round"></path>
+                <path d="M4.5,8 L4.5,15" id="3rd-line" stroke-linecap="round"></path>
+                <path d="M0.5,10.9166667 L0.5,14.4166667" id="4th-line" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
