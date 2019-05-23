@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="34px" height="17px" viewBox="0 0 34 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
-    <title>soundcloud</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-240.000000, -23.000000)" stroke="#000000" stroke-width="2">
-            <g id="soundcloud" transform="translate(240.000000, 24.000000)">
-                <path d="M17,15 L28.2923134,15 L28.6844983,15 C31.2281661,14.6646245 32.5,13.3667005 32.5,11.1062278 C32.5,8.84575514 31.2281661,7.62585621 28.6844983,7.44653102 L27.8629071,7.44653102 C27.8629071,4.65094849 26.6361911,2.61798971 24.1827591,1.34765468 C21.7293271,0.0773196491 19.335074,0.23208125 17,1.81193948 L17,15 Z" id="cloud" stroke-linejoin="round"></path>
-                <path d="M13,3 L13,15" id="1st-line" stroke-linecap="round"></path>
-                <path d="M9,5 L9,15" id="2nd-line" stroke-linecap="round"></path>
-                <path d="M5,8 L5,15" id="3rd-line" stroke-linecap="round"></path>
-                <path d="M1,10.9166667 L1,14.4166667" id="4th-line" stroke-linecap="round"></path>
-            </g>
-        </g>
-    </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  >
+  <path d="M17.0000398,14.9637466 L26.7838146,15 L27.6943036,15 C30.53266,15 32,13.0073189 32,11.0239358 C32,9.04055266 30.4745376,7.28575805 27.6943036,7.28575805 L26.7838146,7.28575805 C26.7838146,6.17112327 26.7838146,6.34970749 26.7838146,5.12929853 C26.7838146,3.50406788 25.9921552,1.12702163 23.2046944,0.272922195 C20.4172336,-0.581177242 16.9999602,0.611931766 17,3.25617857 L17.0000398,14.9637466 Z" />
+  <path d="M13,3 L13,15"/>
+  <path d="M9,5 L9,15" />
+  <path d="M5,7.5 L5,14.75" />
+  <path d="M1,10 L1,13.9191652" />
+
 </svg>
