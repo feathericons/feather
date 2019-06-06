@@ -56,6 +56,7 @@
   "folder-minus": ["directory"],
   "folder-plus": ["directory"],
   "folder": ["directory"],
+  "framer": ["logo", "design", "tool"],
   "frown": ["emoji", "face", "bad", "sad", "emotion"],
   "gift": ["present", "box", "birthday", "party"],
   "git-branch": ["code", "version control"],
