@@ -3,7 +3,6 @@
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  class="feather feather-pin-vertical"
   fill="none"
   stroke="currentColor"
   stroke-width="2"
@@ -11,5 +10,5 @@
   stroke-linejoin="round"
 >
   <line x1="12" y1="14" x2="12" y2="22" />
-  <path d="M16 6.5A6 6 0 0 0 18 2H6a6 6 0 0 0 2 4.5v3A6 6 0 0 0 6 14h12a6 6 0 0 0-2-4.5z" />
+  <path d="M16 6.5c1.3-1.1 2-2.8 2-4.5H6c0 1.7.7 3.4 2 4.5v3c-1.3 1.1-2 2.8-2 4.5h12c0-1.7-.7-3.4-2-4.5v-3z" />
 </svg>
