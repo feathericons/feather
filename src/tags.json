@@ -113,6 +113,7 @@
   "play-circle": ["music", "start"],
   "plus": ["add", "new"],
   "plus-circle": ["add", "new"],
+  "plus-flash": ["add","new"],
   "plus-square": ["add", "new"],
   "pocket": ["logo", "save"],
   "power": ["on", "off"],
