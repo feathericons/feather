@@ -1,16 +1,14 @@
 <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-    <path stroke-width="1.08106" d="M8.359 11.817v7.568M4.575 15.601h7.568"/>
-    <g fill="#000" stroke="none">
-        <path d="M19.391 3.924h-3.143l-3.893 7.074h3.127l-3.948 7.074 8.438-9.214h-3.296z"/>
-    </g>
+   xmlns="http://www.w3.org/2000/svg"
+   width="24"
+   height="24"
+   fill="none"
+   stroke="currentColor"
+   stroke-linecap="round"
+   stroke-linejoin="square"
+   stroke-width="1.8"
+   viewBox="0 0 24 24">
+   <path stroke-width="1.4" d="M 21.5,3.5 H 18.5 L 14.920383,11.0189 h 3 l -3.7,7.5 7.5,-9.8 h -3 z"/>
+   <line x1="8.4" x2="8.4" y1="6.6" y2="19.6" />
+   <line x1="1.9" x2="14.8" y1="13.1" y2="13.1"/>
 </svg>
