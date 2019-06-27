@@ -9,14 +9,7 @@
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path
-    style="line-height:normalfont-variant-ligatures:normalfont-variant-position:normalfont-variant-caps:normalfont-variant-numeric:normalfont-variant-alternates:normalfont-feature-settings:normaltext-indent:0text-align:starttext-decoration-line:nonetext-decoration-style:solidtext-decoration-color:#000text-transform:nonetext-orientation:mixedshape-padding:0isolation:automix-blend-mode:normal"
-    d="M6.35.53a1.47 1.47 0 0 0-.816.251L.98 3.807c-.253.168-.448.455-.448.778l.002.027v6.041c0 .832.686 1.518 1.517 1.518h8.598c.831 0 1.517-.686 1.517-1.518V4.612l.002-.027c0-.323-.195-.61-.448-.778L9.45 2.299 7.166.78A1.47 1.47 0 0 0 6.35.529zm0 1.05c.106 0 .212.015.256.045L8.89 3.142l2.171 1.443-4.455 2.96c-.089.06-.423.06-.512 0L1.64 4.585l4.455-2.96c.044-.03.15-.044.256-.044zM1.545 5.738l3.99 2.65a1.448 1.448 0 0 0 1.63 0l3.99-2.65v4.916a.494.494 0 0 1-.507.506H2.051a.494.494 0 0 1-.506-.506z"
-    color="#000"
-    font-weight="400"
-    font-family="sans-serif"
-    white-space="normal"
-    overflow="visible"
-    paint-order="fill markers stroke"
-  />
+ <path d="m21.979 8.8762v11.165c0 1.0818-0.89815 1.9668-1.9959 1.9668h-15.967c-1.0977 0-1.9959-0.88508-1.9959-1.9668v-11.165" stroke-width="2"/>
+ <polyline transform="matrix(.99794 0 0 .98342 .024684 2.9757)" points="22 6 12 13 2 6" stroke-width="2.0189"/>
+ <polyline transform="matrix(.99794 0 0 -.98342 .024684 14.777)" points="22 6 12 13 2 6" stroke-width="2.0189"/>
 </svg>
