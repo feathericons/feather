@@ -1,0 +1,16 @@
+<svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M6 6v12" />
+  <path d="M9 8v10" />
+  <path d="M12 6.5V18" />
+  <path d="M15 6.5L18 18" />
+</svg>
