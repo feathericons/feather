@@ -70,3 +70,76 @@ No console output
 No resources
 ...
 ```
+## Design Guideline
+(According to issue [#171](https://github.com/feathericons/feather/issues/171))
+### Constraints
+
+These are strict constraints of the system and cannot be broken.
+
+- Every icon fits in a 24x24 canvas.
+- Every line and shape has a 2px center-aligned stroke with round joins and round caps.
+- No fills.
+
+### Guidelines
+
+These are general guidelines that help create consistency but can be broken on a case-by-case basis.
+
+**90° corners should have a 2px radius:**
+
+<a href="https://stdlib.com">
+  <img src="https://user-images.githubusercontent.com/4608155/51352731-5912ce80-1a63-11e9-8dce-d724fba860df.png"/>
+</a>
+
+**Icons should have a 1px empty “safe zone” on the edges of the canvas:**
+
+<a href="https://stdlib.com">
+  <img src="https://user-images.githubusercontent.com/4608155/51352384-42b84300-1a62-11e9-91ee-7d14016283eb.png"/>
+</a>
+
+**Distinct elements of an icon should be seperated by at least 2px of empty space:**
+
+<a href="https://stdlib.com">
+  <img src="https://user-images.githubusercontent.com/4608155/51352620-03d6bd00-1a63-11e9-98d5-6dd534cbbecf.png"/>
+</a>
+
+**Icons should have similar "optical volumes:"**
+
+<table>
+<thead>
+<tr>
+<th>Good</th>
+<th>Bad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/4608155/51352857-b60e8480-1a63-11e9-8d84-990e4f4f960d.png"><img src="https://user-images.githubusercontent.com/4608155/51352857-b60e8480-1a63-11e9-8d84-990e4f4f960d.png" alt="2019-01-17 at 14 24" style="max-width:100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/4608155/51352876-c9b9eb00-1a63-11e9-958b-01f1f63456a1.png"><img src="https://user-images.githubusercontent.com/4608155/51352876-c9b9eb00-1a63-11e9-958b-01f1f63456a1.png" alt="2019-01-17 at 14 25" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
+
+See the "Grid and Optical Volume" section of [Nucleo's Icon Guidelines](https://blog.nucleoapp.com/nucleo-icon-guidelines-introduction-70092f8b4697).
+
+## Project Setup
+```PowerShell
+# Clone the repo
+git clone https://github.com/feathericons/feather.git
+cd feather
+
+# Install dependencies
+npm install
+
+# Run `all` script to make sure everything is set up properly
+npm run all
+
+# If the `all` script completes successfully, you're good to go!
+```
+
+## Adding an Icon
+1. Export the icon as an SVG from Figma/Illustrator/etc.
+1. Create a new local branch
+1. Place the SVG in the [icons directory](https://github.com/feathericons/feather/tree/master/icons)
+1. Run ```npm run build```
+1. Commit the SVG file
+1. Open a pull request
