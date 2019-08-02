@@ -409,7 +409,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [elm-feather](https://github.com/1602/elm-feather) - Feather icons for Elm applications
  - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
- - [vue-feather-icon](https://github.com/mage3k/vue-feather-icon) - Feather icons as Vue components
+ - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
 
 ## License
