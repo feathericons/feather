@@ -5,11 +5,11 @@
 [![npm downloads](https://img.shields.io/npm/dm/feather-icons.svg?style=flat-square)](https://www.npmjs.com/package/feather-icons)
 [![npm version](https://img.shields.io/npm/v/feather-icons.svg?style=flat-square)](https://www.npmjs.com/package/feather-icons)
 [![CDNJS version](https://img.shields.io/cdnjs/v/feather-icons.svg?style=flat-square)](https://cdnjs.com/libraries/feather-icons)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=G6CPFZ6PQRZW8&amp;lc=US&amp;item_name=Feather&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/colebemis/5)
 
 ## What is Feather?
 
-Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
+Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and usability.
 
 https://feathericons.com
 
@@ -30,6 +30,7 @@ npm install feather-icons
   * [Client-side JavaScript](#client-side-javascript)
   * [Node](#node)
   * [SVG Sprite](#svg-sprite)
+  * [Figma](#figma)
 * [API Reference](#api-reference)
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
@@ -225,6 +226,8 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
   <use xlink:href="path/to/dist/feather-sprite.svg#circle"/>
 </svg>
 ```
+### Figma
+Feather is available as a [Figma component library](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Component-Library). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
 
 ## API Reference
 
@@ -406,7 +409,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [elm-feather](https://github.com/1602/elm-feather) - Feather icons for Elm applications
  - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
- - [vue-feather-icon](https://github.com/mage3k/vue-feather-icon) - Feather icons as Vue components
+ - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
 
 ## License
