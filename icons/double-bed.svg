@@ -10,9 +10,7 @@
   stroke-linejoin="round"
 >
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 3.0260773,17.638 -0.039283,-6.248162 c 0,0 0.065072,-1.3955796 1.9666336,-1.389631 l 14.1273581,0.04419 c 0,0 1.929332,-0.1841275 1.923667,1.411727 l -0.0221,6.226066 v 0 l -0.01742,-1.859535 -17.9378397,-0.04169 z" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
      d="M 4.416083,10 V 7.4475142 c 0,0 -0.043391,-1.4954018 1.6276115,-1.5017543 L 17.66891,5.9015657 c 0,0 1.828463,-0.1294177 1.828463,1.5415968 V 10 Z" />
 </svg>
