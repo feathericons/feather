@@ -227,7 +227,7 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
 </svg>
 ```
 ### Figma
-Feather is available as a [Figma component library](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Component-Library). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
+Feather is available as a [Figma component library](https://www.figma.com/file/S7Vi0Yy9ZgMhu8cbRaeRHJ/Feather-Component-Library?node-id=0%3A1). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
 
 ## API Reference
 
