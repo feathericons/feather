@@ -411,6 +411,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
  - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
+ - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
 
 ## License
 
