@@ -36,7 +36,6 @@ npm install feather-icons
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
 	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Related Projects](#related-projects)
 * [License](#license)
@@ -388,14 +387,6 @@ feather.toSvg('circle', { class: 'foo bar' })
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/to-svg.js)
-
-## Roadmap
-
-- [ ] Write icon design guidelines
-- [ ] Improve SVG accessibility
-- [ ] Handle usage of custom icons
-- [ ] Add usage examples
-- [ ] Make `<feather-icon>` web component
 
 ## Contributing
 
