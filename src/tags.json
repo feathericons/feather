@@ -66,6 +66,7 @@
   "github": ["logo", "version control"],
   "gitlab": ["logo", "version control"],
   "global": ["world", "browser", "language", "translate"],
+  "hand-flat": ["help", "ask", "care"],
   "hard-drive": ["computer", "server", "memory", "data"],
   "hash": ["hashtag", "number", "pound"],
   "headphones": ["music", "audio", "sound"],
