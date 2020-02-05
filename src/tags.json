@@ -14,6 +14,7 @@
   "book": ["read", "dictionary", "booklet", "magazine", "library"],
   "bookmark": ["read", "clip", "marker", "tag"],
   "briefcase": ["work", "bag", "baggage", "folder"],
+  "bug": ["error", "insect"],
   "clipboard": ["copy"],
   "clock": ["time", "watch", "alarm"],
   "cloud-drizzle": ["weather", "shower"],
