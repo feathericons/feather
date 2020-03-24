@@ -7,13 +7,14 @@ import icons from './icons';
  * Replace all HTML elements that have a `data-feather` attribute with SVG markup
  * corresponding to the element's `data-feather` attribute value.
  * @param {Object} attrs
+ * @parma {Element} el : default value is document. This was added to allow passing webcomponent.shadowRoot kind of elements.
  */
-function replace(attrs = {}) {
+function replace(attrs = {}, el = document) {
   if (typeof document === 'undefined') {
     throw new Error('`feather.replace()` only works in a browser environment.');
   }
 
-  const elementsToReplace = document.querySelectorAll('[data-feather]');
+  const elementsToReplace = el.querySelectorAll('[data-feather]');
 
   Array.from(elementsToReplace).forEach(element =>
     replaceElement(element, attrs),
