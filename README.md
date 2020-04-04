@@ -9,19 +9,13 @@
 
 ## What is Feather?
 
-Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and usability.
+Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.
 
 https://feathericons.com
 
 ```shell
 npm install feather-icons
 ```
-
-**Sponsored by**
-
-<a href="https://stdlib.com">
-  <img src="https://stdlib.com/static/images/stdlib-logo-wordmark-128.png" width="128" />
-</a>
 
 ## Table of Contents
 
@@ -36,7 +30,6 @@ npm install feather-icons
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
 	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Related Projects](#related-projects)
 * [License](#license)
@@ -389,14 +382,6 @@ feather.toSvg('circle', { class: 'foo bar' })
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/to-svg.js)
 
-## Roadmap
-
-- [ ] Write icon design guidelines
-- [ ] Improve SVG accessibility
-- [ ] Handle usage of custom icons
-- [ ] Add usage examples
-- [ ] Make `<feather-icon>` web component
-
 ## Contributing
 
 For more info on how to contribute please see the [contribution guidelines](https://github.com/colebemis/feather/blob/master/CONTRIBUTING.md).
@@ -412,6 +397,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
  - [django-feather](https://pypi.org/project/django-feather/) - Feather icons as Django Template Tag
+ - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
 
 ## License
 
