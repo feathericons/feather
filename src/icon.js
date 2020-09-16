@@ -48,8 +48,18 @@ class Icon {
  */
 function attrsToString(attrs) {
   return Object.keys(attrs)
-    .map(key => `${key}="${attrs[key]}"`)
+    .map(key => `${key}="${htmlEscape(attrs[key])}"`)
     .join(' ');
+}
+
+/**
+ * Escapes unicode values in a string for XML compatibility (& => &amp;)
+ * @param {string} str
+ * @returns {string}
+ */
+function htmlEscape(str) {
+  if (typeof str !== 'string') return str;
+  return str.replace(/&/g, '&amp;');
 }
 
 export default Icon;
