@@ -53,7 +53,7 @@
     "lint-staged": "^6.0.0",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.8.2",
-    "semantic-release": "^12.2.2",
+    "semantic-release": "^17.2.3",
     "svgo": "^0.7.2",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
