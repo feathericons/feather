@@ -3,16 +3,37 @@ import path from 'path';
 
 import processSvg from './process-svg';
 
-const IN_DIR = path.resolve(__dirname, '../icons');
+const IN_DIRS = [];
 
-console.log(`Processing SVGs in ${IN_DIR}...`);
+IN_DIRS.push({
+  path: path.resolve(__dirname, '../icons'),
+  useDefaultAttrs: true,
+});
 
-fs
-  .readdirSync(IN_DIR)
-  .filter(file => path.extname(file) === '.svg')
-  .forEach(svgFile => {
-    const svg = fs.readFileSync(path.join(IN_DIR, svgFile));
-    processSvg(svg).then(svg =>
-      fs.writeFileSync(path.join(IN_DIR, svgFile), svg),
-    );
-  });
+IN_DIRS.push({
+  path: path.resolve(__dirname, '../kontentino-icons'),
+  useDefaultAttrs: true,
+});
+
+IN_DIRS.push({
+  path: path.resolve(__dirname, '../kontentino-icon-images'),
+  useDefaultAttrs: false,
+});
+
+function processSvgs(dir, useDefaultAttrs) {
+  console.log(`Processing SVGs in ${dir}...`);
+
+  fs
+    .readdirSync(dir)
+    .filter(file => path.extname(file) === '.svg')
+    .forEach(svgFile => {
+      const svg = fs.readFileSync(path.join(dir, svgFile));
+      processSvg(svg, useDefaultAttrs).then(svg =>
+        fs.writeFileSync(path.join(dir, svgFile), svg),
+      );
+    });
+}
+
+IN_DIRS.forEach(({ path, useDefaultAttrs }) =>
+  processSvgs(path, useDefaultAttrs),
+);

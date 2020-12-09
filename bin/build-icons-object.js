@@ -6,12 +6,13 @@ import { minify } from 'html-minifier';
  * Build an object in the format: `{ <name>: <contents> }`.
  * @param {string[]} svgFiles - A list of filenames.
  * @param {Function} getSvg - A function that returns the contents of an SVG file given a filename.
+ * @param {string | undefined} prefix - prefix for icon name
  * @returns {Object}
  */
-function buildIconsObject(svgFiles, getSvg) {
+function buildIconsObject(svgFiles, getSvg, prefix) {
   return svgFiles
     .map(svgFile => {
-      const name = path.basename(svgFile, '.svg');
+      const name = `${prefix || ''}${path.basename(svgFile, '.svg')}`;
       const svg = getSvg(svgFile);
       const contents = getSvgContents(svg);
       return { name, contents };
