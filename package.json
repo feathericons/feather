@@ -59,7 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/feathericons/feather.git"
+    "url": "https://github.com/kontentino/feather.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kontentino"
   },
   "author": "Cole Bemis <cole@colebemis.com> (http://colebemis.com)",
   "license": "MIT"
