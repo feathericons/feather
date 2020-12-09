@@ -1,5 +1,5 @@
 {
-  "name": "feather-icons",
+  "name": "@kontentino/feather-icons",
   "version": "0.0.0-development",
   "description": "Simply beautiful open source icons",
   "main": "dist/feather.js",
