@@ -1,0 +1,28 @@
+<svg
+  width="56"
+  height="56"
+  viewBox="0 0 56 56"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect opacity=".15" width="56" height="56" rx="16" fill="#EC7343" />
+  <path
+    opacity=".3"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M23 16.75h-3a2 2 0 0 0-2 2v21a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-21a2 2 0 0 0-2-2h-3v.625c0 1.035-.84 1.875-1.875 1.875h-6.25A1.875 1.875 0 0 1 23 17.375v-.625z"
+    fill="#EC7343"
+  />
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M26.594 32.688c-.3 0-.6-.12-.839-.36l-2.396-2.396a1.158 1.158 0 0 1 0-1.677c.48-.479 1.258-.479 1.677 0l1.558 1.558 3.953-3.954a1.158 1.158 0 0 1 1.677 0c.48.48.48 1.198 0 1.677l-4.792 4.792c-.24.24-.539.36-.838.36z"
+    fill="#EC7343"
+  />
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M26.75 15.5a1.25 1.25 0 0 1 2.5 0h2a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-.5.5h-6.5a.5.5 0 0 1-.5-.5V16a.5.5 0 0 1 .5-.5h2z"
+    fill="#EC7343"
+  />
+</svg>
