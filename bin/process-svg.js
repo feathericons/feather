@@ -7,13 +7,12 @@ import DEFAULT_ATTRS from '../src/default-attrs.json';
 /**
  * Process SVG string.
  * @param {string} svg - An SVG string.
- * @param useDefaultAttrs svg - if image should be edited to default params (width, height, stroke, fill etc...).
  * @param {Promise<string>}
  */
-function processSvg(svg, useDefaultAttrs = true) {
+function processSvg(svg) {
   return (
-    optimize(svg, useDefaultAttrs)
-      .then(useDefaultAttrs ? setAttrs : Promise.resolve.bind(Promise))
+    optimize(svg)
+      .then(setAttrs)
       .then(format)
       // remove semicolon inserted by prettier
       // because prettier thinks it's formatting JSX not HTML
@@ -24,19 +23,15 @@ function processSvg(svg, useDefaultAttrs = true) {
 /**
  * Optimize SVG with `svgo`.
  * @param {string} svg - An SVG string.
- * @param useDefaultAttrs svg - if image should be edited to default params (width, height, stroke, fill etc...).
  * @returns {Promise<string>}
  */
-function optimize(svg, useDefaultAttrs) {
+function optimize(svg) {
   const plugins = [
     { convertShapeToPath: false },
     { mergePaths: false },
     { removeTitle: true },
+    { removeAttrs: { attrs: '(fill|stroke.*)' } },
   ];
-
-  if (useDefaultAttrs) {
-    plugins.push({ removeAttrs: { attrs: '(fill|stroke.*)' } });
-  }
 
   const svgo = new Svgo({
     plugins,

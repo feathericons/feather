@@ -3,21 +3,15 @@ import path from 'path';
 
 import buildIconsObject from './build-icons-object';
 
-const IN_DIR = [];
-
-IN_DIR.push({
-  path: path.resolve(__dirname, '../icons'),
-});
-
-IN_DIR.push({
-  path: path.resolve(__dirname, '../kontentino-icons'),
-  prefix: 'kont-',
-});
-
-IN_DIR.push({
-  path: path.resolve(__dirname, '../kontentino-icon-images'),
-  prefix: 'kont-img-',
-});
+const IN_DIRS = [
+  {
+    path: path.resolve(__dirname, '../icons'),
+  },
+  {
+    path: path.resolve(__dirname, '../kontentino-icons'),
+    prefix: 'kont-',
+  },
+];
 
 const OUT_FILE = path.resolve(__dirname, '../dist/icons.json');
 
@@ -35,7 +29,7 @@ function getSvgs(dir, prefix) {
 
 let icons = {};
 
-IN_DIR.forEach(({ path, prefix }) => {
+IN_DIRS.forEach(({ path, prefix }) => {
   icons = {
     ...icons,
     ...getSvgs(path, prefix),

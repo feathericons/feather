@@ -3,22 +3,16 @@ import path from 'path';
 
 import processSvg from './process-svg';
 
-const IN_DIRS = [];
-
-IN_DIRS.push({
-  path: path.resolve(__dirname, '../icons'),
-  useDefaultAttrs: true,
-});
-
-IN_DIRS.push({
-  path: path.resolve(__dirname, '../kontentino-icons'),
-  useDefaultAttrs: true,
-});
-
-IN_DIRS.push({
-  path: path.resolve(__dirname, '../kontentino-icon-images'),
-  useDefaultAttrs: false,
-});
+const IN_DIRS = [
+  {
+    path: path.resolve(__dirname, '../icons'),
+    useDefaultAttrs: true,
+  },
+  {
+    path: path.resolve(__dirname, '../kontentino-icons'),
+    useDefaultAttrs: true,
+  },
+];
 
 function processSvgs(dir, useDefaultAttrs) {
   console.log(`Processing SVGs in ${dir}...`);
