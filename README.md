@@ -49,7 +49,10 @@ Or copy and paste the following code snippet into a blank `html` file.
 
     <!-- example icon -->
     <i data-feather="circle"></i>
-
+     
+    <!-- small size icon example -->
+    <i data-feather="circle" style="width: 16px; height: 16px;"></i>
+	  
     <script>
       feather.replace()
     </script>
