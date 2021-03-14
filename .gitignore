@@ -4,3 +4,5 @@ dist
 sandbox
 stash
 coverage
+package-lock.json
+.idea
