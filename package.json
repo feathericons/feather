@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "all": "npm-run-all --sequential build lint test:coverage",
+    "all": "npm-run-all --sequential build lint test:coverage -- -u",
     "build": "./bin/build.sh",
     "lint": "eslint .",
     "test": "jest --watch",
