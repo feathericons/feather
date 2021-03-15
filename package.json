@@ -23,6 +23,8 @@
     }
   },
   "jest": {
+    "verbose": true,
+    "testURL": "http://localhost",
     "collectCoverageFrom": [
       "src/**/*.js"
     ]
@@ -56,7 +58,7 @@
     "semantic-release": "^12.2.2",
     "svgo": "^0.7.2",
     "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3"
+    "webpack-cli": "^3.1.1"
   },
   "repository": {
     "type": "git",
