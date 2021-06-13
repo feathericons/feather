@@ -41,7 +41,7 @@ function optimize(svg) {
 }
 
 /**
- * Set default attibutes on SVG.
+ * Set default attributes on SVG.
  * @param {string} svg - An SVG string.
  * @returns {string}
  */
