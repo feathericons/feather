@@ -102,7 +102,7 @@
   "key": ["password", "login", "authentication", "secure"],
   "layers": ["stack"],
   "layout": ["window", "webpage"],
-  "life-bouy": ["help", "life ring", "support"],
+  "life-buoy": ["help", "life ring", "support"],
   "link": ["chain", "url"],
   "link-2": ["chain", "url"],
   "linkedin": ["logo", "social media"],
