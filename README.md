@@ -194,7 +194,7 @@ Include an icon on your page with the following markup:
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <use xlink:href="path/to/feather-sprite.svg#circle"/>
+  <use href="path/to/feather-sprite.svg#circle"/>
 </svg>
 ```
 
@@ -216,7 +216,7 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
 
 ```html
 <svg class="feather">
-  <use xlink:href="path/to/dist/feather-sprite.svg#circle"/>
+  <use href="path/to/dist/feather-sprite.svg#circle"/>
 </svg>
 ```
 ### Figma
