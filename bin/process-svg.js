@@ -7,7 +7,7 @@ import DEFAULT_ATTRS from '../src/default-attrs.json';
 /**
  * Process SVG string.
  * @param {string} svg - An SVG string.
- * @param {Promise<string>}
+ * @returns {Promise<string>}
  */
 function processSvg(svg) {
   return (
