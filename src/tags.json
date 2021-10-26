@@ -202,6 +202,8 @@
   "tool": ["settings", "spanner"],
   "trash": ["garbage", "delete", "remove", "bin"],
   "trash-2": ["garbage", "delete", "remove", "bin"],
+  "trending-down": ["activity", "analytics", "arrow", "graph", "pulse"],
+  "trending-up": ["activity", "analytics", "arrow", "graph", "pulse"],
   "triangle": ["delta"],
   "truck": ["delivery", "van", "shipping", "transport", "lorry"],
   "tv": ["television", "stream"],
