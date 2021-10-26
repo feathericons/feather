@@ -8,7 +8,6 @@
   "align-justify": ["text alignment", "justified"],
   "align-left": ["text alignment", "left"],
   "align-right": ["text alignment", "right"],
-  "anchor": [],
   "archive": ["index", "box"],
   "at-sign": ["mention", "at", "email", "message"],
   "award": ["achievement", "badge"],
