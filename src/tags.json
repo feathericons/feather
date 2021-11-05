@@ -39,7 +39,7 @@
   "cloud": ["weather"],
   "codepen": ["logo"],
   "codesandbox": ["logo"],
-  "code": ["source", "programming"],
+  "code": ["source", "programming", "<>", "</>"],
   "coffee": ["drink", "cup", "mug", "tea", "cafe", "hot", "beverage"],
   "columns": ["layout"],
   "command": ["keyboard", "cmd", "terminal", "prompt"],
