@@ -22,6 +22,7 @@ npm install feather-icons
 * [Quick Start](#quick-start)
 * [Usage](#usage)
   * [Client-side JavaScript](#client-side-javascript)
+  * [React-JS](#react-js)
   * [Node](#node)
   * [SVG Sprite](#svg-sprite)
   * [Figma](#figma)
@@ -118,6 +119,39 @@ Call the `feather.replace()` method:
 ```
 
 All elements that have a `data-feather` attribute will be replaced with SVG markup corresponding to their `data-feather` attribute value. See the [API Reference](#api-reference) for more information about `feather.replace()`.
+
+### React-JS
+#### Install
+> **Note:** We have a seperate package for use with a React Project, it is named `react-feather`.
+
+Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+
+```shell
+npm install react-feather
+```
+
+Install with [yarn](https://yarnpkg.com)
+
+```shell
+yarn add react-feather
+```
+
+#### Use
+
+To use a icon with a React Project, you need to import a specific icon from the package.
+
+```js
+import React from 'react';
+import { Camera } from 'react-feather';
+
+const App = () => {
+  return <Camera />
+};
+
+export default App;
+```
+
+View more of the `react-feather` documentation [here](https://github.com/feathericons/react-feather).
 
 ### Node
 #### 1. Install
