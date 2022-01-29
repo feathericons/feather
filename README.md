@@ -29,6 +29,7 @@ npm install feather-icons
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
+	* [`feather.replaceElement()`](#featherreplaceelementelement-attrs)
 	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
 * [Contributing](#contributing)
 * [Related Projects](#related-projects)
@@ -351,6 +352,71 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 ```
 
 [View Source](https://github.com/colebemis/feather/blob/master/src/replace.js)
+
+---
+
+### `feather.replaceElement(element, [attrs])`
+
+Replace a element that have a `data-feather` attribute with SVG markup corresponding to the element's `data-feather` attribute value.
+
+#### Parameters
+
+| Name       | Type   | Description |
+| ---------- | ------ | ----------- |
+| `element` | HTMLElement | The element to be replaced, required a `data-feather` attribute |
+| `attrs` (optional)  | Object | Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+#### Usage
+
+> **Note:** `feather.replaceElement()` only works in a browser environment.
+
+Simple usage:
+```html
+<i data-feather="circle"></i>
+<!--
+<i> will be replaced with:
+<svg class="feather feather-circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+-->
+
+<script>
+  const element = document.querySelector('i')
+
+  feather.replaceElement(element)
+</script>
+```
+
+You can pass `feather.replaceElement()` an `attrs` object:
+```html
+<i data-feather="circle"></i>
+<!--
+<i> will be replaced with:
+<svg class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+-->
+
+<script>
+  const element = document.querySelector('i')
+
+  feather.replaceElement(element, { class: 'foo bar', 'stroke-width': 1 })
+</script>
+```
+
+All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<svg>` tag:
+
+```html
+<i data-feather="circle" id="my-circle" class="foo bar" stroke-width="1"></i>
+<!--
+<i> will be replaced with:
+<svg id="my-circle" class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+-->
+
+<script>
+  const element = document.querySelector('i')
+
+  feather.replaceElement(element)
+</script>
+```
+
+[View Source](https://github.com/colebemis/feather/blob/master/src/replaceElement.js)
 
 ---
 
