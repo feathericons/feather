@@ -19,6 +19,9 @@ class Icon {
    * @returns {string}
    */
   toSvg(attrs = {}) {
+    if (attrs.width || attrs.height) {
+      attrs.viewBox = `0 0 ${attrs.width || this.attrs.width} ${attrs.height || this.attrs.height}`;
+    }
     const combinedAttrs = {
       ...this.attrs,
       ...attrs,
