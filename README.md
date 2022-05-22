@@ -400,6 +400,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [django-feather](https://pypi.org/project/django-feather/) - Feather icons as Django Template Tag
  - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
  - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons renderng using gulp
+ - [eleventy-plugin-feathericons](https://github.com/reatlat/eleventy-plugin-feathericons) - Feather icons as a plugin for [11ty](https://github.com/11ty/eleventy)
 
 ## License
 
