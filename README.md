@@ -194,7 +194,7 @@ Include an icon on your page with the following markup:
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <use xlink:href="path/to/feather-sprite.svg#circle"/>
+  <use href="path/to/feather-sprite.svg#circle"/>
 </svg>
 ```
 
@@ -216,7 +216,7 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
 
 ```html
 <svg class="feather">
-  <use xlink:href="path/to/dist/feather-sprite.svg#circle"/>
+  <use href="path/to/dist/feather-sprite.svg#circle"/>
 </svg>
 ```
 ### Figma
@@ -396,11 +396,11 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
  - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) - Feather icons as Vue components
  - [php-feather](https://github.com/Pixelrobin/php-feather) - Feather icons as a PHP Library
+ - [wp-php-feather](https://github.com/reatlat/wp-php-feather) - Feather icons as a WordPress template tag
  - [django-feather](https://pypi.org/project/django-feather/) - Feather icons as Django Template Tag
  - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
  - [blade-feather-icons](https://github.com/brunocfalcao/blade-feather-icons) - Feather icons for Laravel applications
-
-
+ - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons renderng using gulp
 
 ## License
 

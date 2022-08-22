@@ -28,6 +28,8 @@
   "calendar": ["date"],
   "camera": ["photo"],
   "cast": ["chromecast", "airplay"],
+  "chevron-down": ["expand"],
+  "chevron-up": ["collapse"],
   "circle": ["off", "zero", "record"],
   "clipboard": ["copy"],
   "clock": ["time", "watch", "alarm"],
