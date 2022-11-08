@@ -400,6 +400,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [django-feather](https://pypi.org/project/django-feather/) - Feather icons as Django Template Tag
  - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
  - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons renderng using gulp
+ - [qwik-feather-icons](https://github.com/yeyon/qwik-feather-icons) - Feather icons for Qwik, the Resumable Framework
 
 ## License
 
