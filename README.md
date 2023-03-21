@@ -403,6 +403,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons renderng using gulp
  - [astro-feather](https://github.com/gabrlyg/astro-feather) - Feather icons as Astro components
  - [qwik-feather-icons](https://github.com/yeyon/qwik-feather-icons) - Feather icons for Qwik, the Resumable Framework
+ - [figma-feather](https://github.com/kevintoepfer/figma-feather) – Feather icons as a Figma component
 
 ## License
 
