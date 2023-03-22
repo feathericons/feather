@@ -44,7 +44,7 @@ Or copy and paste the following code snippet into a blank `html` file.
 <!DOCTYPE html>
 <html lang="en">
   <title></title>
-  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons"></script>
   <body>
 
     <!-- example icon -->
@@ -75,7 +75,7 @@ Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 npm install feather-icons --save
 ```
 
-Or just copy [`feather.js`](https://unpkg.com/feather-icons/dist/feather.js) or [`feather.min.js`](https://unpkg.com/feather-icons/dist/feather.min.js) into your project directory. You don't need both `feather.js` and `feather.min.js`.
+Or just copy [`feather.js`](https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.js) or [`feather.min.js`](https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js) into your project directory. You don't need both `feather.js` and `feather.min.js`.
 
 #### 2. Include
 
@@ -90,8 +90,6 @@ Include `feather.js` or `feather.min.js` with a `<script>` tag:
 Or load the script from a CDN provider:
 
 ```html
-<!-- choose one -->
-<script src="https://unpkg.com/feather-icons"></script>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 ```
 
@@ -178,7 +176,7 @@ Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 npm install feather-icons --save
 ```
 
-Or just copy [`feather-sprite.svg`](https://unpkg.com/feather-icons/dist/feather-sprite.svg) into your project directory.
+Or just copy [`feather-sprite.svg`](https://cdn.jsdelivr.net/npm/feather-icons/dist/feather-sprite.svg) into your project directory.
 
 #### 2. Use
 
