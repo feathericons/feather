@@ -1,13 +1,20 @@
 <svg
-  xmlns="http://www.w3.org/2000/svg"
   width="24"
   height="24"
   viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
   fill="none"
   stroke="currentColor"
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3" />
+  <path d="M4 14h6v6" />
+  <path d="M20 14h-6v6" />
+  <path d="M20 10h-6V4" />
+  <path d="M4 10h6V4" />
+  <path d="M14 10l7-7" />
+  <path d="M21 21l-7-7" />
+  <path d="M10 10L3 3" />
+  <path d="M3 21l7-7" />
 </svg>
