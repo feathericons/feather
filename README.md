@@ -257,7 +257,7 @@ feather.icons.x.toString()
 
 > **Note:** `x` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com). Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `feather.icons.x`). Instead, use bracket notation (e.g. `feather.icons['arrow-right']`).
 
-[View Source](https://github.com/colebemis/feather/blob/master/src/icons.js)
+[View Source](https://github.com/feathericons/feather/blob/master/src/icons.js)
 
 ---
 
@@ -292,7 +292,7 @@ feather.icons.circle.toSvg({ class: 'foo bar' })
 // '<svg class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
 ```
 
-[View Source](https://github.com/colebemis/feather/blob/master/src/icon.js)
+[View Source](https://github.com/feathericons/feather/blob/master/src/icon.js)
 
 ---
 
@@ -350,7 +350,7 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 </script>
 ```
 
-[View Source](https://github.com/colebemis/feather/blob/master/src/replace.js)
+[View Source](https://github.com/feathericons/feather/blob/master/src/replace.js)
 
 ---
 
@@ -380,13 +380,13 @@ feather.toSvg('circle', { class: 'foo bar' })
 // '<svg class="feather feather-circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
 ```
 
-[View Source](https://github.com/colebemis/feather/blob/master/src/to-svg.js)
+[View Source](https://github.com/feathericons/feather/blob/master/src/to-svg.js)
 
 ## Contributing
 
-For more info on how to contribute please see the [contribution guidelines](https://github.com/colebemis/feather/blob/master/CONTRIBUTING.md).
+For more info on how to contribute please see the [contribution guidelines](https://github.com/feathericons/feather/blob/master/CONTRIBUTING.md).
 
-Caught a mistake or want to contribute to the documentation? [Edit this page on Github](https://github.com/colebemis/feather/blob/master/README.md)
+Caught a mistake or want to contribute to the documentation? [Edit this page on Github](https://github.com/feathericons/feather/blob/master/README.md)
 
 ## Related Projects
 
@@ -407,4 +407,4 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 
 ## License
 
-Feather is licensed under the [MIT License](https://github.com/colebemis/feather/blob/master/LICENSE).
+Feather is licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
