@@ -1,6 +1,7 @@
 ---
-name: Icon request
-about: Suggest an new icon
+name: Icon Request
+about: Suggest a new icon
+title: "Icon Request: "
 labels: ['icon request']
 ---
 
@@ -10,6 +11,10 @@ Before creating an icon request, please search to see if someone has requested t
 
 ## Icon name
 
+
+
 ## Use case
+
+
 
 ## Screenshots of similar icons
