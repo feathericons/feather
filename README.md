@@ -400,7 +400,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [wp-php-feather](https://github.com/reatlat/wp-php-feather) - Feather icons as a WordPress template tag
  - [django-feather](https://pypi.org/project/django-feather/) - Feather icons as Django Template Tag
  - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
- - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons renderng using gulp
+ - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons rendering using gulp
  - [astro-feather](https://github.com/gabrlyg/astro-feather) - Feather icons as Astro components
  - [qwik-feather-icons](https://github.com/yeyon/qwik-feather-icons) - Feather icons for Qwik, the Resumable Framework
  - [figma-feather](https://github.com/kevintoepfer/figma-feather) – Feather icons as a Figma component
