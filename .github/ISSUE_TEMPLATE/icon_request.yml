@@ -8,6 +8,7 @@ body:
     id: icon-name
     attributes:
       label: Icon name
+      placeholder: e.g. star
     validations:
       required: true
   - type: textarea
@@ -15,6 +16,7 @@ body:
     attributes:
       label: Use case
       description: Please describe your use case for the requested icon.
+      placeholder: e.g. I need a star icon to use in my rating system.
     validations:
       required: true
   - type: textarea
@@ -22,6 +24,7 @@ body:
     attributes:
       label: Screenshots of similar icons
       description: Please attach screenshots of similar icons from other icon sets to help us visualize your request.
+      placeholder: e.g. ![Screenshot of similar icon](https://example.com/screenshot.png)
     validations:
       required: true
   - type: checkboxes
