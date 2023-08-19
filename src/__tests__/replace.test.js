@@ -15,6 +15,12 @@ test('replaces [data-feather] elements with SVG markup', () => {
   expect(document.body.innerHTML).toMatchSnapshot();
 });
 
+test('check function replace with empty [data-feather] attribute', () => {
+  document.body.innerHTML = '<i data-feather=""></i><span data-feather=""></i>';
+  expect(document.body.innerHTML).toMatchSnapshot();
+  replace();
+});
+
 test('copies placeholder element attributes to <svg> tag', () => {
   document.body.innerHTML =
     '<i data-feather="icon1" id="test" class="foo bar" stroke-width="1"></i>';
