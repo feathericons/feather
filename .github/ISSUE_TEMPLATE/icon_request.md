@@ -1,7 +1,7 @@
 ---
 name: Icon request
 about: Suggest a new icon
-title: "Icon Request: "
+title: "Icon request: "
 labels: ['icon request']
 ---
 
