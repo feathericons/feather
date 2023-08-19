@@ -390,6 +390,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 
 ## Related Projects
 
+ - [feathericons.dev](http://feathericons.dev) - Feather viewer featuring [30+ brand icons](https://feathericons.dev/?iconset=brands) and [40+ payment services icons](https://feathericons.dev/?iconset=payments)
  - [angular-feather](https://github.com/michaelbazos/angular-feather) - Feather icons for Angular applications
  - [elm-feather](https://github.com/1602/elm-feather) - Feather icons for Elm applications
  - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
@@ -400,6 +401,9 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
  - [django-feather](https://pypi.org/project/django-feather/) - Feather icons as Django Template Tag
  - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) - Feather icons as Svelte components
  - [gulp-feather](https://github.com/oToToT/gulp-feather) - Feather icons rendering using gulp
+ - [astro-feather](https://github.com/gabrlyg/astro-feather) - Feather icons as Astro components
+ - [qwik-feather-icons](https://github.com/yeyon/qwik-feather-icons) - Feather icons for Qwik, the Resumable Framework
+ - [figma-feather](https://github.com/kevintoepfer/figma-feather) – Feather icons as a Figma component
 
 ## License
 
