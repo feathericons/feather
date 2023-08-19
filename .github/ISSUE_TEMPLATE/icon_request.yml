@@ -1,0 +1,24 @@
+name: Icon request
+description: Suggest a new icon
+title: "Icon request: "
+labels: ["icon request"]
+projects: ["feathericons/1"]
+body:
+  - type: input
+    id: icon-name
+    attributes:
+      label: Icon name
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots of similar icons
+    validations:
+      required: true
