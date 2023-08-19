@@ -1,5 +1,5 @@
 ---
-name: Icon Request
+name: Icon request
 about: Suggest a new icon
 title: "Icon Request: "
 labels: ['icon request']
