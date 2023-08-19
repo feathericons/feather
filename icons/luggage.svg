@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / luggage</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14,22 L10,22 C10,22.5522847 9.55228475,23 9,23 C8.44771525,23 8,22.5522847 8,22 L7,22 C5.34314575,22 4,20.6568542 4,19 L4,7 C4,5.34314575 5.34314575,4 7,4 L8,4 C8,2.34314575 9.34314575,1 11,1 L13,1 C14.6568542,1 16,2.34314575 16,4 L17,4 C18.6568542,4 20,5.34314575 20,7 L20,19 C20,20.6568542 18.6568542,22 17,22 L16,22 C16,22.5522847 15.5522847,23 15,23 C14.4477153,23 14,22.5522847 14,22 Z M7,6 C6.44771525,6 6,6.44771525 6,7 L6,8 L18,8 L18,7 C18,6.44771525 17.5522847,6 17,6 L7,6 Z M6,10 L6,16 L18,16 L18,10 L6,10 Z M17,20 C17.5522847,20 18,19.5522847 18,19 L18,18 L6,18 L6,19 C6,19.5522847 6.44771525,20 7,20 L17,20 Z M10,4 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-luggage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

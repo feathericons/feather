@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / automatic shift 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,6.80269317 C16.7934041,7.84012143 18,9.77915293 18,12 C18,14.2208471 16.7934041,16.1598786 15,17.1973068 L15,20 C15,21.6568542 13.6568542,23 12,23 C10.3431458,23 9,21.6568542 9,20 L9,17.1973068 C7.20659589,16.1598786 6,14.2208471 6,12 C6,9.77915293 7.20659589,7.84012143 9,6.80269317 L9,4 C9,2.34314575 10.3431458,1 12,1 C13.6568542,1 15,2.34314575 15,4 L15,6.80269317 Z M11,6.08295844 C11.3252085,6.0283988 11.6592878,6 12,6 C12.3407122,6 12.6747915,6.0283988 13,6.08295844 L13,4 C13,3.44771525 12.5522847,3 12,3 C11.4477153,3 11,3.44771525 11,4 L11,6.08295844 Z M13,17.9170416 C12.6747915,17.9716012 12.3407122,18 12,18 C11.6592878,18 11.3252085,17.9716012 11,17.9170416 L11,20 C11,20.5522847 11.4477153,21 12,21 C12.5522847,21 13,20.5522847 13,20 L13,17.9170416 Z M12,16 C14.209139,16 16,14.209139 16,12 C16,9.790861 14.209139,8 12,8 C9.790861,8 8,9.790861 8,12 C8,14.209139 9.790861,16 12,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-automatic-shift-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

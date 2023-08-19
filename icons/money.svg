@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / money</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21,6 L3,6 C2.35553153,6 2,6.31602802 2,6.66666667 L2,17.3333333 C2,17.683972 2.35553153,18 3,18 L21,18 C21.6444685,18 22,17.683972 22,17.3333333 L22,6.66666667 C22,6.31602802 21.6444685,6 21,6 Z M21,4 C22.7,4 24,5.15555556 24,6.66666667 L24,17.3333333 C24,18.8444444 22.7,20 21,20 L3,20 C1.3,20 0,18.8444444 0,17.3333333 L0,6.66666667 C0,5.15555556 1.3,4 3,4 L21,4 Z M12,17 C9.23857625,17 7,14.7614237 7,12 C7,9.23857625 9.23857625,7 12,7 C14.7614237,7 17,9.23857625 17,12 C17,14.7614237 14.7614237,17 12,17 Z M12,15 C13.6568542,15 15,13.6568542 15,12 C15,10.3431458 13.6568542,9 12,9 C10.3431458,9 9,10.3431458 9,12 C9,13.6568542 10.3431458,15 12,15 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-money" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

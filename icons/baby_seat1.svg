@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Feather / seat 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.12601749,14 C8.043753,13.6803801 8,13.3452996 8,13 C8,11.1361606 9.27477279,9.57006028 11,9.12601749 L11,4 L16,4 C19.8659932,4 23,7.13400675 23,11 L23,13 L16,13 C16,13.3452996 15.956247,13.6803801 15.8739825,14 L23,14 L23,18 C23,20.209139 21.209139,22 19,22 L5,22 C2.790861,22 1,20.209139 1,18 L1,14 L8.12601749,14 Z M9.3541756,16 L3,16 L3,18 C3,19.1045695 3.8954305,20 5,20 L19,20 C20.1045695,20 21,19.1045695 21,18 L21,16 L14.6458244,16 C13.9406912,16.6223634 13.0144465,17 12,17 C10.9855535,17 10.0593088,16.6223634 9.3541756,16 Z M15.4648712,11 L21,11 C21,8.23857625 18.7614237,6 16,6 L13,6 L13,9.12601749 C14.0508364,9.39648408 14.9345528,10.0832376 15.4648712,11 Z M12,15 C13.1045695,15 14,14.1045695 14,13 C14,11.8954305 13.1045695,11 12,11 C10.8954305,11 10,11.8954305 10,13 C10,14.1045695 10.8954305,15 12,15 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Feather-/-seat-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Combined-Shape" fill-rule="nonzero"></g>
+        <g id="Colors-/-UI-Grays-/-01.-Payne's-grey" mask="url(#mask-2)" fill="#3A3D42">
+            <rect id="Color" x="-2.84e-14" y="-5.68e-14" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>
