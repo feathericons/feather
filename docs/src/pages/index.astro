@@ -1,15 +1,31 @@
 ---
-import {Button} from '../components/Button'
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
+import icons from '../../../dist/icons.json';
 ---
 
-<!-- Below is your "component template." It's just HTML, but with
-     some magic sprinkled in to help you build great templates. -->
 <html>
   <body>
-    <h1 class="text-orange-600">Hello, World!</h1>
-    <Button>Click me</Button>
+    <main>
+      <ul class="grid grid-cols-[repeat(auto-fill,minmax(4rem,1fr))]">
+        {
+          Object.entries(icons).map(([name, svg]) => {
+            return (
+              <li class="w-full aspect-square grid place-items-center">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  set:html={svg}
+                />
+              </li>
+            );
+          })
+        }
+      </ul>
+    </main>
   </body>
 </html>
