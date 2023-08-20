@@ -21,6 +21,10 @@
   }
 }
 
+body {
+  font-family: 'Inter Variable', sans-serif;
+}
+
 .px-grid {
   --grid-color: var(--color-border);
   --grid-size: calc(100% / 24);
