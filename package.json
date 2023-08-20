@@ -16,7 +16,8 @@
   "scripts": {
     "setup": "./bin/setup.sh",
     "build": "./bin/build.sh",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "format": "prettier --write .",
