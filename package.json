@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "all": "npm-run-all --sequential build lint test:coverage",
+    "setup": "./bin/setup.sh",
     "build": "./bin/build.sh",
     "lint": "eslint .",
     "test": "jest --watch",
@@ -51,7 +51,6 @@
     "husky": "^0.14.3",
     "jest": "^22.4.4",
     "lint-staged": "^6.0.0",
-    "npm-run-all": "^4.1.2",
     "prettier": "^1.8.2",
     "semantic-release": "^12.2.2",
     "svgo": "^0.7.2",
