@@ -92,7 +92,7 @@ export function App() {
                   v{version}
                 </span>
               </div>
-              <IconButton>
+              <IconButton className="-mr-2">
                 <Icon
                   name="sidebar"
                   size="24px"
@@ -202,9 +202,16 @@ export function App() {
             <div className="flex flex-col gap-2 p-4 pt-2 items-center">
               <div className="w-full flex justify-between items-center">
                 <h2 className="font-semibold text-xl">{selectedIcon}</h2>
-                <div className="flex">
+                <div className="flex -mr-2">
                   <IconButton>
                     <Icon name="link" size="24px" color="currentColor" />
+                  </IconButton>
+                  <IconButton
+                    onClick={() => {
+                      setSelectedIcon('');
+                    }}
+                  >
+                    <Icon name="x" size="24px" color="currentColor" />
                   </IconButton>
                 </div>
               </div>
@@ -215,7 +222,7 @@ export function App() {
             <div className="flex flex-col gap-2 p-4 pt-2">
               <div className="flex justify-between items-center">
                 <span className="font-semibold">SVG</span>
-                <div className="flex">
+                <div className="flex -mr-2">
                   <IconButton>
                     <Icon name="copy" size="24px" color="currentColor" />
                   </IconButton>
@@ -238,7 +245,7 @@ export function App() {
             >
               <div className="flex justify-between items-center">
                 <span className="font-semibold">Tags</span>
-                <div className="flex">
+                <div className="flex -mr-2">
                   <IconButton>
                     <Icon name="plus" size="24px" color="currentColor" />
                   </IconButton>
@@ -356,12 +363,12 @@ export function App() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-2 pt-2 p-4">
+        <div className="flex flex-col gap-2 py-2 p-4">
           <div className="h-10 flex items-center justify-between">
             <label htmlFor="color" className="font-semibold">
               Background color
             </label>
-            <IconButton>
+            <IconButton className="-mr-2">
               <Icon name="plus" size="24px" color="currentColor" />
             </IconButton>
           </div>
