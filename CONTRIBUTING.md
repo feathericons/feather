@@ -27,3 +27,16 @@ To request a new icon, please fill out the [icon request form](https://github.co
 ## Bug reports
 
 To report a bug, please fill out the [bug report form](https://github.com/feathericons/feather/issues/new?template=02-bug-report.yml).
+
+## Local development
+
+Follow these steps to set up Feather for local development:
+
+```shell
+# 1. Clone the repository
+git clone https://github.com/feathericons/feather.git
+cd feather
+
+# 2. Run setup script
+npm run setup
+```
