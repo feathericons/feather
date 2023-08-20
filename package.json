@@ -20,6 +20,7 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "format": "prettier --write .",
+    "optimize-svgs": "babel-node bin/optimize-svgs.js",
     "release": "yarn build && changeset publish"
   },
   "jest": {

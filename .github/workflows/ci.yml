@@ -27,3 +27,17 @@ jobs:
 
       - name: Lint
         run: npm run lint
+
+      - name: Optimize SVGs
+        run: |
+          npm run optimize
+          if git diff --quiet; then
+            echo "All SVGs are optimized ✔︎"
+          else
+            echo "The following SVGs are not optimized:"
+            echo
+            git diff --name-only
+            echo
+            echo "Please run `npm run optimize` and commit the changes"
+            exit 1
+          fi
