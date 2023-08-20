@@ -17,7 +17,7 @@
     "setup": "./bin/setup.sh",
     "dev": "cd docs && npm run dev",
     "build": "./bin/build.sh",
-    "prebuild:docs": "npm run build",
+    "prebuild:docs": "npm run setup",
     "build:docs": "cd docs && npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
