@@ -1,6 +1,6 @@
 {
   "name": "feather-icons",
-  "version": "0.0.0-development",
+  "version": "4.29.0",
   "description": "Simply beautiful open source icons",
   "repository": {
     "type": "git",
@@ -19,15 +19,7 @@
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "cm": "git-cz",
-    "precommit": "lint-staged",
-    "commitmsg": "commitlint --edit"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+    "format": "prettier --write ."
   },
   "jest": {
     "collectCoverageFrom": [
@@ -39,23 +31,15 @@
     "core-js": "^3.1.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^5.2.5",
-    "@commitlint/config-conventional": "^6.1.3",
-    "algoliasearch": "^3.27.1",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
     "cheerio": "^1.0.0-rc.2",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^8.47.0",
     "html-minifier": "^3.5.8",
-    "husky": "^0.14.3",
     "jest": "^22.4.4",
-    "lint-staged": "^6.0.0",
     "prettier": "^2.8.8",
-    "semantic-release": "^12.2.2",
     "svgo": "^0.7.2",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
