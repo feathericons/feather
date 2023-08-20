@@ -65,7 +65,8 @@ The following are additional ways you can use Feather.
 
 #### 1. Install
 
-> **Note:** If you intend to use Feather with a CDN, you can skip this installation step.
+> [!NOTE]
+> If you intend to use Feather with a CDN, you can skip this installation step.
 
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
@@ -169,7 +170,8 @@ See the [API Reference](#api-reference) for more information about the available
 
 #### 1. Install
 
-> **Note:** If you intend to use Feather with a CDN, you can skip this installation step.
+> [!NOTE]
+> If you intend to use Feather with a CDN, you can skip this installation step.
 
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
@@ -220,6 +222,7 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
 </svg>
 ```
 ### Figma
+
 Feather is available as a [Figma component library](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Component-Library). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
 
 ## API reference
@@ -310,7 +313,7 @@ Replaces all elements that have a `data-feather` attribute with SVG markup corre
 
 #### Usage
 
-> [!NOTE]
+> [!IMPORTANT]
 > `feather.replace()` only works in a browser environment.
 
 Simple usage:
@@ -327,6 +330,7 @@ Simple usage:
 ```
 
 You can pass `feather.replace()` an `attrs` object:
+
 ```html
 <i data-feather="circle"></i>
 <!--
