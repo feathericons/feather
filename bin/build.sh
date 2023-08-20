@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Process SVG files
-npx babel-node bin/process-svgs.js
+# npx babel-node bin/process-svgs.js
 
 # Create dist directory
 npx rimraf dist
