@@ -12,10 +12,10 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-    - run: npm ci
+    - run: npm ci --legacy-peer-deps
     - run: npm run all
     - name: Release
-      if: github.ref_name == 'master'
+      if: github.ref_name == 'main'
       run: npx semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
