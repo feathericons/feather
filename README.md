@@ -27,7 +27,7 @@ npm install feather-icons
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
-	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
+	* [`feather.toSvg()` (DEPRECATED) ](#feathertosvgname-attrs-deprecated)
 * [Contributing](#contributing)
 * [Related projects](#related-projects)
 * [License](#license)
@@ -83,7 +83,8 @@ Include `feather.js` or `feather.min.js` with a `<script>` tag:
 <script src="path/to/dist/feather.js"></script>
 ```
 
-> **Note:** `feather.js` and `feather.min.js` are located in the `dist` directory of the npm package.
+> [!NOTE]
+> `feather.js` and `feather.min.js` are located in the `dist` directory of the npm package.
 
 Or load the script from a CDN provider:
 
@@ -196,7 +197,8 @@ Include an icon on your page with the following markup:
 </svg>
 ```
 
-> **Note:** `circle` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com).
+> [!NOTE]
+> `circle` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com).
 
 However, this markup can be simplified using a simple CSS class to avoid repetition of SVG attributes between icons:
 
@@ -253,7 +255,8 @@ feather.icons.x.toString()
 // '<line ... /><line ... />'
 ```
 
-> **Note:** `x` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com). Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `feather.icons.x`). Instead, use bracket notation (e.g. `feather.icons['arrow-right']`).
+> [!NOTE]
+> `x` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com). Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `feather.icons.x`). Instead, use bracket notation (e.g. `feather.icons['arrow-right']`).
 
 [View Source](https://github.com/feathericons/feather/blob/master/src/icons.js)
 
@@ -269,7 +272,8 @@ Returns an SVG string.
 | --------- | ------ | ----------- |
 | `attrs` (optional) | Object |  Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
 
-> **Hint:** You might find these SVG attributes helpful for manipulating icons:
+> [!NOTE]
+> You might find these SVG attributes helpful for manipulating icons:
 > * [`color`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/color)
 > * [`width`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width)
 > * [`height`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height)
@@ -306,7 +310,8 @@ Replaces all elements that have a `data-feather` attribute with SVG markup corre
 
 #### Usage
 
-> **Note:** `feather.replace()` only works in a browser environment.
+> [!NOTE]
+> `feather.replace()` only works in a browser environment.
 
 Simple usage:
 ```html
@@ -352,9 +357,10 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 
 ---
 
-### (DEPRECATED) `feather.toSvg(name, [attrs])`
+### `feather.toSvg(name, [attrs])` (DEPRECATED) 
 
-> **Note:** `feather.toSvg()` is deprecated. Please use `feather.icons[name].toSvg()` instead.
+> [!WARNING]
+> `feather.toSvg()` is deprecated. Please use `feather.icons[name].toSvg()` instead.
 
 Returns an SVG string.
 
