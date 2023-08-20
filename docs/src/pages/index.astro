@@ -1,31 +1,12 @@
 ---
-import icons from '../../../dist/icons.json';
+import '../index.css';
+import { IconGrid } from '../components/icon-grid';
 ---
 
 <html>
-  <body>
+  <body class="text-text bg-bg">
     <main>
-      <ul class="grid grid-cols-[repeat(auto-fill,minmax(4rem,1fr))]">
-        {
-          Object.entries(icons).map(([name, svg]) => {
-            return (
-              <li class="w-full aspect-square grid place-items-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  set:html={svg}
-                />
-              </li>
-            );
-          })
-        }
-      </ul>
+      <IconGrid client:load />
     </main>
   </body>
 </html>
