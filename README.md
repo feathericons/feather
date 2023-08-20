@@ -17,24 +17,24 @@ https://feathericons.com
 npm install feather-icons
 ```
 
-## Table of Contents
+## Table of contents
 
-* [Quick Start](#quick-start)
+* [Quick start](#quick-start)
 * [Usage](#usage)
   * [Client-side JavaScript](#client-side-javascript)
   * [Node](#node)
-  * [SVG Sprite](#svg-sprite)
+  * [SVG sprite](#svg-sprite)
   * [Figma](#figma)
-* [API Reference](#api-reference)
+* [API reference](#api-reference)
 	* [`feather.icons`](#feathericons)
 	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
 	* [`feather.replace()`](#featherreplaceattrs)
 	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
 * [Contributing](#contributing)
-* [Related Projects](#related-projects)
+* [Related projects](#related-projects)
 * [License](#license)
 
-## Quick Start
+## Quick start
 
 Start with this [CodePen Template](https://codepen.io/pen?template=WOJZdM) to begin prototyping with Feather in the browser.
 
@@ -166,7 +166,7 @@ feather.icons.x.toSvg({ class: 'foo bar', 'stroke-width': 1, color: 'red' })
 
 See the [API Reference](#api-reference) for more information about the available properties and methods of the `feather` object.
 
-### SVG Sprite
+### SVG sprite
 
 #### 1. Install
 
@@ -222,7 +222,7 @@ However, this markup can be simplified using a simple CSS class to avoid repetit
 ### Figma
 Feather is available as a [Figma component library](https://www.figma.com/file/dyJRSFTIajik4cdkcXN8yA3K/Feather-Component-Library). To use the components, log in to your Figma account and **duplicate** the file to your drafts.
 
-## API Reference
+## API reference
 
 ### `feather.icons`
 
@@ -388,7 +388,7 @@ For more info on how to contribute please see the [contribution guidelines](http
 
 Caught a mistake or want to contribute to the documentation? [Edit this page on Github](https://github.com/feathericons/feather/blob/master/README.md)
 
-## Related Projects
+## Related projects
 
  - [feathericons.dev](http://feathericons.dev) - Feather viewer featuring [30+ brand icons](https://feathericons.dev/?iconset=brands) and [40+ payment services icons](https://feathericons.dev/?iconset=payments)
  - [angular-feather](https://github.com/michaelbazos/angular-feather) - Feather icons for Angular applications
