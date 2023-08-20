@@ -15,7 +15,10 @@
   ],
   "scripts": {
     "setup": "./bin/setup.sh",
+    "dev": "cd docs && npm run dev",
     "build": "./bin/build.sh",
+    "prebuild:docs": "npm run build",
+    "build:docs": "cd docs && npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
