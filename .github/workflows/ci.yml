@@ -35,7 +35,6 @@ jobs:
             echo "All SVGs are optimized ✔︎"
           else
             echo "The following SVGs are not optimized:"
-            echo
             git diff --name-only
             echo
             echo "Please run 'npm run optimize-svgs' and commit the changes"
