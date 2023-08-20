@@ -1,15 +1,15 @@
 name: 🐛 Bug report
 description: Report a bug
-title: "Bug: "
-labels: ["bug"]
-projects: ["feathericons/1"]
+title: 'Bug: '
+labels: ['bug']
+projects: ['feathericons/1']
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
       description: "Tell us more about the problem that you're running into."
-      placeholder: "e.g. When I try to do X, Y happens instead of Z"
+      placeholder: 'e.g. When I try to do X, Y happens instead of Z'
     validations:
       required: true
   - type: textarea
@@ -70,4 +70,3 @@ body:
       options:
         - label: I have searched the existing issues to make sure this bug has not already been reported.
           required: true
-   

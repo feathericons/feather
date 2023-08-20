@@ -1,8 +1,8 @@
 name: 🙏 Icon request
 description: Request a new icon
-title: "Icon request: "
-labels: ["icon request"]
-projects: ["feathericons/1"]
+title: 'Icon request: '
+labels: ['icon request']
+projects: ['feathericons/1']
 body:
   - type: input
     id: icon-name
