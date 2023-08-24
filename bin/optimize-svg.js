@@ -1,32 +1,24 @@
 import Svgo from 'svgo';
 import cheerio from 'cheerio';
-import { format } from 'prettier';
 
 import DEFAULT_ATTRS from '../src/default-attrs.json';
 
 /**
- * Process SVG string.
+ * Optimize SVG string.
  * @param {string} svg - An SVG string.
  * @returns {Promise<string>}
  */
-function processSvg(svg) {
-  return (
-    optimize(svg)
-      .then(setAttrs)
-      .then(format)
-      // remove semicolon inserted by prettier
-      // because prettier thinks it's formatting JSX not HTML
-      .then(svg => svg.replace(/;/g, ''))
-  );
+function optimizeSvg(svg) {
+  return svgo(svg).then(setAttrs);
 }
 
 /**
- * Optimize SVG with `svgo`.
+ * Run SVGO on SVG string.
  * @param {string} svg - An SVG string.
  * @returns {Promise<string>}
  */
-function optimize(svg) {
-  const svgo = new Svgo({
+function svgo(svg) {
+  const s = new Svgo({
     plugins: [
       { convertShapeToPath: false },
       { mergePaths: false },
@@ -36,12 +28,12 @@ function optimize(svg) {
   });
 
   return new Promise(resolve => {
-    svgo.optimize(svg, ({ data }) => resolve(data));
+    s.optimize(svg, ({ data }) => resolve(data));
   });
 }
 
 /**
- * Set default attibutes on SVG.
+ * Set default attributes on SVG.
  * @param {string} svg - An SVG string.
  * @returns {string}
  */
@@ -55,4 +47,4 @@ function setAttrs(svg) {
   return $('body').html();
 }
 
-export default processSvg;
+export default optimizeSvg;

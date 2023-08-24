@@ -18,9 +18,7 @@ function toSvg(name, attrs = {}) {
 
   if (!icons[name]) {
     throw new Error(
-      `No icon matching '${
-        name
-      }'. See the complete list of icons at https://feathericons.com`,
+      `No icon matching '${name}'. See the complete list of icons at https://feathericons.com`,
     );
   }
 

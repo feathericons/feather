@@ -20,9 +20,7 @@ function buildSpriteString(icons) {
  * @returns {string}
  */
 function toSvgSymbol(name, contents) {
-  return `<symbol id="${name}" viewBox="${DEFAULT_ATTRS.viewBox}">${
-    contents
-  }</symbol>`;
+  return `<symbol id="${name}" viewBox="${DEFAULT_ATTRS.viewBox}">${contents}</symbol>`;
 }
 
 export default buildSpriteString;

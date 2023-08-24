@@ -1,0 +1,72 @@
+name: 🐛 Bug report
+description: Report a bug
+title: 'Bug: '
+labels: ['bug']
+projects: ['feathericons/1']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Tell us more about the problem that you're running into."
+      placeholder: 'e.g. When I try to do X, Y happens instead of Z'
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: 'How can we reproduce the error you described above? Please provide a link to a live example, or steps to reproduce locally.'
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: 'What version of `feather-icons` are you using?'
+      placeholder: e.g. v4.29.0
+    validations:
+      required: false
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: In which browser(s) are you experiencing the issue?
+      multiple: true
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - iOS Safari
+        - Other
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      description: On which operating system(s) are you experiencing the issue?
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - iOS
+        - Android
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please check the following items before submitting your issue.
+      options:
+        - label: I have searched the existing issues to make sure this bug has not already been reported.
+          required: true
