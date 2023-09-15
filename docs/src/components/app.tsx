@@ -1,21 +1,9 @@
 import React from 'react';
-import iconsJson from '../../../dist/icons.json';
-import tagsJson from '../../../src/tags.json';
 import clsx from 'clsx';
 import { version } from '../../../package.json';
-
-type StrokeLincap = 'round' | 'square' | 'butt';
-type StrokeLinejoin = 'round' | 'bevel' | 'miter';
-
-const icons = Object.entries(iconsJson)
-  .map(([name, svg]) => {
-    const tags: Array<string> = tagsJson[name] || [];
-    return { name, svg, tags };
-  })
-  .reduce((acc, icon) => {
-    acc[icon.name] = icon;
-    return acc;
-  }, {} as Record<string, { name: string; svg: string; tags: Array<string> }>);
+import { useSearchParam } from '../lib/use-search-param';
+import { icons } from '../lib/icons';
+import { Icon } from '../components/icon';
 
 export function App() {
   const [query, setQuery] = useSearchParam('query', '');
@@ -71,17 +59,7 @@ export function App() {
   }, []);
 
   return (
-    <div
-      className="h-screen [@supports(height:100svh)]:h-[100svh] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] overflow-hidden grid grid-cols-[20rem_1fr_24rem]"
-      style={{
-        // @ts-ignore
-        '--size': `${size}px`,
-        '--stroke-width': `${strokeWidth}px`,
-        '--stroke-linecap': strokeLinecap,
-        '--stroke-linejoin': strokeLinejoin,
-        '--color': color,
-      }}
-    >
+    <div className="h-screen [@supports(height:100svh)]:h-[100svh] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] overflow-hidden grid grid-cols-[20rem_1fr_24rem]">
       <div className="border-r border-border flex flex-col justify-between">
         <div className="flex flex-col gap-6 p-4 pt-2">
           <div className="flex flex-col gap-2">
@@ -93,16 +71,10 @@ export function App() {
                 </span>
               </div>
               <IconButton className="-mr-2">
-                <Icon
-                  name="sidebar"
-                  size="24px"
-                  color="var(--color-text-secondary)"
-                />
+                <Icon name="sidebar" />
               </IconButton>
             </div>
-            <p>
-              Beautifully simple open-source icons designed on a 24×24 grid.
-            </p>
+            <p>Beautifully simple open-source icons designed on a 24px grid.</p>
           </div>
           <div className="flex flex-col gap-4">
             <a
@@ -126,33 +98,21 @@ export function App() {
               className="py-2 px-4 hover:bg-bg-secondary flex justify-between items-center"
             >
               Request an icon
-              <Icon
-                name="arrow-up-right"
-                size="24px"
-                color="var(--color-text-secondary)"
-              />
+              <Icon name="arrow-up-right" color="var(--color-text-secondary)" />
             </a>
             <a
               href="#"
               className="py-2 px-4 hover:bg-bg-secondary flex justify-between items-center"
             >
               Donate on PayPal
-              <Icon
-                name="arrow-up-right"
-                size="24px"
-                color="var(--color-text-secondary)"
-              />
+              <Icon name="arrow-up-right" color="var(--color-text-secondary)" />
             </a>
             <a
               href="#"
               className="py-2 px-4 hover:bg-bg-secondary flex justify-between items-center"
             >
               GitHub
-              <Icon
-                name="arrow-up-right"
-                size="24px"
-                color="var(--color-text-secondary)"
-              />
+              <Icon name="arrow-up-right" color="var(--color-text-secondary)" />
             </a>
           </div>
           <div className="p-4">
@@ -172,6 +132,12 @@ export function App() {
         <ul
           className="grid"
           style={{
+            // @ts-ignore
+            '--icon-size': `${size}px`,
+            '--icon-stroke-width': `${strokeWidth}px`,
+            '--icon-stroke-linecap': strokeLinecap,
+            '--icon-stroke-linejoin': strokeLinejoin,
+            '--icon-color': color,
             gridTemplateColumns: `repeat(auto-fill,minmax(${
               parseInt(size) * 3
             }px,1fr))`,
@@ -204,19 +170,26 @@ export function App() {
                 <h2 className="font-semibold text-xl">{selectedIcon}</h2>
                 <div className="flex -mr-2">
                   <IconButton>
-                    <Icon name="link" size="24px" color="currentColor" />
+                    <Icon name="link" />
                   </IconButton>
                   <IconButton
                     onClick={() => {
                       setSelectedIcon('');
                     }}
                   >
-                    <Icon name="x" size="24px" color="currentColor" />
+                    <Icon name="x" />
                   </IconButton>
                 </div>
               </div>
-              <div className="relative max-w-[160px] w-full aspect-square px-grid ring-1 ring-inset ring-border">
-                <Icon name={selectedIcon} size="100%" />
+              <div className="relative  w-full aspect-square px-grid ring-1 ring-inset ring-border">
+                <Icon
+                  name={selectedIcon}
+                  size="100%"
+                  color={color}
+                  strokeLinecap={strokeLinecap}
+                  strokeLinejoin={strokeLinejoin}
+                  strokeWidth={strokeWidth}
+                />
               </div>
             </div>
             <div className="flex flex-col gap-2 p-4 pt-2">
@@ -224,10 +197,10 @@ export function App() {
                 <span className="font-semibold">SVG</span>
                 <div className="flex -mr-2">
                   <IconButton>
-                    <Icon name="copy" size="24px" color="currentColor" />
+                    <Icon name="copy" />
                   </IconButton>
                   <IconButton>
-                    <Icon name="download" size="24px" color="currentColor" />
+                    <Icon name="download" />
                   </IconButton>
                 </div>
               </div>
@@ -247,7 +220,7 @@ export function App() {
                 <span className="font-semibold">Tags</span>
                 <div className="flex -mr-2">
                   <IconButton>
-                    <Icon name="plus" size="24px" color="currentColor" />
+                    <Icon name="plus" />
                   </IconButton>
                 </div>
               </div>
@@ -310,7 +283,7 @@ export function App() {
             </datalist>
           </div>
         </div>
-        <div className="flex divide-x divide-border">
+        <div className="flex flex-col divide-y divide-border">
           <div className="flex flex-col gap-2 pt-2 p-4 w-full">
             <div className="h-10 flex items-center justify-between">
               <label htmlFor="stroke-linecap" className="font-semibold">
@@ -353,7 +326,10 @@ export function App() {
             </label>
           </div>
           <div className="relative">
-            <div className="absolute left-2 top-2 bottom-2 h-6 w-6 bg-[var(--color,currentColor)] rounded-full inline-block"></div>
+            <div
+              className="absolute left-2 top-2 bottom-2 h-6 w-6 bg-current rounded-full inline-block"
+              style={{ backgroundColor: color }}
+            ></div>
             <input
               id="color"
               type="text"
@@ -388,40 +364,6 @@ export function App() {
   );
 }
 
-function Icon({
-  name,
-  size,
-  color,
-  ...props
-}: React.ComponentPropsWithoutRef<'svg'> & {
-  name: string;
-  size?: string;
-  color?: string;
-}) {
-  if (!icons[name]) {
-    return null;
-  }
-
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      dangerouslySetInnerHTML={{ __html: icons[name].svg }}
-      {...props}
-      className={clsx(
-        'w-[var(--size,24px)] h-[var(--size,24px)] [stroke-width:var(--stroke-width,2px)] [stroke-linecap:var(--stroke-linecap,round)] [stroke-linejoin:var(--stroke-linejoin,round)] stroke-[var(--color,currentColor)]',
-        props.className,
-      )}
-      style={{
-        // @ts-ignore
-        '--size': size,
-        '--color': color,
-        ...props.style,
-      }}
-    />
-  );
-}
-
 function IconButton(props: React.ComponentPropsWithoutRef<'button'>) {
   return (
     <button
@@ -432,36 +374,4 @@ function IconButton(props: React.ComponentPropsWithoutRef<'button'>) {
       )}
     />
   );
-}
-
-function useSearchParam(
-  key: string,
-  defaultValue: string,
-): [string, React.Dispatch<string>] {
-  const [value, setValue] = React.useState(() => {
-    if (typeof window !== 'undefined') {
-      return (
-        new URLSearchParams(window.location.search).get(key) || defaultValue
-      );
-    }
-
-    return defaultValue;
-  });
-
-  // Sync the value to the URL
-  React.useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const url = new URL(window.location.href);
-
-      if (value) {
-        url.searchParams.set(key, value);
-      } else {
-        url.searchParams.delete(key);
-      }
-
-      window.history.replaceState({}, '', url.toString());
-    }
-  }, [value]);
-
-  return [value, setValue];
 }
