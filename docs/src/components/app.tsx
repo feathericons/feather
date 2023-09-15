@@ -59,7 +59,7 @@ export function App() {
   }, []);
 
   return (
-    <div className="h-screen [@supports(height:100svh)]:h-[100svh] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] overflow-hidden grid grid-cols-[20rem_1fr_24rem]">
+    <div className="h-screen [@supports(height:100svh)]:h-[100svh] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] md:overflow-hidden md:grid md:grid-cols-[20rem_1fr_24rem]">
       <div className="border-r border-border flex flex-col justify-between">
         <div className="flex flex-col gap-6 p-4 pt-2">
           <div className="flex flex-col gap-2">
@@ -70,7 +70,7 @@ export function App() {
                   v{version}
                 </span>
               </div>
-              <IconButton className="-mr-2">
+              <IconButton className="-mr-2 hidden md:inline-block">
                 <Icon name="sidebar" />
               </IconButton>
             </div>
@@ -79,13 +79,13 @@ export function App() {
           <div className="flex flex-col gap-4">
             <a
               href="#"
-              className="bg-bg-secondary font-semibold w-full py-2 text-center rounded block"
+              className="border border-border shadow-sm font-semibold w-full py-2 text-center rounded block"
             >
               Get started
             </a>
             <a
               href="#"
-              className="bg-bg-secondary font-semibold w-full py-2 text-center rounded block"
+              className="border border-border shadow-sm font-semibold w-full py-2 text-center rounded block"
             >
               Download all
             </a>
@@ -120,10 +120,10 @@ export function App() {
           </div>
         </div>
       </div>
-      <div className="overflow-auto">
+      <div className="md:overflow-auto">
         <input
           ref={searchRef}
-          className="w-full bg-bg px-4 h-14 border-b border-border sticky top-0 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-border-focus [&::-webkit-search-cancel-button]:appearance-none"
+          className=" w-full bg-bg px-4 h-14 border-b border-border sticky top-0 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-border-focus [&::-webkit-search-cancel-button]:appearance-none"
           type="search"
           placeholder={`Search ${Object.keys(icons).length} icons...`}
           value={query}
@@ -239,7 +239,7 @@ export function App() {
             </div>
           </>
         ) : null}
-        <div className="flex divide-x divide-border">
+        <div className="flex flex-col divide-y divide-border">
           <div className="flex flex-col gap-2 pt-2 p-4 w-full">
             <div className="h-10 flex items-center justify-between">
               <label htmlFor="size" className="font-semibold">
