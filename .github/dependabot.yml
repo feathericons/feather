@@ -1,0 +1,32 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: svgo
+    versions:
+    - 1.3.2
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  - dependency-name: "@commitlint/cli"
+    versions:
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
