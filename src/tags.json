@@ -229,6 +229,7 @@
   "wind": ["weather", "air"],
   "x-circle": ["cancel", "close", "delete", "remove", "times", "clear"],
   "x-octagon": ["delete", "stop", "alert", "warning", "times", "clear"],
+  "x-social": ["logo", "social", "twitter"],
   "x-square": ["cancel", "close", "delete", "remove", "times", "clear"],
   "x": ["cancel", "close", "delete", "remove", "times", "clear"],
   "youtube": ["logo", "video", "play"],
