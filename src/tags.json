@@ -33,6 +33,7 @@
   "circle": ["off", "zero", "record"],
   "clipboard": ["copy"],
   "clock": ["time", "watch", "alarm"],
+  "clock-reset": ["time", "watch", "alarm", "reset"],
   "cloud-drizzle": ["weather", "shower"],
   "cloud-lightning": ["weather", "bolt"],
   "cloud-rain": ["weather"],
