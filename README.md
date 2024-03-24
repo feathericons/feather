@@ -411,6 +411,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 - [qwik-feather-icons](https://github.com/yeyon/qwik-feather-icons) - Feather icons for Qwik, the Resumable Framework
 - [figma-feather](https://github.com/kevintoepfer/figma-feather) – Feather icons as a Figma component
 - [delphi-feather-icons](https://github.com/shaunroselt/Delphi-Feather-Icons) - Feather icons as a Delphi Library
+- [solidjs-feather](https://github.com/rockie-yang/solidjs-feather) - Feather Icons for SolidJS
 
 ## License
 
