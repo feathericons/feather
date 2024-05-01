@@ -31,6 +31,11 @@ function replaceElement(element, attrs = {}) {
   const name = elementAttrs['data-feather'];
   delete elementAttrs['data-feather'];
 
+  if (icons[name] === undefined) {
+    console.warn(`feather: '${name}' is not a valid icon`);
+    return;
+  }
+
   const svgString = icons[name].toSvg({
     ...attrs,
     ...elementAttrs,
