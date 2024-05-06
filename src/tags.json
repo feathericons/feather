@@ -60,6 +60,7 @@
   "crosshair": ["aim", "target"],
   "database": ["storage", "memory"],
   "delete": ["remove"],
+  "delivery": ["shipping", "truck", "car", "van", "transport"],
   "disc": ["album", "cd", "dvd", "music"],
   "dollar-sign": ["currency", "money", "payment"],
   "droplet": ["water"],
