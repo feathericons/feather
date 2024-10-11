@@ -1,0 +1,42 @@
+name: CI
+
+on: push
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm run test:coverage
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Optimize SVGs
+        run: |
+          npm run optimize-svgs
+          if git diff --quiet; then
+            echo "All SVGs are optimized ✔︎"
+          else
+            echo "The following SVGs are not optimized:"
+            git diff --name-only
+            echo
+            echo "Please run 'npm run optimize-svgs' and commit the changes"
+            exit 1
+          fi

@@ -1,72 +1,42 @@
-# Contribution Guidelines
+# Contribution guidelines
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+First off, thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to Feather. Feel free to propose changes to this document in a pull request.
 
-## Pull Requests
+## Pull requests
 
-> **Note:** At the moment we are not accepting pull requests containing _**icons**_. The best way to contribute an icon is to create an issue with a screenshot and link to an SVG of your icon.
+> [!IMPORTANT]
+> We are not accepting pull requests containing **icons**. If you want to add a new icon, please create an [icon request](#icon-requests).
 
-Pull requests for new features, bug fixes, etc. are often appreciated.
+Pull requests for bug fixes and improvements are welcome. If you’re not sure if something is worth doing, please open an issue first.
 
-**Working on your first Pull Request?** You can learn how from this *free* series
-[How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+**Working on your first Pull Request?** You can learn how from this _free_ series
+[How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
-Guidelines for pull requests:
-- __Make your commit messages as descriptive as possible.__ Include as much information as you can. Explain anything that the file diffs themselves won’t make apparent.
-- __Document your pull request__. Explain your fix, link to the relevant issue, add screenshots when adding new icons.
-- __Make sure the target of your pull request is the relevant branch__. Most of bugfix or new feature should go to the `master` branch.
-- __Include only related work__. If your pull request has unrelated commit, it won't be accepted.
+Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
-## Icon Requests
+- **Make your commit messages as descriptive as possible.** Include as much information as you can. Explain anything that might be unclear.
+- **Document your pull request**. Explain your changes, link to the relevant issue, and add screenshots when applicable.
+- **Include only related work**. If you have unrelated changes, please split them into separate pull requests.
 
-Before creating an icon request, please search to see if someone has requested the icon already. If there is an open request, please add a :+1:.
+## Icon requests
 
-If the icon has not already been requested, [create an issue](https://github.com/colebemis/feather/issues/new?title=Icon%20Request:) with a title of `Icon request: <icon name>` and add as much information as possible.
+To request a new icon, please fill out the [icon request form](https://github.com/feathericons/feather/issues/new?template=01-icon-request.yml).
 
-## Bug Reports
+## Bug reports
 
-Before reporting an issue, please search to see if someone has filed a similar issue before. If there is already an open issue, please add a :+1: and/or leave a comment with additional information.
+To report a bug, please fill out the [bug report form](https://github.com/feathericons/feather/issues/new?template=02-bug-report.yml).
 
-When creating a new issue make sure to include the following:
-- Version of `Feather` in use. Are you running from source/master? Are you using a released build? Which release?
-- Your environment. What is your operating system? 32 or 64 bits?
-- Step to reproduce. Even if the step is only one line change, __include it!__ Include the actual result and what you expected.
-- Any message or error you get in the console, if you do.
-- A screenshot of any visual bug.
+## Local development
 
-Here is what a great bug report would look like:
+Follow these steps to set up Feather for local development:
 
-```
-## Prerequisites
+```shell
+# 1. Clone the repository
+git clone https://github.com/feathericons/feather.git
+cd feather
 
-Version: Release v3.1.0
-Running from: Import using webpack
-Operating system: Mac OSX
-Bits: 64 bits
-
-## Step to reproduce
-
- - Import `check` icon
- - Add to a React component/view
- - Run the react app
- - Notice that the `check` isn't rendering correctly which seems a encoding problem
- 
-### Actual behavior:
-
- - Import `check` icon
- - Add to a React component/view
- - Run the react app
- - Check is displayed with correct encoding (e.g UTF-8)
-
-## Any message or error
-
-No console output
-...
-
-## Resources
-
-No resources
-...
+# 2. Run setup script
+npm run setup
 ```

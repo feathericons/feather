@@ -1,0 +1,41 @@
+name: 🙏 Icon request
+description: Request a new icon
+title: 'Icon request: '
+labels: ['icon request']
+projects: ['feathericons/1']
+body:
+  - type: input
+    id: icon-name
+    attributes:
+      label: Icon name
+      placeholder: e.g. star
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Please describe your use case for the requested icon.
+      placeholder: e.g. I need a star icon to use in my rating system.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots of similar icons
+      description: Please attach screenshots of similar icons from other icon sets to help us visualize your request.
+      placeholder: e.g. ![Screenshot of similar icon](https://example.com/screenshot.png)
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please check the following items before submitting your request.
+      options:
+        - label: I have searched the existing icons to make sure this icon does not already exist.
+          required: true
+        - label: I have searched the existing issues to make sure this icon has not already been requested.
+          required: true
+        - label: This icon is not a logo.
+          required: true
