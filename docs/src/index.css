@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light dark;
+
+  --color-text: #000;
+  --color-text-secondary: #666;
+  --color-bg: #fff;
+  --color-bg-secondary: hsla(0, 0%, 0%, 0.1);
+  --color-bg-tertiary: hsla(0, 0%, 0%, 0.2);
+  --color-border: #ccc;
+  --color-border-focus: var(--color-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #eee;
+    --color-text-secondary: #999;
+    --color-bg: #111;
+    --color-bg-secondary: hsla(0, 0%, 100%, 0.1);
+    --color-bg-tertiary: hsla(0, 0%, 100%, 0.2);
+    --color-border: #333;
+  }
+}
+
+body {
+  font-family: 'Inter Variable', sans-serif;
+}
+
+.px-grid {
+  --grid-color: var(--color-border);
+  --grid-size: calc(100% / 24);
+  --transparent: rgba(0, 0, 0, 0);
+  --gradient: var(--transparent), var(--transparent) calc(var(--grid-size) / 2),
+    var(--grid-color) calc(var(--grid-size) / 2),
+    var(--grid-color) calc(var(--grid-size) / 2 + 1px),
+    var(--transparent) calc(var(--grid-size) / 2 + 1px);
+  background-image: linear-gradient(0, var(--gradient)),
+    linear-gradient(90deg, var(--gradient));
+  background-size: var(--grid-size) var(--grid-size);
+}
