@@ -413,6 +413,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 - [figma-feather](https://github.com/kevintoepfer/figma-feather) – Feather icons as a Figma component
 - [delphi-feather-icons](https://github.com/shaunroselt/Delphi-Feather-Icons) - Feather icons as a Delphi Library
 - [eleventy-plugin-feathericons](https://github.com/reatlat/eleventy-plugin-feathericons) - Feather icons as a plugin for [11ty](https://github.com/11ty/eleventy)
+- [rails_icons](https://railsdesigner.com/rails-icons/) - Feather icons as a Ruby gem
 
 ## License
 
