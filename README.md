@@ -85,7 +85,7 @@ Include `feather.js` or `feather.min.js` with a `<script>` tag:
 
 > [!NOTE] > `feather.js` and `feather.min.js` are located in the `dist` directory of the npm package.
 
-Or load the script from a CDN provider:
+Or load the script from a CDN provider :
 
 ```html
 <!-- choose one -->
