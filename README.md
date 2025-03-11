@@ -83,7 +83,8 @@ Include `feather.js` or `feather.min.js` with a `<script>` tag:
 <script src="path/to/dist/feather.js"></script>
 ```
 
-> [!NOTE] > `feather.js` and `feather.min.js` are located in the `dist` directory of the npm package.
+> [!NOTE]
+> `feather.js` and `feather.min.js` are located in the `dist` directory of the npm package.
 
 Or load the script from a CDN provider:
 
@@ -198,7 +199,8 @@ Include an icon on your page with the following markup:
 </svg>
 ```
 
-> [!NOTE] > `circle` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com).
+> [!NOTE]
+> `circle` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com).
 
 However, this markup can be simplified using a simple CSS class to avoid repetition of SVG attributes between icons:
 
@@ -257,7 +259,8 @@ feather.icons.x.toString();
 // '<line ... /><line ... />'
 ```
 
-> [!NOTE] > `x` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com). Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `feather.icons.x`). Instead, use bracket notation (e.g. `feather.icons['arrow-right']`).
+> [!NOTE]
+> `x` in the above example can be replaced with any valid icon name. See the complete list of icon names at [feathericons.com](https://feathericons.com). Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `feather.icons.x`). Instead, use bracket notation (e.g. `feather.icons['arrow-right']`).
 
 [View Source](https://github.com/feathericons/feather/blob/master/src/icons.js)
 
@@ -312,7 +315,8 @@ Replaces all elements that have a `data-feather` attribute with SVG markup corre
 
 #### Usage
 
-> [!IMPORTANT] > `feather.replace()` only works in a browser environment.
+> [!IMPORTANT]
+> `feather.replace()` only works in a browser environment.
 
 Simple usage:
 
@@ -362,7 +366,8 @@ All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<s
 
 ### `feather.toSvg(name, [attrs])` (DEPRECATED)
 
-> [!WARNING] > `feather.toSvg()` is deprecated. Please use `feather.icons[name].toSvg()` instead.
+> [!WARNING]
+> `feather.toSvg()` is deprecated. Please use `feather.icons[name].toSvg()` instead.
 
 Returns an SVG string.
 
