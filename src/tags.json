@@ -18,7 +18,7 @@
   "battery": ["power", "electricity"],
   "battery-charging": ["power", "electricity"],
   "bell": ["alarm", "notification", "sound"],
-  "bell-off": ["alarm", "notification", "silent"],
+  "bell-off": ["alarm", "notification", "bell"],
   "bluetooth": ["wireless"],
   "book-open": ["read", "library"],
   "book": ["read", "dictionary", "booklet", "magazine", "library"],
