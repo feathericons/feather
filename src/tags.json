@@ -1,5 +1,4 @@
 {
-  "activity": ["pulse", "health", "action", "motion"],
   "airplay": ["stream", "cast", "mirroring"],
   "alert-circle": ["warning", "alert", "danger"],
   "alert-octagon": ["warning", "alert", "danger"],
