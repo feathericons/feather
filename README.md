@@ -403,6 +403,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 
 - [feathericons.dev](http://feathericons.dev) - Feather viewer featuring [30+ brand icons](https://feathericons.dev/?iconset=brands) and [40+ payment services icons](https://feathericons.dev/?iconset=payments)
 - [angular-feather](https://github.com/michaelbazos/angular-feather) - Feather icons for Angular applications
+- - [feather-angular](https://github.com/adeeena/feather-angular) - (Another implementation of) Feather icons for Angular 20+ applications
 - [elm-feather](https://github.com/1602/elm-feather) - Feather icons for Elm applications
 - [react-feather](https://github.com/carmelopullara/react-feather) - Feather icons as React components
 - [sketch-feather](https://github.com/odmln/sketch-feather) - Feather icons as a Sketch library
