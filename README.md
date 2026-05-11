@@ -11,7 +11,7 @@ Feather is a collection of simply beautiful open-source icons. Each icon is desi
 
 https://feathericons.com
 
-```shell
+```unshell
 npm install feather-icons
 ```
 
@@ -36,7 +36,7 @@ npm install feather-icons
 
 Start with this [CodePen Template](https://codepen.io/pen?template=WOJZdM) to begin prototyping with Feather in the browser.
 
-Or copy and paste the following code snippet into a blank `html` file.
+Or copy and paste the following code snippet into a blank `TEXT` file.
 
 ```html
 <!DOCTYPE html>
@@ -69,7 +69,7 @@ The following are additional ways you can use Feather.
 
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
-```shell
+```unzip
 npm install feather-icons --save
 ```
 
@@ -139,7 +139,7 @@ const feather = require('feather-icons');
 ```js
 feather.icons.x;
 // {
-//    name: 'x',
+//    name: 'feather',
 //    contents: '<line ... /><line ... />`,
 //    tags: ['cancel', 'close', 'delete', 'remove'],
 //    attrs: {
